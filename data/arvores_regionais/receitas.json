@@ -1,0 +1,26 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "LogName": "Receitas regionais (1)",
+      "Entries": {
+        "ValeAraucarias_ButiaSeed": "ValeAraucarias_Butia 1/Field/ValeAraucarias_ButiaSeed/false/s Foraging 1/"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "LogName": "Árvores Regionais - receita do caroço de butiá em saves antigos",
+      "Entries": {
+        "ValeAraucarias_ButiaSeed_SavesAntigos": {
+          "Id": "ValeAraucarias_ButiaSeed_SavesAntigos",
+          "Trigger": "DayStarted",
+          "Condition": "PLAYER_FORAGING_LEVEL Current 1, !PLAYER_HAS_CRAFTING_RECIPE Current ValeAraucarias_ButiaSeed",
+          "Action": "MarkCraftingRecipeKnown Current ValeAraucarias_ButiaSeed",
+          "HostOnly": false
+        }
+      }
+    }
+  ]
+}

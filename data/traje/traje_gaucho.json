@@ -1,0 +1,144 @@
+{
+  "Changes": [
+    {
+      "LogName": "Traje gaúcho - textura Chapeu",
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/traje/Chapeu",
+      "FromFile": "assets/traje/Chapeu_Gaucho.png"
+    },
+    {
+      "LogName": "Traje gaúcho - textura Camisa",
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/traje/Camisa",
+      "FromFile": "assets/traje/Camisa_Lenco_Vermelho.png"
+    },
+    {
+      "LogName": "Traje gaúcho - textura Botas",
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/traje/Botas",
+      "FromFile": "assets/traje/Botas_Gauchas.png"
+    },
+    {
+      "LogName": "Traje gaúcho - Textura da bombacha (se gerada)",
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/traje/Bombacha",
+      "FromFile": "assets/traje/Bombacha_Cinto.png",
+      "When": {
+        "HasFile:assets/traje/Bombacha_Cinto.png": "true"
+      }
+    },
+    {
+      "LogName": "Traje gaúcho - Chapéu",
+      "Action": "EditData",
+      "Target": "Data/Hats",
+      "Entries": {
+        "ValeDasAraucarias.TrajeGaucho_ChapeuCampeiro": "ValeDasAraucarias.TrajeGaucho_ChapeuCampeiro/Um chapéu tradicional de abas largas, companheiro das lidas no campo./false/false//Chapéu Campeiro/0/Mods\\{{ModId}}\\traje\\Chapeu"
+      }
+    },
+    {
+      "LogName": "Traje gaúcho - Camisa",
+      "Action": "EditData",
+      "Target": "Data/Shirts",
+      "Entries": {
+        "ValeDasAraucarias.TrajeGaucho_CamisaGaucha": {
+          "Name": "ValeDasAraucarias.TrajeGaucho_CamisaGaucha",
+          "DisplayName": "Camisa Gaúcha com Lenço Vermelho",
+          "Description": "Camisa tradicional acompanhada do clássico lenço vermelho no pescoço.",
+          "Price": 1000,
+          "Texture": "Mods\\{{ModId}}\\traje\\Camisa",
+          "SpriteIndex": 0,
+          "CanBeDyed": false,
+          "IsPrismatic": false,
+          "HasSleeves": true,
+          "CanChooseDuringCharacterCustomization": false
+        }
+      }
+    },
+    {
+      "LogName": "Traje gaúcho - Bombacha com cinto (textura gerada)",
+      "Action": "EditData",
+      "Target": "Data/Pants",
+      "When": {
+        "HasFile:assets/traje/Bombacha_Cinto.png": "true"
+      },
+      "Entries": {
+        "ValeDasAraucarias.TrajeGaucho_Bombacha": {
+          "Name": "ValeDasAraucarias.TrajeGaucho_Bombacha",
+          "DisplayName": "Bombacha Tradicional",
+          "Description": "Calça folgada e confortável, símbolo da tradição gaúcha.",
+          "Price": 1000,
+          "Texture": "Mods\\{{ModId}}\\traje\\Bombacha",
+          "SpriteIndex": 0,
+          "DefaultColor": "255 255 255",
+          "CanBeDyed": false,
+          "IsPrismatic": false,
+          "CanChooseDuringCharacterCustomization": false
+        }
+      }
+    },
+    {
+      "LogName": "Traje gaúcho - Bombacha (sprite vanilla de calça bufante, sem cinto)",
+      "Action": "EditData",
+      "Target": "Data/Pants",
+      "When": {
+        "HasFile:assets/traje/Bombacha_Cinto.png": "false"
+      },
+      "Entries": {
+        "ValeDasAraucarias.TrajeGaucho_Bombacha": {
+          "Name": "ValeDasAraucarias.TrajeGaucho_Bombacha",
+          "DisplayName": "Bombacha Tradicional",
+          "Description": "Calça folgada e confortável, símbolo da tradição gaúcha.",
+          "Price": 1000,
+          "Texture": "Characters\\Farmer\\pants",
+          "SpriteIndex": 8,
+          "DefaultColor": "176 186 202",
+          "CanBeDyed": false,
+          "IsPrismatic": false,
+          "CanChooseDuringCharacterCustomization": false
+        }
+      }
+    },
+    {
+      "LogName": "Traje gaúcho - Botas",
+      "Action": "EditData",
+      "Target": "Data/Boots",
+      "Entries": {
+        "ValeDasAraucarias.TrajeGaucho_BotasCampeiras": "ValeDasAraucarias.TrajeGaucho_BotasCampeiras/Botas resistentes de couro, próprias para acompanhar a vida no campo./0/1/1/0/Botas Campeiras/Mods\\{{ModId}}\\traje\\Botas/1/Mods\\{{ModId}}\\traje\\Botas"
+      }
+    },
+    {
+      "LogName": "Traje gaúcho - Loja do Pierre",
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [
+        "SeedShop",
+        "Items"
+      ],
+      "When": {
+        "TrajeGauchoNoPierre": "true"
+      },
+      "Entries": {
+        "ValeDasAraucarias.TrajeGaucho_ChapeuCampeiro": {
+          "Id": "ValeDasAraucarias.TrajeGaucho_ChapeuCampeiro",
+          "ItemId": "(H)ValeDasAraucarias.TrajeGaucho_ChapeuCampeiro",
+          "Price": 1500
+        },
+        "ValeDasAraucarias.TrajeGaucho_CamisaGaucha": {
+          "Id": "ValeDasAraucarias.TrajeGaucho_CamisaGaucha",
+          "ItemId": "(S)ValeDasAraucarias.TrajeGaucho_CamisaGaucha",
+          "Price": 1200
+        },
+        "ValeDasAraucarias.TrajeGaucho_Bombacha": {
+          "Id": "ValeDasAraucarias.TrajeGaucho_Bombacha",
+          "ItemId": "(P)ValeDasAraucarias.TrajeGaucho_Bombacha",
+          "Price": 1200
+        },
+        "ValeDasAraucarias.TrajeGaucho_BotasCampeiras": {
+          "Id": "ValeDasAraucarias.TrajeGaucho_BotasCampeiras",
+          "ItemId": "(B)ValeDasAraucarias.TrajeGaucho_BotasCampeiras",
+          "Price": 2000
+        }
+      }
+    }
+  ]
+}

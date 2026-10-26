@@ -1,0 +1,103 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "TargetField": [
+        "Mountain",
+        "Forage"
+      ],
+      "LogName": "Coleta - Montanha (5)",
+      "Entries": {
+        "ValeAraucarias_Coleta_Pinhao_Fall": {
+          "Id": "ValeAraucarias_Coleta_Pinhao_Fall",
+          "ItemId": "(O)ValeDasAraucarias.Arvores_Pinhao",
+          "Season": "Fall",
+          "Chance": 0.3
+        },
+        "ValeAraucarias_Coleta_Pinhao_Winter": {
+          "Id": "ValeAraucarias_Coleta_Pinhao_Winter",
+          "ItemId": "(O)ValeDasAraucarias.Arvores_Pinhao",
+          "Season": "Winter",
+          "Chance": 0.2
+        },
+        "ValeAraucarias_Coleta_BracatingaSeed_Summer": {
+          "Id": "ValeAraucarias_Coleta_BracatingaSeed_Summer",
+          "ItemId": "(O)ValeAraucarias_BracatingaSeed",
+          "Season": "Summer",
+          "Chance": 0.25
+        },
+        "ValeAraucarias_Coleta_Butia_Summer": {
+          "Id": "ValeAraucarias_Coleta_Butia_Summer",
+          "ItemId": "(O)ValeAraucarias_Butia",
+          "Season": "Summer",
+          "Chance": 0.3
+        },
+        "ValeAraucarias_Coleta_Butia_Fall": {
+          "Id": "ValeAraucarias_Coleta_Butia_Fall",
+          "ItemId": "(O)ValeAraucarias_Butia",
+          "Season": "Fall",
+          "Chance": 0.2
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "TargetField": [
+        "Forest",
+        "Forage"
+      ],
+      "LogName": "Coleta - Floresta (2)",
+      "Entries": {
+        "ValeAraucarias_Coleta_ErvaMateSeed_Summer": {
+          "Id": "ValeAraucarias_Coleta_ErvaMateSeed_Summer",
+          "ItemId": "(O)ValeAraucarias_ErvaMateSeed",
+          "Season": "Summer",
+          "Chance": 0.25
+        },
+        "ValeAraucarias_Coleta_ErvaMateSeed_Fall": {
+          "Id": "ValeAraucarias_Coleta_ErvaMateSeed_Fall",
+          "ItemId": "(O)ValeAraucarias_ErvaMateSeed",
+          "Season": "Fall",
+          "Chance": 0.15
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "TargetField": [
+        "Woods",
+        "Forage"
+      ],
+      "LogName": "Coleta - Bosque Secreto (4)",
+      "Entries": {
+        "ValeAraucarias_Coleta_JabuticabaSeed_Summer": {
+          "Id": "ValeAraucarias_Coleta_JabuticabaSeed_Summer",
+          "ItemId": "(O)ValeAraucarias_JabuticabaSeed",
+          "Season": "Summer",
+          "Chance": 0.2
+        },
+        "ValeAraucarias_Coleta_JabuticabaSeed_Fall": {
+          "Id": "ValeAraucarias_Coleta_JabuticabaSeed_Fall",
+          "ItemId": "(O)ValeAraucarias_JabuticabaSeed",
+          "Season": "Fall",
+          "Chance": 0.2
+        },
+        "ValeAraucarias_Coleta_CanelaPretaSeed_Fall": {
+          "Id": "ValeAraucarias_Coleta_CanelaPretaSeed_Fall",
+          "ItemId": "(O)ValeAraucarias_CanelaPretaSeed",
+          "Season": "Fall",
+          "Chance": 0.15
+        },
+        "ValeAraucarias_Coleta_CanelaPretaSeed_Winter": {
+          "Id": "ValeAraucarias_Coleta_CanelaPretaSeed_Winter",
+          "ItemId": "(O)ValeAraucarias_CanelaPretaSeed",
+          "Season": "Winter",
+          "Chance": 0.15
+        }
+      }
+    }
+  ]
+}

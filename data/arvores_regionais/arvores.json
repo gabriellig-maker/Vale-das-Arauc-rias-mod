@@ -1,0 +1,680 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/WildTrees",
+      "LogName": "Árvores regionais (6) (+ compatibilidade de saves antigos)",
+      "Entries": {
+        "ValeAraucarias_AraucariaTree": {
+          "Textures": [
+            {
+              "Texture": "Mods/{{ModId}}/arvores/araucaria/primavera",
+              "Season": "Spring"
+            },
+            {
+              "Texture": "Mods/{{ModId}}/arvores/araucaria/verao",
+              "Season": "Summer"
+            },
+            {
+              "Texture": "Mods/{{ModId}}/arvores/araucaria/outono",
+              "Season": "Fall"
+            },
+            {
+              "Texture": "Mods/{{ModId}}/arvores/araucaria/inverno",
+              "Season": "Winter"
+            },
+            {
+              "Texture": "Mods/{{ModId}}/arvores/araucaria/primavera"
+            }
+          ],
+          "SeedItemId": "(O)ValeDasAraucarias.Arvores_Pinhao",
+          "SeedPlantable": true,
+          "GrowthChance": 0.2,
+          "FertilizedGrowthChance": 1.0,
+          "SeedSpreadChance": 0.15,
+          "SeedOnShakeChance": 0.05,
+          "SeedOnChopChance": 0.75,
+          "DropWoodOnChop": true,
+          "DropHardwoodOnLumberChop": true,
+          "IsLeafy": true,
+          "IsLeafyInWinter": true,
+          "GrowsInWinter": false,
+          "IsStumpDuringWinter": false,
+          "AllowWoodpeckers": true,
+          "UseAlternateSpriteWhenNotShaken": false,
+          "UseAlternateSpriteWhenSeedReady": false,
+          "GrowsMoss": true,
+          "ChopItems": [
+            {
+              "Id": "Seiva",
+              "ItemId": "(O)92",
+              "MinStack": 5,
+              "MaxStack": 5,
+              "MinSize": "Tree",
+              "ForStump": false
+            },
+            {
+              "Id": "Toco_Seiva",
+              "ItemId": "(O)92",
+              "MinStack": 1,
+              "MaxStack": 1,
+              "ForStump": true
+            }
+          ],
+          "ShakeItems": [
+            {
+              "Id": "Pinhao_Outono",
+              "ItemId": "(O)ValeDasAraucarias.Arvores_Pinhao",
+              "MinStack": 1,
+              "MaxStack": 1,
+              "Chance": 0.35,
+              "Season": "Fall"
+            },
+            {
+              "Id": "Pinhao_Inverno",
+              "ItemId": "(O)ValeDasAraucarias.Arvores_Pinhao",
+              "MinStack": 1,
+              "MaxStack": 1,
+              "Chance": 0.25,
+              "Season": "Winter"
+            }
+          ],
+          "TapItems": [
+            {
+              "Id": "Produto",
+              "ItemId": "(O)ValeAraucarias_AraucariaPitch",
+              "DaysUntilReady": 5
+            }
+          ]
+        },
+        "ValeAraucarias_ErvaMateTree": {
+          "Textures": [
+            {
+              "Texture": "Mods/{{ModId}}/arvores/erva_mate/primavera",
+              "Season": "Spring"
+            },
+            {
+              "Texture": "Mods/{{ModId}}/arvores/erva_mate/verao",
+              "Season": "Summer"
+            },
+            {
+              "Texture": "Mods/{{ModId}}/arvores/erva_mate/outono",
+              "Season": "Fall"
+            },
+            {
+              "Texture": "Mods/{{ModId}}/arvores/erva_mate/inverno",
+              "Season": "Winter"
+            },
+            {
+              "Texture": "Mods/{{ModId}}/arvores/erva_mate/primavera"
+            }
+          ],
+          "SeedItemId": "(O)ValeAraucarias_ErvaMateSeed",
+          "SeedPlantable": true,
+          "GrowthChance": 0.2,
+          "FertilizedGrowthChance": 1.0,
+          "SeedSpreadChance": 0.15,
+          "SeedOnShakeChance": 0.05,
+          "SeedOnChopChance": 0.75,
+          "DropWoodOnChop": true,
+          "DropHardwoodOnLumberChop": true,
+          "IsLeafy": true,
+          "IsLeafyInWinter": true,
+          "GrowsInWinter": false,
+          "IsStumpDuringWinter": false,
+          "AllowWoodpeckers": true,
+          "UseAlternateSpriteWhenNotShaken": false,
+          "UseAlternateSpriteWhenSeedReady": false,
+          "GrowsMoss": true,
+          "ChopItems": [
+            {
+              "Id": "Seiva",
+              "ItemId": "(O)92",
+              "MinStack": 5,
+              "MaxStack": 5,
+              "MinSize": "Tree",
+              "ForStump": false
+            },
+            {
+              "Id": "Toco_Seiva",
+              "ItemId": "(O)92",
+              "MinStack": 1,
+              "MaxStack": 1,
+              "ForStump": true
+            },
+            {
+              "Id": "Folhas_Corte",
+              "ItemId": "(O)ValeDasAraucarias.Arvores_FolhasErvaMate",
+              "MinStack": 1,
+              "MaxStack": 3,
+              "Chance": 0.75,
+              "MinSize": "Tree",
+              "ForStump": false
+            }
+          ],
+          "ShakeItems": [
+            {
+              "Id": "Folhas",
+              "ItemId": "(O)ValeDasAraucarias.Arvores_FolhasErvaMate",
+              "MinStack": 1,
+              "MaxStack": 1,
+              "Chance": 0.4
+            }
+          ],
+          "TapItems": [
+            {
+              "Id": "Produto",
+              "ItemId": "(O)ValeAraucarias_ErvaMateExtract",
+              "DaysUntilReady": 7
+            }
+          ]
+        },
+        "ValeAraucarias_BracatingaTree": {
+          "Textures": [
+            {
+              "Texture": "Mods/{{ModId}}/arvores/bracatinga/primavera",
+              "Season": "Spring"
+            },
+            {
+              "Texture": "Mods/{{ModId}}/arvores/bracatinga/verao",
+              "Season": "Summer"
+            },
+            {
+              "Texture": "Mods/{{ModId}}/arvores/bracatinga/outono",
+              "Season": "Fall"
+            },
+            {
+              "Texture": "Mods/{{ModId}}/arvores/bracatinga/inverno",
+              "Season": "Winter"
+            },
+            {
+              "Texture": "Mods/{{ModId}}/arvores/bracatinga/primavera"
+            }
+          ],
+          "SeedItemId": "(O)ValeAraucarias_BracatingaSeed",
+          "SeedPlantable": true,
+          "GrowthChance": 0.25,
+          "FertilizedGrowthChance": 1.0,
+          "SeedSpreadChance": 0.15,
+          "SeedOnShakeChance": 0.05,
+          "SeedOnChopChance": 0.75,
+          "DropWoodOnChop": true,
+          "DropHardwoodOnLumberChop": true,
+          "IsLeafy": true,
+          "IsLeafyInWinter": true,
+          "GrowsInWinter": false,
+          "IsStumpDuringWinter": false,
+          "AllowWoodpeckers": true,
+          "UseAlternateSpriteWhenNotShaken": false,
+          "UseAlternateSpriteWhenSeedReady": false,
+          "GrowsMoss": true,
+          "ChopItems": [
+            {
+              "Id": "Seiva",
+              "ItemId": "(O)92",
+              "MinStack": 5,
+              "MaxStack": 5,
+              "MinSize": "Tree",
+              "ForStump": false
+            },
+            {
+              "Id": "Toco_Seiva",
+              "ItemId": "(O)92",
+              "MinStack": 1,
+              "MaxStack": 1,
+              "ForStump": true
+            }
+          ],
+          "ShakeItems": [],
+          "TapItems": [
+            {
+              "Id": "Produto",
+              "ItemId": "(O)ValeAraucarias_BracatingaResin",
+              "DaysUntilReady": 6
+            }
+          ]
+        },
+        "ValeAraucarias_JabuticabeiraTree": {
+          "Textures": [
+            {
+              "Texture": "Mods/{{ModId}}/arvores/jabuticabeira/primavera",
+              "Season": "Spring"
+            },
+            {
+              "Texture": "Mods/{{ModId}}/arvores/jabuticabeira/verao",
+              "Season": "Summer"
+            },
+            {
+              "Texture": "Mods/{{ModId}}/arvores/jabuticabeira/outono",
+              "Season": "Fall"
+            },
+            {
+              "Texture": "Mods/{{ModId}}/arvores/jabuticabeira/inverno",
+              "Season": "Winter"
+            },
+            {
+              "Texture": "Mods/{{ModId}}/arvores/jabuticabeira/primavera"
+            }
+          ],
+          "SeedItemId": "(O)ValeAraucarias_JabuticabaSeed",
+          "SeedPlantable": true,
+          "GrowthChance": 0.15,
+          "FertilizedGrowthChance": 1.0,
+          "SeedSpreadChance": 0.15,
+          "SeedOnShakeChance": 0.05,
+          "SeedOnChopChance": 0.5,
+          "DropWoodOnChop": false,
+          "DropHardwoodOnLumberChop": false,
+          "IsLeafy": true,
+          "IsLeafyInWinter": true,
+          "GrowsInWinter": false,
+          "IsStumpDuringWinter": false,
+          "AllowWoodpeckers": true,
+          "UseAlternateSpriteWhenNotShaken": false,
+          "UseAlternateSpriteWhenSeedReady": false,
+          "GrowsMoss": true,
+          "ChopItems": [
+            {
+              "Id": "MadeiraDeLeiJovem",
+              "ItemId": "(O)709",
+              "MinStack": 1,
+              "MaxStack": 1,
+              "MinSize": "Bush",
+              "ForStump": false
+            },
+            {
+              "Id": "MadeiraDeLei",
+              "ItemId": "(O)709",
+              "MinStack": 9,
+              "MaxStack": 9,
+              "MinSize": "Tree",
+              "ForStump": false
+            },
+            {
+              "Id": "MadeiraDeLei_Silvicultor",
+              "ItemId": "(O)709",
+              "MinStack": 2,
+              "MaxStack": 3,
+              "MinSize": "Tree",
+              "ForStump": false,
+              "Condition": "PLAYER_HAS_PROFESSION Target 12"
+            },
+            {
+              "Id": "MadeiraDeLei_Lenhador",
+              "ItemId": "(O)709",
+              "MinStack": 1,
+              "MaxStack": 3,
+              "Chance": 0.5,
+              "MinSize": "Tree",
+              "ForStump": false,
+              "Condition": "PLAYER_HAS_PROFESSION Target 14"
+            },
+            {
+              "Id": "Seiva",
+              "ItemId": "(O)92",
+              "MinStack": 5,
+              "MaxStack": 5,
+              "MinSize": "Tree",
+              "ForStump": false
+            },
+            {
+              "Id": "Toco_MadeiraDeLei",
+              "ItemId": "(O)709",
+              "MinStack": 1,
+              "MaxStack": 3,
+              "ForStump": true
+            },
+            {
+              "Id": "Toco_MadeiraDeLei_Silvicultor",
+              "ItemId": "(O)709",
+              "MinStack": 1,
+              "MaxStack": 1,
+              "ForStump": true,
+              "Condition": "PLAYER_HAS_PROFESSION Target 12"
+            },
+            {
+              "Id": "Toco_Seiva",
+              "ItemId": "(O)92",
+              "MinStack": 1,
+              "MaxStack": 1,
+              "ForStump": true
+            }
+          ],
+          "ShakeItems": [],
+          "TapItems": [
+            {
+              "Id": "Produto",
+              "ItemId": "(O)ValeAraucarias_AromaticSap",
+              "DaysUntilReady": 9
+            }
+          ]
+        },
+        "ValeAraucarias_CanelaPretaTree": {
+          "Textures": [
+            {
+              "Texture": "Mods/{{ModId}}/arvores/canela_preta/primavera",
+              "Season": "Spring"
+            },
+            {
+              "Texture": "Mods/{{ModId}}/arvores/canela_preta/verao",
+              "Season": "Summer"
+            },
+            {
+              "Texture": "Mods/{{ModId}}/arvores/canela_preta/outono",
+              "Season": "Fall"
+            },
+            {
+              "Texture": "Mods/{{ModId}}/arvores/canela_preta/inverno",
+              "Season": "Winter"
+            },
+            {
+              "Texture": "Mods/{{ModId}}/arvores/canela_preta/primavera"
+            }
+          ],
+          "SeedItemId": "(O)ValeAraucarias_CanelaPretaSeed",
+          "SeedPlantable": true,
+          "GrowthChance": 0.125,
+          "FertilizedGrowthChance": 1.0,
+          "SeedSpreadChance": 0.15,
+          "SeedOnShakeChance": 0.05,
+          "SeedOnChopChance": 0.5,
+          "DropWoodOnChop": false,
+          "DropHardwoodOnLumberChop": false,
+          "IsLeafy": true,
+          "IsLeafyInWinter": true,
+          "GrowsInWinter": false,
+          "IsStumpDuringWinter": false,
+          "AllowWoodpeckers": true,
+          "UseAlternateSpriteWhenNotShaken": false,
+          "UseAlternateSpriteWhenSeedReady": false,
+          "GrowsMoss": true,
+          "ChopItems": [
+            {
+              "Id": "MadeiraDeLeiJovem",
+              "ItemId": "(O)709",
+              "MinStack": 1,
+              "MaxStack": 1,
+              "MinSize": "Bush",
+              "ForStump": false
+            },
+            {
+              "Id": "MadeiraDeLei",
+              "ItemId": "(O)709",
+              "MinStack": 9,
+              "MaxStack": 9,
+              "MinSize": "Tree",
+              "ForStump": false
+            },
+            {
+              "Id": "MadeiraDeLei_Silvicultor",
+              "ItemId": "(O)709",
+              "MinStack": 2,
+              "MaxStack": 3,
+              "MinSize": "Tree",
+              "ForStump": false,
+              "Condition": "PLAYER_HAS_PROFESSION Target 12"
+            },
+            {
+              "Id": "MadeiraDeLei_Lenhador",
+              "ItemId": "(O)709",
+              "MinStack": 1,
+              "MaxStack": 3,
+              "Chance": 0.5,
+              "MinSize": "Tree",
+              "ForStump": false,
+              "Condition": "PLAYER_HAS_PROFESSION Target 14"
+            },
+            {
+              "Id": "Seiva",
+              "ItemId": "(O)92",
+              "MinStack": 5,
+              "MaxStack": 5,
+              "MinSize": "Tree",
+              "ForStump": false
+            },
+            {
+              "Id": "Toco_MadeiraDeLei",
+              "ItemId": "(O)709",
+              "MinStack": 1,
+              "MaxStack": 3,
+              "ForStump": true
+            },
+            {
+              "Id": "Toco_MadeiraDeLei_Silvicultor",
+              "ItemId": "(O)709",
+              "MinStack": 1,
+              "MaxStack": 1,
+              "ForStump": true,
+              "Condition": "PLAYER_HAS_PROFESSION Target 12"
+            },
+            {
+              "Id": "Toco_Seiva",
+              "ItemId": "(O)92",
+              "MinStack": 1,
+              "MaxStack": 1,
+              "ForStump": true
+            }
+          ],
+          "ShakeItems": [],
+          "TapItems": [
+            {
+              "Id": "Produto",
+              "ItemId": "(O)ValeAraucarias_CanelaPretaResin",
+              "DaysUntilReady": 8
+            }
+          ]
+        },
+        "ValeAraucarias_ButiazeiroTree": {
+          "Textures": [
+            {
+              "Texture": "Mods/{{ModId}}/arvores/butiazeiro/primavera",
+              "Season": "Spring"
+            },
+            {
+              "Texture": "Mods/{{ModId}}/arvores/butiazeiro/verao",
+              "Season": "Summer"
+            },
+            {
+              "Texture": "Mods/{{ModId}}/arvores/butiazeiro/outono",
+              "Season": "Fall"
+            },
+            {
+              "Texture": "Mods/{{ModId}}/arvores/butiazeiro/inverno",
+              "Season": "Winter"
+            },
+            {
+              "Texture": "Mods/{{ModId}}/arvores/butiazeiro/primavera"
+            }
+          ],
+          "SeedItemId": "(O)ValeAraucarias_ButiaSeed",
+          "SeedPlantable": true,
+          "GrowthChance": 0.15,
+          "FertilizedGrowthChance": 1.0,
+          "SeedSpreadChance": 0.15,
+          "SeedOnShakeChance": 0.05,
+          "SeedOnChopChance": 0.75,
+          "DropWoodOnChop": true,
+          "DropHardwoodOnLumberChop": true,
+          "IsLeafy": false,
+          "IsLeafyInWinter": false,
+          "GrowsInWinter": false,
+          "IsStumpDuringWinter": false,
+          "AllowWoodpeckers": true,
+          "UseAlternateSpriteWhenNotShaken": true,
+          "UseAlternateSpriteWhenSeedReady": false,
+          "GrowsMoss": false,
+          "ChopItems": [
+            {
+              "Id": "Seiva",
+              "ItemId": "(O)92",
+              "MinStack": 5,
+              "MaxStack": 5,
+              "MinSize": "Tree",
+              "ForStump": false
+            },
+            {
+              "Id": "Toco_Seiva",
+              "ItemId": "(O)92",
+              "MinStack": 1,
+              "MaxStack": 1,
+              "ForStump": true
+            },
+            {
+              "Id": "Butia_Corte_Verao",
+              "ItemId": "(O)ValeAraucarias_Butia",
+              "MinStack": 1,
+              "MaxStack": 3,
+              "Chance": 0.5,
+              "Season": "Summer",
+              "MinSize": "Tree",
+              "ForStump": false
+            },
+            {
+              "Id": "Butia_Corte_Outono",
+              "ItemId": "(O)ValeAraucarias_Butia",
+              "MinStack": 1,
+              "MaxStack": 2,
+              "Chance": 0.5,
+              "Season": "Fall",
+              "MinSize": "Tree",
+              "ForStump": false
+            }
+          ],
+          "ShakeItems": [
+            {
+              "Id": "Butia_Verao",
+              "ItemId": "(O)ValeAraucarias_Butia",
+              "MinStack": 1,
+              "MaxStack": 2,
+              "Chance": 0.6,
+              "Season": "Summer"
+            },
+            {
+              "Id": "Butia_Outono",
+              "ItemId": "(O)ValeAraucarias_Butia",
+              "MinStack": 1,
+              "MaxStack": 1,
+              "Chance": 0.4,
+              "Season": "Fall"
+            }
+          ]
+        },
+        "ValeAraucarias_ImbuiaTree": {
+          "Textures": [
+            {
+              "Texture": "Mods/{{ModId}}/arvores/jabuticabeira/primavera",
+              "Season": "Spring"
+            },
+            {
+              "Texture": "Mods/{{ModId}}/arvores/jabuticabeira/verao",
+              "Season": "Summer"
+            },
+            {
+              "Texture": "Mods/{{ModId}}/arvores/jabuticabeira/outono",
+              "Season": "Fall"
+            },
+            {
+              "Texture": "Mods/{{ModId}}/arvores/jabuticabeira/inverno",
+              "Season": "Winter"
+            },
+            {
+              "Texture": "Mods/{{ModId}}/arvores/jabuticabeira/primavera"
+            }
+          ],
+          "SeedItemId": "(O)ValeAraucarias_JabuticabaSeed",
+          "SeedPlantable": false,
+          "GrowthChance": 0.15,
+          "FertilizedGrowthChance": 1.0,
+          "SeedSpreadChance": 0.15,
+          "SeedOnShakeChance": 0.05,
+          "SeedOnChopChance": 0.5,
+          "DropWoodOnChop": false,
+          "DropHardwoodOnLumberChop": false,
+          "IsLeafy": true,
+          "IsLeafyInWinter": true,
+          "GrowsInWinter": false,
+          "IsStumpDuringWinter": false,
+          "AllowWoodpeckers": true,
+          "UseAlternateSpriteWhenNotShaken": false,
+          "UseAlternateSpriteWhenSeedReady": false,
+          "GrowsMoss": true,
+          "ChopItems": [
+            {
+              "Id": "MadeiraDeLeiJovem",
+              "ItemId": "(O)709",
+              "MinStack": 1,
+              "MaxStack": 1,
+              "MinSize": "Bush",
+              "ForStump": false
+            },
+            {
+              "Id": "MadeiraDeLei",
+              "ItemId": "(O)709",
+              "MinStack": 9,
+              "MaxStack": 9,
+              "MinSize": "Tree",
+              "ForStump": false
+            },
+            {
+              "Id": "MadeiraDeLei_Silvicultor",
+              "ItemId": "(O)709",
+              "MinStack": 2,
+              "MaxStack": 3,
+              "MinSize": "Tree",
+              "ForStump": false,
+              "Condition": "PLAYER_HAS_PROFESSION Target 12"
+            },
+            {
+              "Id": "MadeiraDeLei_Lenhador",
+              "ItemId": "(O)709",
+              "MinStack": 1,
+              "MaxStack": 3,
+              "Chance": 0.5,
+              "MinSize": "Tree",
+              "ForStump": false,
+              "Condition": "PLAYER_HAS_PROFESSION Target 14"
+            },
+            {
+              "Id": "Seiva",
+              "ItemId": "(O)92",
+              "MinStack": 5,
+              "MaxStack": 5,
+              "MinSize": "Tree",
+              "ForStump": false
+            },
+            {
+              "Id": "Toco_MadeiraDeLei",
+              "ItemId": "(O)709",
+              "MinStack": 1,
+              "MaxStack": 3,
+              "ForStump": true
+            },
+            {
+              "Id": "Toco_MadeiraDeLei_Silvicultor",
+              "ItemId": "(O)709",
+              "MinStack": 1,
+              "MaxStack": 1,
+              "ForStump": true,
+              "Condition": "PLAYER_HAS_PROFESSION Target 12"
+            },
+            {
+              "Id": "Toco_Seiva",
+              "ItemId": "(O)92",
+              "MinStack": 1,
+              "MaxStack": 1,
+              "ForStump": true
+            }
+          ],
+          "ShakeItems": [],
+          "TapItems": [
+            {
+              "Id": "Produto",
+              "ItemId": "(O)ValeAraucarias_AromaticSap",
+              "DaysUntilReady": 9
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

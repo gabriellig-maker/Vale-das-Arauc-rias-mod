@@ -1,0 +1,39 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "LogName": "Pinhão e folhas de erva-mate (2 itens)",
+      "Entries": {
+        "ValeDasAraucarias.Arvores_Pinhao": {
+          "Name": "ValeDasAraucarias.Arvores_Pinhao",
+          "DisplayName": "{{i18n:fruto.Pinhao.nome}}",
+          "Description": "{{i18n:fruto.Pinhao.desc}}",
+          "Type": "Basic",
+          "Category": -81,
+          "Price": 80,
+          "Texture": "Mods/{{ModId}}/arvores/araucaria/pinhao",
+          "SpriteIndex": 0,
+          "Edibility": -300,
+          "IsDrink": false,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true
+        },
+        "ValeDasAraucarias.Arvores_FolhasErvaMate": {
+          "Name": "ValeDasAraucarias.Arvores_FolhasErvaMate",
+          "DisplayName": "{{i18n:fruto.FolhasErvaMate.nome}}",
+          "Description": "{{i18n:fruto.FolhasErvaMate.desc}}",
+          "Type": "Basic",
+          "Category": -81,
+          "Price": 50,
+          "Texture": "Mods/{{ModId}}/arvores/erva_mate/folhas",
+          "SpriteIndex": 0,
+          "Edibility": -300,
+          "IsDrink": false,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true
+        }
+      }
+    }
+  ]
+}

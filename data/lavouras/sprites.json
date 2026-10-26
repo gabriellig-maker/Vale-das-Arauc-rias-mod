@@ -1,0 +1,244 @@
+{
+  "Changes": [
+    {
+      "Action": "Load",
+      "LogName": "Sprites das lavouras - assets/lavouras/feijao_preto/cultivo.png",
+      "Target": "Mods/{{ModId}}/lavouras/feijao_preto/cultivo",
+      "FromFile": "assets/lavouras/feijao_preto/cultivo.png"
+    },
+    {
+      "Action": "Load",
+      "LogName": "Sprites das lavouras - assets/lavouras/feijao_preto/sementes.png",
+      "Target": "Mods/{{ModId}}/lavouras/feijao_preto/sementes",
+      "FromFile": "assets/lavouras/feijao_preto/sementes.png"
+    },
+    {
+      "Action": "Load",
+      "LogName": "Sprites das lavouras - assets/lavouras/feijao_preto/colheita.png",
+      "Target": "Mods/{{ModId}}/lavouras/feijao_preto/colheita",
+      "FromFile": "assets/lavouras/feijao_preto/colheita.png"
+    },
+    {
+      "Action": "Load",
+      "LogName": "Sprites das lavouras - assets/lavouras/mandioca/cultivo.png",
+      "Target": "Mods/{{ModId}}/lavouras/mandioca/cultivo",
+      "FromFile": "assets/lavouras/mandioca/cultivo.png"
+    },
+    {
+      "Action": "Load",
+      "LogName": "Sprites das lavouras - assets/lavouras/mandioca/sementes.png",
+      "Target": "Mods/{{ModId}}/lavouras/mandioca/sementes",
+      "FromFile": "assets/lavouras/mandioca/sementes.png"
+    },
+    {
+      "Action": "Load",
+      "LogName": "Sprites das lavouras - assets/lavouras/mandioca/colheita.png",
+      "Target": "Mods/{{ModId}}/lavouras/mandioca/colheita",
+      "FromFile": "assets/lavouras/mandioca/colheita.png"
+    },
+    {
+      "Action": "Load",
+      "LogName": "Sprites das lavouras - assets/lavouras/batata_doce/cultivo.png",
+      "Target": "Mods/{{ModId}}/lavouras/batata_doce/cultivo",
+      "FromFile": "assets/lavouras/batata_doce/cultivo.png"
+    },
+    {
+      "Action": "Load",
+      "LogName": "Sprites das lavouras - assets/lavouras/batata_doce/sementes.png",
+      "Target": "Mods/{{ModId}}/lavouras/batata_doce/sementes",
+      "FromFile": "assets/lavouras/batata_doce/sementes.png"
+    },
+    {
+      "Action": "Load",
+      "LogName": "Sprites das lavouras - assets/lavouras/batata_doce/colheita.png",
+      "Target": "Mods/{{ModId}}/lavouras/batata_doce/colheita",
+      "FromFile": "assets/lavouras/batata_doce/colheita.png"
+    },
+    {
+      "Action": "Load",
+      "LogName": "Sprites das lavouras - assets/lavouras/cebola/cultivo.png",
+      "Target": "Mods/{{ModId}}/lavouras/cebola/cultivo",
+      "FromFile": "assets/lavouras/cebola/cultivo.png"
+    },
+    {
+      "Action": "Load",
+      "LogName": "Sprites das lavouras - assets/lavouras/cebola/sementes.png",
+      "Target": "Mods/{{ModId}}/lavouras/cebola/sementes",
+      "FromFile": "assets/lavouras/cebola/sementes.png"
+    },
+    {
+      "Action": "Load",
+      "LogName": "Sprites das lavouras - assets/lavouras/cebola/colheita.png",
+      "Target": "Mods/{{ModId}}/lavouras/cebola/colheita",
+      "FromFile": "assets/lavouras/cebola/colheita.png"
+    },
+    {
+      "Action": "Load",
+      "LogName": "Sprites das lavouras - assets/lavouras/maracuja/cultivo.png",
+      "Target": "Mods/{{ModId}}/lavouras/maracuja/cultivo",
+      "FromFile": "assets/lavouras/maracuja/cultivo.png"
+    },
+    {
+      "Action": "Load",
+      "LogName": "Sprites das lavouras - assets/lavouras/maracuja/sementes.png",
+      "Target": "Mods/{{ModId}}/lavouras/maracuja/sementes",
+      "FromFile": "assets/lavouras/maracuja/sementes.png"
+    },
+    {
+      "Action": "Load",
+      "LogName": "Sprites das lavouras - assets/lavouras/maracuja/colheita.png",
+      "Target": "Mods/{{ModId}}/lavouras/maracuja/colheita",
+      "FromFile": "assets/lavouras/maracuja/colheita.png"
+    },
+    {
+      "Action": "Load",
+      "LogName": "Sprites das lavouras - assets/lavouras/pimentao/cultivo.png",
+      "Target": "Mods/{{ModId}}/lavouras/pimentao/cultivo",
+      "FromFile": "assets/lavouras/pimentao/cultivo.png"
+    },
+    {
+      "Action": "Load",
+      "LogName": "Sprites das lavouras - assets/lavouras/pimentao/sementes.png",
+      "Target": "Mods/{{ModId}}/lavouras/pimentao/sementes",
+      "FromFile": "assets/lavouras/pimentao/sementes.png"
+    },
+    {
+      "Action": "Load",
+      "LogName": "Sprites das lavouras - assets/lavouras/pimentao/colheita.png",
+      "Target": "Mods/{{ModId}}/lavouras/pimentao/colheita",
+      "FromFile": "assets/lavouras/pimentao/colheita.png"
+    },
+    {
+      "Action": "Load",
+      "LogName": "Sprites das lavouras - assets/lavouras/aveia_branca/cultivo.png",
+      "Target": "Mods/{{ModId}}/lavouras/aveia_branca/cultivo",
+      "FromFile": "assets/lavouras/aveia_branca/cultivo.png"
+    },
+    {
+      "Action": "Load",
+      "LogName": "Sprites das lavouras - assets/lavouras/aveia_branca/sementes.png",
+      "Target": "Mods/{{ModId}}/lavouras/aveia_branca/sementes",
+      "FromFile": "assets/lavouras/aveia_branca/sementes.png"
+    },
+    {
+      "Action": "Load",
+      "LogName": "Sprites das lavouras - assets/lavouras/aveia_branca/colheita.png",
+      "Target": "Mods/{{ModId}}/lavouras/aveia_branca/colheita",
+      "FromFile": "assets/lavouras/aveia_branca/colheita.png"
+    },
+    {
+      "Action": "Load",
+      "LogName": "Sprites das lavouras - assets/lavouras/cevada/cultivo.png",
+      "Target": "Mods/{{ModId}}/lavouras/cevada/cultivo",
+      "FromFile": "assets/lavouras/cevada/cultivo.png"
+    },
+    {
+      "Action": "Load",
+      "LogName": "Sprites das lavouras - assets/lavouras/cevada/sementes.png",
+      "Target": "Mods/{{ModId}}/lavouras/cevada/sementes",
+      "FromFile": "assets/lavouras/cevada/sementes.png"
+    },
+    {
+      "Action": "Load",
+      "LogName": "Sprites das lavouras - assets/lavouras/cevada/colheita.png",
+      "Target": "Mods/{{ModId}}/lavouras/cevada/colheita",
+      "FromFile": "assets/lavouras/cevada/colheita.png"
+    },
+    {
+      "Action": "Load",
+      "LogName": "Sprites das lavouras - assets/lavouras/centeio/cultivo.png",
+      "Target": "Mods/{{ModId}}/lavouras/centeio/cultivo",
+      "FromFile": "assets/lavouras/centeio/cultivo.png"
+    },
+    {
+      "Action": "Load",
+      "LogName": "Sprites das lavouras - assets/lavouras/centeio/sementes.png",
+      "Target": "Mods/{{ModId}}/lavouras/centeio/sementes",
+      "FromFile": "assets/lavouras/centeio/sementes.png"
+    },
+    {
+      "Action": "Load",
+      "LogName": "Sprites das lavouras - assets/lavouras/centeio/colheita.png",
+      "Target": "Mods/{{ModId}}/lavouras/centeio/colheita",
+      "FromFile": "assets/lavouras/centeio/colheita.png"
+    },
+    {
+      "Action": "Load",
+      "LogName": "Sprites das lavouras - assets/lavouras/soja/cultivo.png",
+      "Target": "Mods/{{ModId}}/lavouras/soja/cultivo",
+      "FromFile": "assets/lavouras/soja/cultivo.png"
+    },
+    {
+      "Action": "Load",
+      "LogName": "Sprites das lavouras - assets/lavouras/soja/sementes.png",
+      "Target": "Mods/{{ModId}}/lavouras/soja/sementes",
+      "FromFile": "assets/lavouras/soja/sementes.png"
+    },
+    {
+      "Action": "Load",
+      "LogName": "Sprites das lavouras - assets/lavouras/soja/colheita.png",
+      "Target": "Mods/{{ModId}}/lavouras/soja/colheita",
+      "FromFile": "assets/lavouras/soja/colheita.png"
+    },
+    {
+      "Action": "Load",
+      "LogName": "Sprites das lavouras - assets/lavouras/azevem/cultivo.png",
+      "Target": "Mods/{{ModId}}/lavouras/azevem/cultivo",
+      "FromFile": "assets/lavouras/azevem/cultivo.png"
+    },
+    {
+      "Action": "Load",
+      "LogName": "Sprites das lavouras - assets/lavouras/azevem/sementes.png",
+      "Target": "Mods/{{ModId}}/lavouras/azevem/sementes",
+      "FromFile": "assets/lavouras/azevem/sementes.png"
+    },
+    {
+      "Action": "Load",
+      "LogName": "Sprites das lavouras - assets/lavouras/azevem/colheita.png",
+      "Target": "Mods/{{ModId}}/lavouras/azevem/colheita",
+      "FromFile": "assets/lavouras/azevem/colheita.png"
+    },
+    {
+      "Action": "Load",
+      "LogName": "Sprites das lavouras - assets/lavouras/arroz_irrigado/cultivo.png",
+      "Target": "Mods/{{ModId}}/lavouras/arroz_irrigado/cultivo",
+      "FromFile": "assets/lavouras/arroz_irrigado/cultivo.png"
+    },
+    {
+      "Action": "Load",
+      "LogName": "Sprites das lavouras - assets/lavouras/arroz_irrigado/sementes.png",
+      "Target": "Mods/{{ModId}}/lavouras/arroz_irrigado/sementes",
+      "FromFile": "assets/lavouras/arroz_irrigado/sementes.png"
+    },
+    {
+      "Action": "Load",
+      "LogName": "Sprites das lavouras - assets/lavouras/arroz_irrigado/colheita.png",
+      "Target": "Mods/{{ModId}}/lavouras/arroz_irrigado/colheita",
+      "FromFile": "assets/lavouras/arroz_irrigado/colheita.png"
+    },
+    {
+      "Action": "Load",
+      "LogName": "Sprites das lavouras - assets/lavouras/processados/farinha_de_milho.png",
+      "Target": "Mods/{{ModId}}/lavouras/processados/farinha_de_milho",
+      "FromFile": "assets/lavouras/processados/farinha_de_milho.png"
+    },
+    {
+      "Action": "Load",
+      "LogName": "Sprites das lavouras - assets/lavouras/processados/aveia_em_flocos.png",
+      "Target": "Mods/{{ModId}}/lavouras/processados/aveia_em_flocos",
+      "FromFile": "assets/lavouras/processados/aveia_em_flocos.png"
+    },
+    {
+      "Action": "Load",
+      "LogName": "Sprites das lavouras - assets/lavouras/processados/broa_de_milho.png",
+      "Target": "Mods/{{ModId}}/lavouras/processados/broa_de_milho",
+      "FromFile": "assets/lavouras/processados/broa_de_milho.png"
+    },
+    {
+      "Action": "Load",
+      "LogName": "Sprites das lavouras - assets/lavouras/processados/bolo_de_fuba.png",
+      "Target": "Mods/{{ModId}}/lavouras/processados/bolo_de_fuba",
+      "FromFile": "assets/lavouras/processados/bolo_de_fuba.png"
+    }
+  ]
+}

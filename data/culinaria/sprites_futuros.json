@@ -1,0 +1,725 @@
+{
+  "Changes": [
+    {
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/comidas/mandioca_cozida",
+      "FromFile": "assets/comidas/mandioca_cozida.png",
+      "LogName": "Sprite de Mandioca Cozida",
+      "When": {
+        "HasFile:assets/comidas/mandioca_cozida.png": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "LogName": "Usar sprite de Mandioca Cozida",
+      "When": {
+        "HasFile:assets/comidas/mandioca_cozida.png": "true"
+      },
+      "Fields": {
+        "belfortkafag.ValeDasAraucarias.Culinaria_MandiocaCozida": {
+          "Texture": "Mods/{{ModId}}/comidas/mandioca_cozida",
+          "SpriteIndex": 0
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/comidas/mandioca_frita",
+      "FromFile": "assets/comidas/mandioca_frita.png",
+      "LogName": "Sprite de Mandioca Frita",
+      "When": {
+        "HasFile:assets/comidas/mandioca_frita.png": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "LogName": "Usar sprite de Mandioca Frita",
+      "When": {
+        "HasFile:assets/comidas/mandioca_frita.png": "true"
+      },
+      "Fields": {
+        "belfortkafag.ValeDasAraucarias.Culinaria_MandiocaFrita": {
+          "Texture": "Mods/{{ModId}}/comidas/mandioca_frita",
+          "SpriteIndex": 0
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/comidas/escondidinho_de_mandioca",
+      "FromFile": "assets/comidas/escondidinho_de_mandioca.png",
+      "LogName": "Sprite de Escondidinho de Mandioca",
+      "When": {
+        "HasFile:assets/comidas/escondidinho_de_mandioca.png": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "LogName": "Usar sprite de Escondidinho de Mandioca",
+      "When": {
+        "HasFile:assets/comidas/escondidinho_de_mandioca.png": "true"
+      },
+      "Fields": {
+        "belfortkafag.ValeDasAraucarias.Culinaria_EscondidinhoDeMandioca": {
+          "Texture": "Mods/{{ModId}}/comidas/escondidinho_de_mandioca",
+          "SpriteIndex": 0
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/comidas/batata_doce_assada",
+      "FromFile": "assets/comidas/batata_doce_assada.png",
+      "LogName": "Sprite de Batata-doce Assada",
+      "When": {
+        "HasFile:assets/comidas/batata_doce_assada.png": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "LogName": "Usar sprite de Batata-doce Assada",
+      "When": {
+        "HasFile:assets/comidas/batata_doce_assada.png": "true"
+      },
+      "Fields": {
+        "belfortkafag.ValeDasAraucarias.Culinaria_BatataDoceAssada": {
+          "Texture": "Mods/{{ModId}}/comidas/batata_doce_assada",
+          "SpriteIndex": 0
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/comidas/polenta_com_molho",
+      "FromFile": "assets/comidas/polenta_com_molho.png",
+      "LogName": "Sprite de Polenta com Molho",
+      "When": {
+        "HasFile:assets/comidas/polenta_com_molho.png": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "LogName": "Usar sprite de Polenta com Molho",
+      "When": {
+        "HasFile:assets/comidas/polenta_com_molho.png": "true"
+      },
+      "Fields": {
+        "belfortkafag.ValeDasAraucarias.Culinaria_PolentaComMolho": {
+          "Texture": "Mods/{{ModId}}/comidas/polenta_com_molho",
+          "SpriteIndex": 0
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/comidas/polenta_frita",
+      "FromFile": "assets/comidas/polenta_frita.png",
+      "LogName": "Sprite de Polenta Frita",
+      "When": {
+        "HasFile:assets/comidas/polenta_frita.png": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "LogName": "Usar sprite de Polenta Frita",
+      "When": {
+        "HasFile:assets/comidas/polenta_frita.png": "true"
+      },
+      "Fields": {
+        "belfortkafag.ValeDasAraucarias.Culinaria_PolentaFrita": {
+          "Texture": "Mods/{{ModId}}/comidas/polenta_frita",
+          "SpriteIndex": 0
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/comidas/arroz_com_pinhao",
+      "FromFile": "assets/comidas/arroz_com_pinhao.png",
+      "LogName": "Sprite de Arroz com Pinhão",
+      "When": {
+        "HasFile:assets/comidas/arroz_com_pinhao.png": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "LogName": "Usar sprite de Arroz com Pinhão",
+      "When": {
+        "HasFile:assets/comidas/arroz_com_pinhao.png": "true"
+      },
+      "Fields": {
+        "belfortkafag.ValeDasAraucarias.Culinaria_ArrozComPinhao": {
+          "Texture": "Mods/{{ModId}}/comidas/arroz_com_pinhao",
+          "SpriteIndex": 0
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/comidas/feijao_preto_temperado",
+      "FromFile": "assets/comidas/feijao_preto_temperado.png",
+      "LogName": "Sprite de Feijão-preto Temperado",
+      "When": {
+        "HasFile:assets/comidas/feijao_preto_temperado.png": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "LogName": "Usar sprite de Feijão-preto Temperado",
+      "When": {
+        "HasFile:assets/comidas/feijao_preto_temperado.png": "true"
+      },
+      "Fields": {
+        "belfortkafag.ValeDasAraucarias.Culinaria_FeijaoPretoTemperado": {
+          "Texture": "Mods/{{ModId}}/comidas/feijao_preto_temperado",
+          "SpriteIndex": 0
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/comidas/pinhao_cozido",
+      "FromFile": "assets/comidas/pinhao_cozido.png",
+      "LogName": "Sprite de Pinhão Cozido",
+      "When": {
+        "HasFile:assets/comidas/pinhao_cozido.png": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "LogName": "Usar sprite de Pinhão Cozido",
+      "When": {
+        "HasFile:assets/comidas/pinhao_cozido.png": "true"
+      },
+      "Fields": {
+        "belfortkafag.ValeDasAraucarias.Culinaria_PinhaoCozido": {
+          "Texture": "Mods/{{ModId}}/comidas/pinhao_cozido",
+          "SpriteIndex": 0
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/comidas/pacoca_de_pinhao",
+      "FromFile": "assets/comidas/pacoca_de_pinhao.png",
+      "LogName": "Sprite de Paçoca de Pinhão",
+      "When": {
+        "HasFile:assets/comidas/pacoca_de_pinhao.png": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "LogName": "Usar sprite de Paçoca de Pinhão",
+      "When": {
+        "HasFile:assets/comidas/pacoca_de_pinhao.png": "true"
+      },
+      "Fields": {
+        "belfortkafag.ValeDasAraucarias.Culinaria_PacocaDePinhao": {
+          "Texture": "Mods/{{ModId}}/comidas/pacoca_de_pinhao",
+          "SpriteIndex": 0
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/comidas/entrevero_de_pinhao",
+      "FromFile": "assets/comidas/entrevero_de_pinhao.png",
+      "LogName": "Sprite de Entrevero de Pinhão",
+      "When": {
+        "HasFile:assets/comidas/entrevero_de_pinhao.png": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "LogName": "Usar sprite de Entrevero de Pinhão",
+      "When": {
+        "HasFile:assets/comidas/entrevero_de_pinhao.png": "true"
+      },
+      "Fields": {
+        "belfortkafag.ValeDasAraucarias.Culinaria_EntreveroDePinhao": {
+          "Texture": "Mods/{{ModId}}/comidas/entrevero_de_pinhao",
+          "SpriteIndex": 0
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/comidas/chimarrao",
+      "FromFile": "assets/comidas/chimarrao.png",
+      "LogName": "Sprite de Chimarrão",
+      "When": {
+        "HasFile:assets/comidas/chimarrao.png": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "LogName": "Usar sprite de Chimarrão",
+      "When": {
+        "HasFile:assets/comidas/chimarrao.png": "true"
+      },
+      "Fields": {
+        "belfortkafag.ValeDasAraucarias.Culinaria_Chimarrao": {
+          "Texture": "Mods/{{ModId}}/comidas/chimarrao",
+          "SpriteIndex": 0
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/comidas/terere_com_maracuja",
+      "FromFile": "assets/comidas/terere_com_maracuja.png",
+      "LogName": "Sprite de Tereré com Maracujá",
+      "When": {
+        "HasFile:assets/comidas/terere_com_maracuja.png": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "LogName": "Usar sprite de Tereré com Maracujá",
+      "When": {
+        "HasFile:assets/comidas/terere_com_maracuja.png": "true"
+      },
+      "Fields": {
+        "belfortkafag.ValeDasAraucarias.Culinaria_Terere": {
+          "Texture": "Mods/{{ModId}}/comidas/terere_com_maracuja",
+          "SpriteIndex": 0
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/comidas/suco_de_butia",
+      "FromFile": "assets/comidas/suco_de_butia.png",
+      "LogName": "Sprite de Suco de Butiá",
+      "When": {
+        "HasFile:assets/comidas/suco_de_butia.png": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "LogName": "Usar sprite de Suco de Butiá",
+      "When": {
+        "HasFile:assets/comidas/suco_de_butia.png": "true"
+      },
+      "Fields": {
+        "belfortkafag.ValeDasAraucarias.Culinaria_SucoDeButia": {
+          "Texture": "Mods/{{ModId}}/comidas/suco_de_butia",
+          "SpriteIndex": 0
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/comidas/torta_de_butia",
+      "FromFile": "assets/comidas/torta_de_butia.png",
+      "LogName": "Sprite de Torta de Butiá",
+      "When": {
+        "HasFile:assets/comidas/torta_de_butia.png": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "LogName": "Usar sprite de Torta de Butiá",
+      "When": {
+        "HasFile:assets/comidas/torta_de_butia.png": "true"
+      },
+      "Fields": {
+        "belfortkafag.ValeDasAraucarias.Culinaria_TortaDeButia": {
+          "Texture": "Mods/{{ModId}}/comidas/torta_de_butia",
+          "SpriteIndex": 0
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/comidas/cuca_de_uva",
+      "FromFile": "assets/comidas/cuca_de_uva.png",
+      "LogName": "Sprite de Cuca de Uva",
+      "When": {
+        "HasFile:assets/comidas/cuca_de_uva.png": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "LogName": "Usar sprite de Cuca de Uva",
+      "When": {
+        "HasFile:assets/comidas/cuca_de_uva.png": "true"
+      },
+      "Fields": {
+        "belfortkafag.ValeDasAraucarias.Culinaria_CucaDeUva": {
+          "Texture": "Mods/{{ModId}}/comidas/cuca_de_uva",
+          "SpriteIndex": 0
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/comidas/cuca_de_banana",
+      "FromFile": "assets/comidas/cuca_de_banana.png",
+      "LogName": "Sprite de Cuca de Banana",
+      "When": {
+        "HasFile:assets/comidas/cuca_de_banana.png": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "LogName": "Usar sprite de Cuca de Banana",
+      "When": {
+        "HasFile:assets/comidas/cuca_de_banana.png": "true"
+      },
+      "Fields": {
+        "belfortkafag.ValeDasAraucarias.Culinaria_CucaDeBanana": {
+          "Texture": "Mods/{{ModId}}/comidas/cuca_de_banana",
+          "SpriteIndex": 0
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/comidas/bolo_de_maracuja",
+      "FromFile": "assets/comidas/bolo_de_maracuja.png",
+      "LogName": "Sprite de Bolo de Maracujá",
+      "When": {
+        "HasFile:assets/comidas/bolo_de_maracuja.png": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "LogName": "Usar sprite de Bolo de Maracujá",
+      "When": {
+        "HasFile:assets/comidas/bolo_de_maracuja.png": "true"
+      },
+      "Fields": {
+        "belfortkafag.ValeDasAraucarias.Culinaria_BoloDeMaracuja": {
+          "Texture": "Mods/{{ModId}}/comidas/bolo_de_maracuja",
+          "SpriteIndex": 0
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/comidas/mingau_de_aveia",
+      "FromFile": "assets/comidas/mingau_de_aveia.png",
+      "LogName": "Sprite de Mingau de Aveia",
+      "When": {
+        "HasFile:assets/comidas/mingau_de_aveia.png": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "LogName": "Usar sprite de Mingau de Aveia",
+      "When": {
+        "HasFile:assets/comidas/mingau_de_aveia.png": "true"
+      },
+      "Fields": {
+        "belfortkafag.ValeDasAraucarias.Culinaria_MingauDeAveia": {
+          "Texture": "Mods/{{ModId}}/comidas/mingau_de_aveia",
+          "SpriteIndex": 0
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/comidas/pao_de_centeio",
+      "FromFile": "assets/comidas/pao_de_centeio.png",
+      "LogName": "Sprite de Pão de Centeio",
+      "When": {
+        "HasFile:assets/comidas/pao_de_centeio.png": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "LogName": "Usar sprite de Pão de Centeio",
+      "When": {
+        "HasFile:assets/comidas/pao_de_centeio.png": "true"
+      },
+      "Fields": {
+        "belfortkafag.ValeDasAraucarias.Culinaria_PaoDeCenteio": {
+          "Texture": "Mods/{{ModId}}/comidas/pao_de_centeio",
+          "SpriteIndex": 0
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/comidas/sopa_de_cevadinha",
+      "FromFile": "assets/comidas/sopa_de_cevadinha.png",
+      "LogName": "Sprite de Sopa de Cevadinha",
+      "When": {
+        "HasFile:assets/comidas/sopa_de_cevadinha.png": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "LogName": "Usar sprite de Sopa de Cevadinha",
+      "When": {
+        "HasFile:assets/comidas/sopa_de_cevadinha.png": "true"
+      },
+      "Fields": {
+        "belfortkafag.ValeDasAraucarias.Culinaria_SopaDeCevadinha": {
+          "Texture": "Mods/{{ModId}}/comidas/sopa_de_cevadinha",
+          "SpriteIndex": 0
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/comidas/cueca_virada",
+      "FromFile": "assets/comidas/cueca_virada.png",
+      "LogName": "Sprite de Cueca Virada",
+      "When": {
+        "HasFile:assets/comidas/cueca_virada.png": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "LogName": "Usar sprite de Cueca Virada",
+      "When": {
+        "HasFile:assets/comidas/cueca_virada.png": "true"
+      },
+      "Fields": {
+        "belfortkafag.ValeDasAraucarias.Culinaria_CuecaVirada": {
+          "Texture": "Mods/{{ModId}}/comidas/cueca_virada",
+          "SpriteIndex": 0
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/comidas/sagu_de_vinho",
+      "FromFile": "assets/comidas/sagu_de_vinho.png",
+      "LogName": "Sprite de Sagu de Vinho",
+      "When": {
+        "HasFile:assets/comidas/sagu_de_vinho.png": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "LogName": "Usar sprite de Sagu de Vinho",
+      "When": {
+        "HasFile:assets/comidas/sagu_de_vinho.png": "true"
+      },
+      "Fields": {
+        "belfortkafag.ValeDasAraucarias.Culinaria_SaguDeVinho": {
+          "Texture": "Mods/{{ModId}}/comidas/sagu_de_vinho",
+          "SpriteIndex": 0
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/comidas/quentao_de_vinho",
+      "FromFile": "assets/comidas/quentao_de_vinho.png",
+      "LogName": "Sprite de Quentão de Vinho",
+      "When": {
+        "HasFile:assets/comidas/quentao_de_vinho.png": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "LogName": "Usar sprite de Quentão de Vinho",
+      "When": {
+        "HasFile:assets/comidas/quentao_de_vinho.png": "true"
+      },
+      "Fields": {
+        "belfortkafag.ValeDasAraucarias.Culinaria_QuentaoDeVinho": {
+          "Texture": "Mods/{{ModId}}/comidas/quentao_de_vinho",
+          "SpriteIndex": 0
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/comidas/bolinho_de_peixe",
+      "FromFile": "assets/comidas/bolinho_de_peixe.png",
+      "LogName": "Sprite de Bolinho de Peixe",
+      "When": {
+        "HasFile:assets/comidas/bolinho_de_peixe.png": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "LogName": "Usar sprite de Bolinho de Peixe",
+      "When": {
+        "HasFile:assets/comidas/bolinho_de_peixe.png": "true"
+      },
+      "Fields": {
+        "belfortkafag.ValeDasAraucarias.Culinaria_BolinhoDePeixe": {
+          "Texture": "Mods/{{ModId}}/comidas/bolinho_de_peixe",
+          "SpriteIndex": 0
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/comidas/peixe_ensopado_com_aipim",
+      "FromFile": "assets/comidas/peixe_ensopado_com_aipim.png",
+      "LogName": "Sprite de Peixe Ensopado com Aipim",
+      "When": {
+        "HasFile:assets/comidas/peixe_ensopado_com_aipim.png": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "LogName": "Usar sprite de Peixe Ensopado com Aipim",
+      "When": {
+        "HasFile:assets/comidas/peixe_ensopado_com_aipim.png": "true"
+      },
+      "Fields": {
+        "belfortkafag.ValeDasAraucarias.Culinaria_PeixeEnsopadoComAipim": {
+          "Texture": "Mods/{{ModId}}/comidas/peixe_ensopado_com_aipim",
+          "SpriteIndex": 0
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/comidas/tainha_assada",
+      "FromFile": "assets/comidas/tainha_assada.png",
+      "LogName": "Sprite de Tainha Assada",
+      "When": {
+        "HasFile:assets/comidas/tainha_assada.png": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "LogName": "Usar sprite de Tainha Assada",
+      "When": {
+        "HasFile:assets/comidas/tainha_assada.png": "true"
+      },
+      "Fields": {
+        "belfortkafag.ValeDasAraucarias.Culinaria_TainhaAssada": {
+          "Texture": "Mods/{{ModId}}/comidas/tainha_assada",
+          "SpriteIndex": 0
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/comidas/doce_de_jabuticaba",
+      "FromFile": "assets/comidas/doce_de_jabuticaba.png",
+      "LogName": "Sprite de Doce de Jabuticaba",
+      "When": {
+        "HasFile:assets/comidas/doce_de_jabuticaba.png": "true",
+        "FrutosDaJabuticabeira": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "LogName": "Usar sprite de Doce de Jabuticaba",
+      "When": {
+        "HasFile:assets/comidas/doce_de_jabuticaba.png": "true",
+        "FrutosDaJabuticabeira": "true"
+      },
+      "Fields": {
+        "belfortkafag.ValeDasAraucarias.Culinaria_DoceDeJabuticaba": {
+          "Texture": "Mods/{{ModId}}/comidas/doce_de_jabuticaba",
+          "SpriteIndex": 0
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/comidas/cuca_de_jabuticaba",
+      "FromFile": "assets/comidas/cuca_de_jabuticaba.png",
+      "LogName": "Sprite de Cuca de Jabuticaba",
+      "When": {
+        "HasFile:assets/comidas/cuca_de_jabuticaba.png": "true",
+        "FrutosDaJabuticabeira": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "LogName": "Usar sprite de Cuca de Jabuticaba",
+      "When": {
+        "HasFile:assets/comidas/cuca_de_jabuticaba.png": "true",
+        "FrutosDaJabuticabeira": "true"
+      },
+      "Fields": {
+        "belfortkafag.ValeDasAraucarias.Culinaria_CucaDeJabuticaba": {
+          "Texture": "Mods/{{ModId}}/comidas/cuca_de_jabuticaba",
+          "SpriteIndex": 0
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/comidas/compota_de_jabuticaba",
+      "FromFile": "assets/comidas/compota_de_jabuticaba.png",
+      "LogName": "Sprite de Compota de Jabuticaba",
+      "When": {
+        "HasFile:assets/comidas/compota_de_jabuticaba.png": "true",
+        "FrutosDaJabuticabeira": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "LogName": "Usar sprite de Compota de Jabuticaba",
+      "When": {
+        "HasFile:assets/comidas/compota_de_jabuticaba.png": "true",
+        "FrutosDaJabuticabeira": "true"
+      },
+      "Fields": {
+        "belfortkafag.ValeDasAraucarias.Culinaria_CompotaDeJabuticaba": {
+          "Texture": "Mods/{{ModId}}/comidas/compota_de_jabuticaba",
+          "SpriteIndex": 0
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/comidas/jabuticaba",
+      "FromFile": "assets/comidas/jabuticaba.png",
+      "LogName": "Sprite de Jabuticaba",
+      "When": {
+        "HasFile:assets/comidas/jabuticaba.png": "true",
+        "FrutosDaJabuticabeira": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "LogName": "Usar sprite de Jabuticaba",
+      "When": {
+        "HasFile:assets/comidas/jabuticaba.png": "true",
+        "FrutosDaJabuticabeira": "true"
+      },
+      "Fields": {
+        "belfortkafag.ValeDasAraucarias.Culinaria_Jabuticaba": {
+          "Texture": "Mods/{{ModId}}/comidas/jabuticaba",
+          "SpriteIndex": 0
+        }
+      }
+    }
+  ]
+}

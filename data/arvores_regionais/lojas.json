@@ -1,0 +1,98 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [
+        "Carpenter",
+        "Items"
+      ],
+      "LogName": "Robin - sementes (6)",
+      "Entries": {
+        "ValeAraucarias_Robin_Pinhao": {
+          "Id": "ValeAraucarias_Robin_Pinhao",
+          "ItemId": "(O)ValeDasAraucarias.Arvores_Pinhao",
+          "Price": 250
+        },
+        "ValeAraucarias_Robin_ErvaMateSeed": {
+          "Id": "ValeAraucarias_Robin_ErvaMateSeed",
+          "ItemId": "(O)ValeAraucarias_ErvaMateSeed",
+          "Price": 100
+        },
+        "ValeAraucarias_Robin_BracatingaSeed": {
+          "Id": "ValeAraucarias_Robin_BracatingaSeed",
+          "ItemId": "(O)ValeAraucarias_BracatingaSeed",
+          "Price": 75
+        },
+        "ValeAraucarias_Robin_JabuticabaSeed": {
+          "Id": "ValeAraucarias_Robin_JabuticabaSeed",
+          "ItemId": "(O)ValeAraucarias_JabuticabaSeed",
+          "Price": 300
+        },
+        "ValeAraucarias_Robin_CanelaPretaSeed": {
+          "Id": "ValeAraucarias_Robin_CanelaPretaSeed",
+          "ItemId": "(O)ValeAraucarias_CanelaPretaSeed",
+          "Price": 350
+        },
+        "ValeAraucarias_Robin_ButiaSeed": {
+          "Id": "ValeAraucarias_Robin_ButiaSeed",
+          "ItemId": "(O)ValeAraucarias_ButiaSeed",
+          "Price": 150
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [
+        "Traveler",
+        "Items"
+      ],
+      "LogName": "Carrinho de Viagem - sementes (6)",
+      "Entries": {
+        "ValeAraucarias_Carrinho_Pinhao": {
+          "Id": "ValeAraucarias_Carrinho_Pinhao",
+          "ItemId": "(O)ValeDasAraucarias.Arvores_Pinhao",
+          "Price": 250,
+          "IgnoreShopPriceModifiers": true,
+          "Condition": "SYNCED_RANDOM day ValeAraucarias_Carrinho_Pinhao 0.25"
+        },
+        "ValeAraucarias_Carrinho_ErvaMateSeed": {
+          "Id": "ValeAraucarias_Carrinho_ErvaMateSeed",
+          "ItemId": "(O)ValeAraucarias_ErvaMateSeed",
+          "Price": 100,
+          "IgnoreShopPriceModifiers": true,
+          "Condition": "SYNCED_RANDOM day ValeAraucarias_Carrinho_ErvaMateSeed 0.25"
+        },
+        "ValeAraucarias_Carrinho_BracatingaSeed": {
+          "Id": "ValeAraucarias_Carrinho_BracatingaSeed",
+          "ItemId": "(O)ValeAraucarias_BracatingaSeed",
+          "Price": 75,
+          "IgnoreShopPriceModifiers": true,
+          "Condition": "SYNCED_RANDOM day ValeAraucarias_Carrinho_BracatingaSeed 0.25"
+        },
+        "ValeAraucarias_Carrinho_JabuticabaSeed": {
+          "Id": "ValeAraucarias_Carrinho_JabuticabaSeed",
+          "ItemId": "(O)ValeAraucarias_JabuticabaSeed",
+          "Price": 300,
+          "IgnoreShopPriceModifiers": true,
+          "Condition": "SYNCED_RANDOM day ValeAraucarias_Carrinho_JabuticabaSeed 0.25"
+        },
+        "ValeAraucarias_Carrinho_CanelaPretaSeed": {
+          "Id": "ValeAraucarias_Carrinho_CanelaPretaSeed",
+          "ItemId": "(O)ValeAraucarias_CanelaPretaSeed",
+          "Price": 350,
+          "IgnoreShopPriceModifiers": true,
+          "Condition": "SYNCED_RANDOM day ValeAraucarias_Carrinho_CanelaPretaSeed 0.25"
+        },
+        "ValeAraucarias_Carrinho_ButiaSeed": {
+          "Id": "ValeAraucarias_Carrinho_ButiaSeed",
+          "ItemId": "(O)ValeAraucarias_ButiaSeed",
+          "Price": 150,
+          "IgnoreShopPriceModifiers": true,
+          "Condition": "SYNCED_RANDOM day ValeAraucarias_Carrinho_ButiaSeed 0.25"
+        }
+      }
+    }
+  ]
+}

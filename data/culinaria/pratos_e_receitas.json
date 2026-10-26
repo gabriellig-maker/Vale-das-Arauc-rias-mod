@@ -1,0 +1,751 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "LogName": "Pratos",
+      "Entries": {
+        "belfortkafag.ValeDasAraucarias.Culinaria_MandiocaCozida": {
+          "Name": "belfortkafag.ValeDasAraucarias.Culinaria_MandiocaCozida",
+          "DisplayName": "{{i18n:prato.MandiocaCozida.nome}}",
+          "Description": "{{i18n:prato.MandiocaCozida.desc}}",
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 120,
+          "SpriteIndex": 244,
+          "Edibility": 30,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true
+        },
+        "belfortkafag.ValeDasAraucarias.Culinaria_MandiocaFrita": {
+          "Name": "belfortkafag.ValeDasAraucarias.Culinaria_MandiocaFrita",
+          "DisplayName": "{{i18n:prato.MandiocaFrita.nome}}",
+          "Description": "{{i18n:prato.MandiocaFrita.desc}}",
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 220,
+          "SpriteIndex": 210,
+          "Edibility": 36,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true
+        },
+        "belfortkafag.ValeDasAraucarias.Culinaria_EscondidinhoDeMandioca": {
+          "Name": "belfortkafag.ValeDasAraucarias.Culinaria_EscondidinhoDeMandioca",
+          "DisplayName": "{{i18n:prato.EscondidinhoDeMandioca.nome}}",
+          "Description": "{{i18n:prato.EscondidinhoDeMandioca.desc}}",
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 380,
+          "SpriteIndex": 197,
+          "Edibility": 60,
+          "Buffs": [
+            {
+              "Id": "Prato",
+              "Duration": 600,
+              "CustomAttributes": {
+                "ForagingLevel": 1
+              }
+            }
+          ],
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true
+        },
+        "belfortkafag.ValeDasAraucarias.Culinaria_BatataDoceAssada": {
+          "Name": "belfortkafag.ValeDasAraucarias.Culinaria_BatataDoceAssada",
+          "DisplayName": "{{i18n:prato.BatataDoceAssada.nome}}",
+          "Description": "{{i18n:prato.BatataDoceAssada.desc}}",
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 140,
+          "SpriteIndex": 208,
+          "Edibility": 40,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true
+        },
+        "belfortkafag.ValeDasAraucarias.Culinaria_PolentaComMolho": {
+          "Name": "belfortkafag.ValeDasAraucarias.Culinaria_PolentaComMolho",
+          "DisplayName": "{{i18n:prato.PolentaComMolho.nome}}",
+          "Description": "{{i18n:prato.PolentaComMolho.desc}}",
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 240,
+          "SpriteIndex": 231,
+          "Edibility": 52,
+          "Buffs": [
+            {
+              "Id": "Prato",
+              "Duration": 600,
+              "CustomAttributes": {
+                "FarmingLevel": 1
+              }
+            }
+          ],
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true
+        },
+        "belfortkafag.ValeDasAraucarias.Culinaria_PolentaFrita": {
+          "Name": "belfortkafag.ValeDasAraucarias.Culinaria_PolentaFrita",
+          "DisplayName": "{{i18n:prato.PolentaFrita.nome}}",
+          "Description": "{{i18n:prato.PolentaFrita.desc}}",
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 200,
+          "SpriteIndex": 731,
+          "Edibility": 36,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true
+        },
+        "belfortkafag.ValeDasAraucarias.Culinaria_ArrozComPinhao": {
+          "Name": "belfortkafag.ValeDasAraucarias.Culinaria_ArrozComPinhao",
+          "DisplayName": "{{i18n:prato.ArrozComPinhao.nome}}",
+          "Description": "{{i18n:prato.ArrozComPinhao.desc}}",
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 360,
+          "SpriteIndex": 649,
+          "Edibility": 64,
+          "Buffs": [
+            {
+              "Id": "Prato",
+              "Duration": 600,
+              "CustomAttributes": {
+                "ForagingLevel": 1
+              }
+            }
+          ],
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true
+        },
+        "belfortkafag.ValeDasAraucarias.Culinaria_FeijaoPretoTemperado": {
+          "Name": "belfortkafag.ValeDasAraucarias.Culinaria_FeijaoPretoTemperado",
+          "DisplayName": "{{i18n:prato.FeijaoPretoTemperado.nome}}",
+          "Description": "{{i18n:prato.FeijaoPretoTemperado.desc}}",
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 250,
+          "SpriteIndex": 207,
+          "Edibility": 50,
+          "Buffs": [
+            {
+              "Id": "Prato",
+              "Duration": 600,
+              "CustomAttributes": {
+                "MaxStamina": 30
+              }
+            }
+          ],
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true
+        },
+        "belfortkafag.ValeDasAraucarias.Culinaria_PinhaoCozido": {
+          "Name": "belfortkafag.ValeDasAraucarias.Culinaria_PinhaoCozido",
+          "DisplayName": "{{i18n:prato.PinhaoCozido.nome}}",
+          "Description": "{{i18n:prato.PinhaoCozido.desc}}",
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 180,
+          "SpriteIndex": 607,
+          "Edibility": 34,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true
+        },
+        "belfortkafag.ValeDasAraucarias.Culinaria_PacocaDePinhao": {
+          "Name": "belfortkafag.ValeDasAraucarias.Culinaria_PacocaDePinhao",
+          "DisplayName": "{{i18n:prato.PacocaDePinhao.nome}}",
+          "Description": "{{i18n:prato.PacocaDePinhao.desc}}",
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 320,
+          "SpriteIndex": 239,
+          "Edibility": 56,
+          "Buffs": [
+            {
+              "Id": "Prato",
+              "Duration": 600,
+              "CustomAttributes": {
+                "ForagingLevel": 2
+              }
+            }
+          ],
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true
+        },
+        "belfortkafag.ValeDasAraucarias.Culinaria_EntreveroDePinhao": {
+          "Name": "belfortkafag.ValeDasAraucarias.Culinaria_EntreveroDePinhao",
+          "DisplayName": "{{i18n:prato.EntreveroDePinhao.nome}}",
+          "Description": "{{i18n:prato.EntreveroDePinhao.desc}}",
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 380,
+          "SpriteIndex": 606,
+          "Edibility": 70,
+          "Buffs": [
+            {
+              "Id": "Prato",
+              "Duration": 600,
+              "CustomAttributes": {
+                "FarmingLevel": 1,
+                "ForagingLevel": 1
+              }
+            }
+          ],
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true
+        },
+        "belfortkafag.ValeDasAraucarias.Culinaria_Chimarrao": {
+          "Name": "belfortkafag.ValeDasAraucarias.Culinaria_Chimarrao",
+          "DisplayName": "{{i18n:prato.Chimarrao.nome}}",
+          "Description": "{{i18n:prato.Chimarrao.desc}}",
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 110,
+          "SpriteIndex": 395,
+          "Edibility": 10,
+          "IsDrink": true,
+          "Buffs": [
+            {
+              "Id": "Prato",
+              "Duration": 240,
+              "CustomAttributes": {
+                "Speed": 1
+              }
+            }
+          ],
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true
+        },
+        "belfortkafag.ValeDasAraucarias.Culinaria_Terere": {
+          "Name": "belfortkafag.ValeDasAraucarias.Culinaria_Terere",
+          "DisplayName": "{{i18n:prato.Terere.nome}}",
+          "Description": "{{i18n:prato.Terere.desc}}",
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 130,
+          "SpriteIndex": 903,
+          "Edibility": 20,
+          "IsDrink": true,
+          "Buffs": [
+            {
+              "Id": "Prato",
+              "Duration": 150,
+              "CustomAttributes": {
+                "Speed": 1
+              }
+            }
+          ],
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true
+        },
+        "belfortkafag.ValeDasAraucarias.Culinaria_SucoDeButia": {
+          "Name": "belfortkafag.ValeDasAraucarias.Culinaria_SucoDeButia",
+          "DisplayName": "{{i18n:prato.SucoDeButia.nome}}",
+          "Description": "{{i18n:prato.SucoDeButia.desc}}",
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 160,
+          "SpriteIndex": 346,
+          "Edibility": 25,
+          "IsDrink": true,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true
+        },
+        "belfortkafag.ValeDasAraucarias.Culinaria_TortaDeButia": {
+          "Name": "belfortkafag.ValeDasAraucarias.Culinaria_TortaDeButia",
+          "DisplayName": "{{i18n:prato.TortaDeButia.nome}}",
+          "Description": "{{i18n:prato.TortaDeButia.desc}}",
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 280,
+          "SpriteIndex": 608,
+          "Edibility": 60,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true
+        },
+        "belfortkafag.ValeDasAraucarias.Culinaria_CucaDeUva": {
+          "Name": "belfortkafag.ValeDasAraucarias.Culinaria_CucaDeUva",
+          "DisplayName": "{{i18n:prato.CucaDeUva.nome}}",
+          "Description": "{{i18n:prato.CucaDeUva.desc}}",
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 280,
+          "SpriteIndex": 611,
+          "Edibility": 64,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true
+        },
+        "belfortkafag.ValeDasAraucarias.Culinaria_CucaDeBanana": {
+          "Name": "belfortkafag.ValeDasAraucarias.Culinaria_CucaDeBanana",
+          "DisplayName": "{{i18n:prato.CucaDeBanana.nome}}",
+          "Description": "{{i18n:prato.CucaDeBanana.desc}}",
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 340,
+          "SpriteIndex": 904,
+          "Edibility": 64,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true
+        },
+        "belfortkafag.ValeDasAraucarias.Culinaria_BoloDeMaracuja": {
+          "Name": "belfortkafag.ValeDasAraucarias.Culinaria_BoloDeMaracuja",
+          "DisplayName": "{{i18n:prato.BoloDeMaracuja.nome}}",
+          "Description": "{{i18n:prato.BoloDeMaracuja.desc}}",
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 300,
+          "SpriteIndex": 221,
+          "Edibility": 60,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true
+        },
+        "belfortkafag.ValeDasAraucarias.Culinaria_MingauDeAveia": {
+          "Name": "belfortkafag.ValeDasAraucarias.Culinaria_MingauDeAveia",
+          "DisplayName": "{{i18n:prato.MingauDeAveia.nome}}",
+          "Description": "{{i18n:prato.MingauDeAveia.desc}}",
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 240,
+          "SpriteIndex": 232,
+          "Edibility": 50,
+          "Buffs": [
+            {
+              "Id": "Prato",
+              "Duration": 600,
+              "CustomAttributes": {
+                "MaxStamina": 30
+              }
+            }
+          ],
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true
+        },
+        "belfortkafag.ValeDasAraucarias.Culinaria_PaoDeCenteio": {
+          "Name": "belfortkafag.ValeDasAraucarias.Culinaria_PaoDeCenteio",
+          "DisplayName": "{{i18n:prato.PaoDeCenteio.nome}}",
+          "Description": "{{i18n:prato.PaoDeCenteio.desc}}",
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 140,
+          "SpriteIndex": 216,
+          "Edibility": 40,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true
+        },
+        "belfortkafag.ValeDasAraucarias.Culinaria_SopaDeCevadinha": {
+          "Name": "belfortkafag.ValeDasAraucarias.Culinaria_SopaDeCevadinha",
+          "DisplayName": "{{i18n:prato.SopaDeCevadinha.nome}}",
+          "Description": "{{i18n:prato.SopaDeCevadinha.desc}}",
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 240,
+          "SpriteIndex": 457,
+          "Edibility": 56,
+          "Buffs": [
+            {
+              "Id": "Prato",
+              "Duration": 600,
+              "CustomAttributes": {
+                "Defense": 2
+              }
+            }
+          ],
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true
+        },
+        "belfortkafag.ValeDasAraucarias.Culinaria_CuecaVirada": {
+          "Name": "belfortkafag.ValeDasAraucarias.Culinaria_CuecaVirada",
+          "DisplayName": "{{i18n:prato.CuecaVirada.nome}}",
+          "Description": "{{i18n:prato.CuecaVirada.desc}}",
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 260,
+          "SpriteIndex": 223,
+          "Edibility": 40,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true
+        },
+        "belfortkafag.ValeDasAraucarias.Culinaria_SaguDeVinho": {
+          "Name": "belfortkafag.ValeDasAraucarias.Culinaria_SaguDeVinho",
+          "DisplayName": "{{i18n:prato.SaguDeVinho.nome}}",
+          "Description": "{{i18n:prato.SaguDeVinho.desc}}",
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 260,
+          "SpriteIndex": 238,
+          "Edibility": 50,
+          "Buffs": [
+            {
+              "Id": "Prato",
+              "Duration": 600,
+              "CustomAttributes": {
+                "LuckLevel": 1
+              }
+            }
+          ],
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true
+        },
+        "belfortkafag.ValeDasAraucarias.Culinaria_QuentaoDeVinho": {
+          "Name": "belfortkafag.ValeDasAraucarias.Culinaria_QuentaoDeVinho",
+          "DisplayName": "{{i18n:prato.QuentaoDeVinho.nome}}",
+          "Description": "{{i18n:prato.QuentaoDeVinho.desc}}",
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 240,
+          "SpriteIndex": 348,
+          "Edibility": 25,
+          "IsDrink": true,
+          "Buffs": [
+            {
+              "Id": "Prato",
+              "Duration": 600,
+              "CustomAttributes": {
+                "LuckLevel": 2
+              }
+            }
+          ],
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true
+        },
+        "belfortkafag.ValeDasAraucarias.Culinaria_BolinhoDePeixe": {
+          "Name": "belfortkafag.ValeDasAraucarias.Culinaria_BolinhoDePeixe",
+          "DisplayName": "{{i18n:prato.BolinhoDePeixe.nome}}",
+          "Description": "{{i18n:prato.BolinhoDePeixe.desc}}",
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 260,
+          "SpriteIndex": 205,
+          "Edibility": 50,
+          "Buffs": [
+            {
+              "Id": "Prato",
+              "Duration": 600,
+              "CustomAttributes": {
+                "FishingLevel": 1
+              }
+            }
+          ],
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true
+        },
+        "belfortkafag.ValeDasAraucarias.Culinaria_PeixeEnsopadoComAipim": {
+          "Name": "belfortkafag.ValeDasAraucarias.Culinaria_PeixeEnsopadoComAipim",
+          "DisplayName": "{{i18n:prato.PeixeEnsopadoComAipim.nome}}",
+          "Description": "{{i18n:prato.PeixeEnsopadoComAipim.desc}}",
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 330,
+          "SpriteIndex": 728,
+          "Edibility": 80,
+          "Buffs": [
+            {
+              "Id": "Prato",
+              "Duration": 600,
+              "CustomAttributes": {
+                "FishingLevel": 1,
+                "Defense": 1
+              }
+            }
+          ],
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true
+        },
+        "belfortkafag.ValeDasAraucarias.Culinaria_TainhaAssada": {
+          "Name": "belfortkafag.ValeDasAraucarias.Culinaria_TainhaAssada",
+          "DisplayName": "{{i18n:prato.TainhaAssada.nome}}",
+          "Description": "{{i18n:prato.TainhaAssada.desc}}",
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 260,
+          "SpriteIndex": 198,
+          "Edibility": 60,
+          "Buffs": [
+            {
+              "Id": "Prato",
+              "Duration": 600,
+              "CustomAttributes": {
+                "FishingLevel": 2
+              }
+            }
+          ],
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/CookingRecipes",
+      "LogName": "Receitas",
+      "Entries": {
+        "belfortkafag.ValeDasAraucarias.Culinaria_MandiocaCozida": "ValeDasAraucarias.Cultivos_Mandioca 1/1 10/belfortkafag.ValeDasAraucarias.Culinaria_MandiocaCozida/none/",
+        "belfortkafag.ValeDasAraucarias.Culinaria_MandiocaFrita": "ValeDasAraucarias.Cultivos_Mandioca 1 247 1/1 10/belfortkafag.ValeDasAraucarias.Culinaria_MandiocaFrita/none/",
+        "belfortkafag.ValeDasAraucarias.Culinaria_EscondidinhoDeMandioca": "ValeDasAraucarias.Cultivos_Mandioca 1 404 1 424 1/1 10/belfortkafag.ValeDasAraucarias.Culinaria_EscondidinhoDeMandioca/none/",
+        "belfortkafag.ValeDasAraucarias.Culinaria_BatataDoceAssada": "ValeDasAraucarias.Cultivos_BatataDoce 1/1 10/belfortkafag.ValeDasAraucarias.Culinaria_BatataDoceAssada/none/",
+        "belfortkafag.ValeDasAraucarias.Culinaria_PolentaComMolho": "ValeDasAraucarias.Processados_FarinhaDeMilho 1 256 1 ValeDasAraucarias.Cultivos_Cebola 1/1 10/belfortkafag.ValeDasAraucarias.Culinaria_PolentaComMolho/none/",
+        "belfortkafag.ValeDasAraucarias.Culinaria_PolentaFrita": "ValeDasAraucarias.Processados_FarinhaDeMilho 1 247 1/1 10/belfortkafag.ValeDasAraucarias.Culinaria_PolentaFrita/none/",
+        "belfortkafag.ValeDasAraucarias.Culinaria_ArrozComPinhao": "423 1 ValeDasAraucarias.Arvores_Pinhao 2 ValeDasAraucarias.Cultivos_Cebola 1/1 10/belfortkafag.ValeDasAraucarias.Culinaria_ArrozComPinhao/none/",
+        "belfortkafag.ValeDasAraucarias.Culinaria_FeijaoPretoTemperado": "ValeDasAraucarias.Cultivos_FeijaoPreto 2 ValeDasAraucarias.Cultivos_Cebola 1 248 1/1 10/belfortkafag.ValeDasAraucarias.Culinaria_FeijaoPretoTemperado/none/",
+        "belfortkafag.ValeDasAraucarias.Culinaria_PinhaoCozido": "ValeDasAraucarias.Arvores_Pinhao 2/1 10/belfortkafag.ValeDasAraucarias.Culinaria_PinhaoCozido/none/",
+        "belfortkafag.ValeDasAraucarias.Culinaria_PacocaDePinhao": "ValeDasAraucarias.Arvores_Pinhao 2 ValeDasAraucarias.Cultivos_Cebola 1 248 1/1 10/belfortkafag.ValeDasAraucarias.Culinaria_PacocaDePinhao/none/",
+        "belfortkafag.ValeDasAraucarias.Culinaria_EntreveroDePinhao": "ValeDasAraucarias.Arvores_Pinhao 2 ValeDasAraucarias.Cultivos_Pimentao 1 ValeDasAraucarias.Cultivos_Cebola 1 256 1/1 10/belfortkafag.ValeDasAraucarias.Culinaria_EntreveroDePinhao/none/",
+        "belfortkafag.ValeDasAraucarias.Culinaria_Chimarrao": "ValeDasAraucarias.Arvores_FolhasErvaMate 2/1 10/belfortkafag.ValeDasAraucarias.Culinaria_Chimarrao/none/",
+        "belfortkafag.ValeDasAraucarias.Culinaria_Terere": "ValeDasAraucarias.Arvores_FolhasErvaMate 1 ValeDasAraucarias.Cultivos_Maracuja 1/1 10/belfortkafag.ValeDasAraucarias.Culinaria_Terere/none/",
+        "belfortkafag.ValeDasAraucarias.Culinaria_SucoDeButia": "ValeAraucarias_Butia 2 245 1/1 10/belfortkafag.ValeDasAraucarias.Culinaria_SucoDeButia/none/",
+        "belfortkafag.ValeDasAraucarias.Culinaria_TortaDeButia": "ValeAraucarias_Butia 2 246 1 245 1 -5 1/1 10/belfortkafag.ValeDasAraucarias.Culinaria_TortaDeButia/none/",
+        "belfortkafag.ValeDasAraucarias.Culinaria_CucaDeUva": "398 1 246 1 245 1 -5 1/1 10/belfortkafag.ValeDasAraucarias.Culinaria_CucaDeUva/none/",
+        "belfortkafag.ValeDasAraucarias.Culinaria_CucaDeBanana": "91 1 246 1 245 1 -5 1/1 10/belfortkafag.ValeDasAraucarias.Culinaria_CucaDeBanana/none/",
+        "belfortkafag.ValeDasAraucarias.Culinaria_BoloDeMaracuja": "ValeDasAraucarias.Cultivos_Maracuja 2 246 1 245 1 -5 1/1 10/belfortkafag.ValeDasAraucarias.Culinaria_BoloDeMaracuja/none/",
+        "belfortkafag.ValeDasAraucarias.Culinaria_MingauDeAveia": "ValeDasAraucarias.Processados_AveiaEmFlocos 1 -6 1 245 1/1 10/belfortkafag.ValeDasAraucarias.Culinaria_MingauDeAveia/none/",
+        "belfortkafag.ValeDasAraucarias.Culinaria_PaoDeCenteio": "ValeDasAraucarias.Cultivos_Centeio 2 246 1/1 10/belfortkafag.ValeDasAraucarias.Culinaria_PaoDeCenteio/none/",
+        "belfortkafag.ValeDasAraucarias.Culinaria_SopaDeCevadinha": "ValeDasAraucarias.Cultivos_Cevada 2 ValeDasAraucarias.Cultivos_Cebola 1 192 1/1 10/belfortkafag.ValeDasAraucarias.Culinaria_SopaDeCevadinha/none/",
+        "belfortkafag.ValeDasAraucarias.Culinaria_CuecaVirada": "246 1 -5 1 245 1 247 1/1 10/belfortkafag.ValeDasAraucarias.Culinaria_CuecaVirada/none/",
+        "belfortkafag.ValeDasAraucarias.Culinaria_SaguDeVinho": "ValeDasAraucarias.Cultivos_Mandioca 1 348 1 245 1/1 10/belfortkafag.ValeDasAraucarias.Culinaria_SaguDeVinho/none/",
+        "belfortkafag.ValeDasAraucarias.Culinaria_QuentaoDeVinho": "348 1 829 1 245 1/1 10/belfortkafag.ValeDasAraucarias.Culinaria_QuentaoDeVinho/none/",
+        "belfortkafag.ValeDasAraucarias.Culinaria_BolinhoDePeixe": "-4 1 246 1 -5 1 247 1/1 10/belfortkafag.ValeDasAraucarias.Culinaria_BolinhoDePeixe/none/",
+        "belfortkafag.ValeDasAraucarias.Culinaria_PeixeEnsopadoComAipim": "-4 1 ValeDasAraucarias.Cultivos_Mandioca 1 ValeDasAraucarias.Cultivos_Cebola 1 256 1/1 10/belfortkafag.ValeDasAraucarias.Culinaria_PeixeEnsopadoComAipim/none/",
+        "belfortkafag.ValeDasAraucarias.Culinaria_TainhaAssada": "146 1 ValeDasAraucarias.Cultivos_Cebola 1 248 1/1 10/belfortkafag.ValeDasAraucarias.Culinaria_TainhaAssada/none/"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [
+        "SeedShop",
+        "Items"
+      ],
+      "LogName": "Receitas à venda - Armazém do Pierre",
+      "Entries": {
+        "belfortkafag.ValeDasAraucarias.Culinaria_MandiocaFrita_Receita": {
+          "Id": "belfortkafag.ValeDasAraucarias.Culinaria_MandiocaFrita_Receita",
+          "ItemId": "(O)belfortkafag.ValeDasAraucarias.Culinaria_MandiocaFrita",
+          "IsRecipe": true,
+          "Price": 250
+        },
+        "belfortkafag.ValeDasAraucarias.Culinaria_BatataDoceAssada_Receita": {
+          "Id": "belfortkafag.ValeDasAraucarias.Culinaria_BatataDoceAssada_Receita",
+          "ItemId": "(O)belfortkafag.ValeDasAraucarias.Culinaria_BatataDoceAssada",
+          "IsRecipe": true,
+          "Price": 200
+        },
+        "belfortkafag.ValeDasAraucarias.Culinaria_PolentaFrita_Receita": {
+          "Id": "belfortkafag.ValeDasAraucarias.Culinaria_PolentaFrita_Receita",
+          "ItemId": "(O)belfortkafag.ValeDasAraucarias.Culinaria_PolentaFrita",
+          "IsRecipe": true,
+          "Price": 250
+        },
+        "belfortkafag.ValeDasAraucarias.Culinaria_PaoDeCenteio_Receita": {
+          "Id": "belfortkafag.ValeDasAraucarias.Culinaria_PaoDeCenteio_Receita",
+          "ItemId": "(O)belfortkafag.ValeDasAraucarias.Culinaria_PaoDeCenteio",
+          "IsRecipe": true,
+          "Price": 250
+        },
+        "belfortkafag.ValeDasAraucarias.Culinaria_SopaDeCevadinha_Receita": {
+          "Id": "belfortkafag.ValeDasAraucarias.Culinaria_SopaDeCevadinha_Receita",
+          "ItemId": "(O)belfortkafag.ValeDasAraucarias.Culinaria_SopaDeCevadinha",
+          "IsRecipe": true,
+          "Price": 300
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [
+        "Saloon",
+        "Items"
+      ],
+      "LogName": "Receitas à venda - Saloon do Gus",
+      "Entries": {
+        "belfortkafag.ValeDasAraucarias.Culinaria_EscondidinhoDeMandioca_Receita": {
+          "Id": "belfortkafag.ValeDasAraucarias.Culinaria_EscondidinhoDeMandioca_Receita",
+          "ItemId": "(O)belfortkafag.ValeDasAraucarias.Culinaria_EscondidinhoDeMandioca",
+          "IsRecipe": true,
+          "Price": 300
+        },
+        "belfortkafag.ValeDasAraucarias.Culinaria_PolentaComMolho_Receita": {
+          "Id": "belfortkafag.ValeDasAraucarias.Culinaria_PolentaComMolho_Receita",
+          "ItemId": "(O)belfortkafag.ValeDasAraucarias.Culinaria_PolentaComMolho",
+          "IsRecipe": true,
+          "Price": 250
+        },
+        "belfortkafag.ValeDasAraucarias.Culinaria_BoloDeMaracuja_Receita": {
+          "Id": "belfortkafag.ValeDasAraucarias.Culinaria_BoloDeMaracuja_Receita",
+          "ItemId": "(O)belfortkafag.ValeDasAraucarias.Culinaria_BoloDeMaracuja",
+          "IsRecipe": true,
+          "Price": 300
+        },
+        "belfortkafag.ValeDasAraucarias.Culinaria_SaguDeVinho_Receita": {
+          "Id": "belfortkafag.ValeDasAraucarias.Culinaria_SaguDeVinho_Receita",
+          "ItemId": "(O)belfortkafag.ValeDasAraucarias.Culinaria_SaguDeVinho",
+          "IsRecipe": true,
+          "Price": 350
+        },
+        "belfortkafag.ValeDasAraucarias.Culinaria_PeixeEnsopadoComAipim_Receita": {
+          "Id": "belfortkafag.ValeDasAraucarias.Culinaria_PeixeEnsopadoComAipim_Receita",
+          "ItemId": "(O)belfortkafag.ValeDasAraucarias.Culinaria_PeixeEnsopadoComAipim",
+          "IsRecipe": true,
+          "Price": 400
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [
+        "AnimalShop",
+        "Items"
+      ],
+      "LogName": "Receitas à venda - Rancho da Marnie",
+      "Entries": {
+        "belfortkafag.ValeDasAraucarias.Culinaria_MingauDeAveia_Receita": {
+          "Id": "belfortkafag.ValeDasAraucarias.Culinaria_MingauDeAveia_Receita",
+          "ItemId": "(O)belfortkafag.ValeDasAraucarias.Culinaria_MingauDeAveia",
+          "IsRecipe": true,
+          "Price": 200
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/mail",
+      "LogName": "Cartas com receitas",
+      "Entries": {
+        "belfortkafag.ValeDasAraucarias.Culinaria_Carta_MandiocaCozida": "{{i18n:carta.MandiocaCozida.texto}}%item cookingRecipe belfortkafag.ValeDasAraucarias.Culinaria_MandiocaCozida %%[#]{{i18n:carta.MandiocaCozida.titulo}}",
+        "belfortkafag.ValeDasAraucarias.Culinaria_Carta_ArrozComPinhao": "{{i18n:carta.ArrozComPinhao.texto}}%item cookingRecipe belfortkafag.ValeDasAraucarias.Culinaria_ArrozComPinhao %%[#]{{i18n:carta.ArrozComPinhao.titulo}}",
+        "belfortkafag.ValeDasAraucarias.Culinaria_Carta_FeijaoPretoTemperado": "{{i18n:carta.FeijaoPretoTemperado.texto}}%item cookingRecipe belfortkafag.ValeDasAraucarias.Culinaria_FeijaoPretoTemperado %%[#]{{i18n:carta.FeijaoPretoTemperado.titulo}}",
+        "belfortkafag.ValeDasAraucarias.Culinaria_Carta_PinhaoCozido": "{{i18n:carta.PinhaoCozido.texto}}%item cookingRecipe belfortkafag.ValeDasAraucarias.Culinaria_PinhaoCozido %%[#]{{i18n:carta.PinhaoCozido.titulo}}",
+        "belfortkafag.ValeDasAraucarias.Culinaria_Carta_PacocaDePinhao": "{{i18n:carta.PacocaDePinhao.texto}}%item cookingRecipe belfortkafag.ValeDasAraucarias.Culinaria_PacocaDePinhao %%[#]{{i18n:carta.PacocaDePinhao.titulo}}",
+        "belfortkafag.ValeDasAraucarias.Culinaria_Carta_EntreveroDePinhao": "{{i18n:carta.EntreveroDePinhao.texto}}%item cookingRecipe belfortkafag.ValeDasAraucarias.Culinaria_EntreveroDePinhao %%[#]{{i18n:carta.EntreveroDePinhao.titulo}}",
+        "belfortkafag.ValeDasAraucarias.Culinaria_Carta_Chimarrao": "{{i18n:carta.Chimarrao.texto}}%item cookingRecipe belfortkafag.ValeDasAraucarias.Culinaria_Chimarrao %%[#]{{i18n:carta.Chimarrao.titulo}}",
+        "belfortkafag.ValeDasAraucarias.Culinaria_Carta_Terere": "{{i18n:carta.Terere.texto}}%item cookingRecipe belfortkafag.ValeDasAraucarias.Culinaria_Terere %%[#]{{i18n:carta.Terere.titulo}}",
+        "belfortkafag.ValeDasAraucarias.Culinaria_Carta_SucoDeButia": "{{i18n:carta.SucoDeButia.texto}}%item cookingRecipe belfortkafag.ValeDasAraucarias.Culinaria_SucoDeButia %%[#]{{i18n:carta.SucoDeButia.titulo}}",
+        "belfortkafag.ValeDasAraucarias.Culinaria_Carta_TortaDeButia": "{{i18n:carta.TortaDeButia.texto}}%item cookingRecipe belfortkafag.ValeDasAraucarias.Culinaria_TortaDeButia %%[#]{{i18n:carta.TortaDeButia.titulo}}",
+        "belfortkafag.ValeDasAraucarias.Culinaria_Carta_CucaDeUva": "{{i18n:carta.CucaDeUva.texto}}%item cookingRecipe belfortkafag.ValeDasAraucarias.Culinaria_CucaDeUva %%[#]{{i18n:carta.CucaDeUva.titulo}}",
+        "belfortkafag.ValeDasAraucarias.Culinaria_Carta_CucaDeBanana": "{{i18n:carta.CucaDeBanana.texto}}%item cookingRecipe belfortkafag.ValeDasAraucarias.Culinaria_CucaDeBanana %%[#]{{i18n:carta.CucaDeBanana.titulo}}",
+        "belfortkafag.ValeDasAraucarias.Culinaria_Carta_CuecaVirada": "{{i18n:carta.CuecaVirada.texto}}%item cookingRecipe belfortkafag.ValeDasAraucarias.Culinaria_CuecaVirada %%[#]{{i18n:carta.CuecaVirada.titulo}}",
+        "belfortkafag.ValeDasAraucarias.Culinaria_Carta_QuentaoDeVinho": "{{i18n:carta.QuentaoDeVinho.texto}}%item cookingRecipe belfortkafag.ValeDasAraucarias.Culinaria_QuentaoDeVinho %%[#]{{i18n:carta.QuentaoDeVinho.titulo}}",
+        "belfortkafag.ValeDasAraucarias.Culinaria_Carta_BolinhoDePeixe": "{{i18n:carta.BolinhoDePeixe.texto}}%item cookingRecipe belfortkafag.ValeDasAraucarias.Culinaria_BolinhoDePeixe %%[#]{{i18n:carta.BolinhoDePeixe.titulo}}",
+        "belfortkafag.ValeDasAraucarias.Culinaria_Carta_TainhaAssada": "{{i18n:carta.TainhaAssada.texto}}%item cookingRecipe belfortkafag.ValeDasAraucarias.Culinaria_TainhaAssada %%[#]{{i18n:carta.TainhaAssada.titulo}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "LogName": "Envio das cartas",
+      "Entries": {
+        "belfortkafag.ValeDasAraucarias.Culinaria_EnviarCarta_MandiocaCozida": {
+          "Id": "belfortkafag.ValeDasAraucarias.Culinaria_EnviarCarta_MandiocaCozida",
+          "Trigger": "DayStarted",
+          "Condition": "DAYS_PLAYED 3, !PLAYER_HAS_COOKING_RECIPE Current belfortkafag.ValeDasAraucarias.Culinaria_MandiocaCozida",
+          "Action": "AddMail Current belfortkafag.ValeDasAraucarias.Culinaria_Carta_MandiocaCozida now",
+          "HostOnly": false
+        },
+        "belfortkafag.ValeDasAraucarias.Culinaria_EnviarCarta_ArrozComPinhao": {
+          "Id": "belfortkafag.ValeDasAraucarias.Culinaria_EnviarCarta_ArrozComPinhao",
+          "Trigger": "DayStarted",
+          "Condition": "PLAYER_HEARTS Current Lewis 3, !PLAYER_HAS_COOKING_RECIPE Current belfortkafag.ValeDasAraucarias.Culinaria_ArrozComPinhao",
+          "Action": "AddMail Current belfortkafag.ValeDasAraucarias.Culinaria_Carta_ArrozComPinhao now",
+          "HostOnly": false
+        },
+        "belfortkafag.ValeDasAraucarias.Culinaria_EnviarCarta_FeijaoPretoTemperado": {
+          "Id": "belfortkafag.ValeDasAraucarias.Culinaria_EnviarCarta_FeijaoPretoTemperado",
+          "Trigger": "DayStarted",
+          "Condition": "PLAYER_HEARTS Current Jodi 3, !PLAYER_HAS_COOKING_RECIPE Current belfortkafag.ValeDasAraucarias.Culinaria_FeijaoPretoTemperado",
+          "Action": "AddMail Current belfortkafag.ValeDasAraucarias.Culinaria_Carta_FeijaoPretoTemperado now",
+          "HostOnly": false
+        },
+        "belfortkafag.ValeDasAraucarias.Culinaria_EnviarCarta_PinhaoCozido": {
+          "Id": "belfortkafag.ValeDasAraucarias.Culinaria_EnviarCarta_PinhaoCozido",
+          "Trigger": "DayStarted",
+          "Condition": "PLAYER_HEARTS Current Linus 2, !PLAYER_HAS_COOKING_RECIPE Current belfortkafag.ValeDasAraucarias.Culinaria_PinhaoCozido",
+          "Action": "AddMail Current belfortkafag.ValeDasAraucarias.Culinaria_Carta_PinhaoCozido now",
+          "HostOnly": false
+        },
+        "belfortkafag.ValeDasAraucarias.Culinaria_EnviarCarta_PacocaDePinhao": {
+          "Id": "belfortkafag.ValeDasAraucarias.Culinaria_EnviarCarta_PacocaDePinhao",
+          "Trigger": "DayStarted",
+          "Condition": "PLAYER_HEARTS Current Linus 5, !PLAYER_HAS_COOKING_RECIPE Current belfortkafag.ValeDasAraucarias.Culinaria_PacocaDePinhao",
+          "Action": "AddMail Current belfortkafag.ValeDasAraucarias.Culinaria_Carta_PacocaDePinhao now",
+          "HostOnly": false
+        },
+        "belfortkafag.ValeDasAraucarias.Culinaria_EnviarCarta_EntreveroDePinhao": {
+          "Id": "belfortkafag.ValeDasAraucarias.Culinaria_EnviarCarta_EntreveroDePinhao",
+          "Trigger": "DayStarted",
+          "Condition": "PLAYER_HEARTS Current Robin 4, !PLAYER_HAS_COOKING_RECIPE Current belfortkafag.ValeDasAraucarias.Culinaria_EntreveroDePinhao",
+          "Action": "AddMail Current belfortkafag.ValeDasAraucarias.Culinaria_Carta_EntreveroDePinhao now",
+          "HostOnly": false
+        },
+        "belfortkafag.ValeDasAraucarias.Culinaria_EnviarCarta_Chimarrao": {
+          "Id": "belfortkafag.ValeDasAraucarias.Culinaria_EnviarCarta_Chimarrao",
+          "Trigger": "DayStarted",
+          "Condition": "PLAYER_HEARTS Current Caroline 2, !PLAYER_HAS_COOKING_RECIPE Current belfortkafag.ValeDasAraucarias.Culinaria_Chimarrao",
+          "Action": "AddMail Current belfortkafag.ValeDasAraucarias.Culinaria_Carta_Chimarrao now",
+          "HostOnly": false
+        },
+        "belfortkafag.ValeDasAraucarias.Culinaria_EnviarCarta_Terere": {
+          "Id": "belfortkafag.ValeDasAraucarias.Culinaria_EnviarCarta_Terere",
+          "Trigger": "DayStarted",
+          "Condition": "PLAYER_HEARTS Current Caroline 5, !PLAYER_HAS_COOKING_RECIPE Current belfortkafag.ValeDasAraucarias.Culinaria_Terere",
+          "Action": "AddMail Current belfortkafag.ValeDasAraucarias.Culinaria_Carta_Terere now",
+          "HostOnly": false
+        },
+        "belfortkafag.ValeDasAraucarias.Culinaria_EnviarCarta_SucoDeButia": {
+          "Id": "belfortkafag.ValeDasAraucarias.Culinaria_EnviarCarta_SucoDeButia",
+          "Trigger": "DayStarted",
+          "Condition": "PLAYER_HEARTS Current Leah 3, !PLAYER_HAS_COOKING_RECIPE Current belfortkafag.ValeDasAraucarias.Culinaria_SucoDeButia",
+          "Action": "AddMail Current belfortkafag.ValeDasAraucarias.Culinaria_Carta_SucoDeButia now",
+          "HostOnly": false
+        },
+        "belfortkafag.ValeDasAraucarias.Culinaria_EnviarCarta_TortaDeButia": {
+          "Id": "belfortkafag.ValeDasAraucarias.Culinaria_EnviarCarta_TortaDeButia",
+          "Trigger": "DayStarted",
+          "Condition": "PLAYER_HEARTS Current Leah 6, !PLAYER_HAS_COOKING_RECIPE Current belfortkafag.ValeDasAraucarias.Culinaria_TortaDeButia",
+          "Action": "AddMail Current belfortkafag.ValeDasAraucarias.Culinaria_Carta_TortaDeButia now",
+          "HostOnly": false
+        },
+        "belfortkafag.ValeDasAraucarias.Culinaria_EnviarCarta_CucaDeUva": {
+          "Id": "belfortkafag.ValeDasAraucarias.Culinaria_EnviarCarta_CucaDeUva",
+          "Trigger": "DayStarted",
+          "Condition": "PLAYER_HEARTS Current Evelyn 3, !PLAYER_HAS_COOKING_RECIPE Current belfortkafag.ValeDasAraucarias.Culinaria_CucaDeUva",
+          "Action": "AddMail Current belfortkafag.ValeDasAraucarias.Culinaria_Carta_CucaDeUva now",
+          "HostOnly": false
+        },
+        "belfortkafag.ValeDasAraucarias.Culinaria_EnviarCarta_CucaDeBanana": {
+          "Id": "belfortkafag.ValeDasAraucarias.Culinaria_EnviarCarta_CucaDeBanana",
+          "Trigger": "DayStarted",
+          "Condition": "PLAYER_HEARTS Current Evelyn 6, !PLAYER_HAS_COOKING_RECIPE Current belfortkafag.ValeDasAraucarias.Culinaria_CucaDeBanana",
+          "Action": "AddMail Current belfortkafag.ValeDasAraucarias.Culinaria_Carta_CucaDeBanana now",
+          "HostOnly": false
+        },
+        "belfortkafag.ValeDasAraucarias.Culinaria_EnviarCarta_CuecaVirada": {
+          "Id": "belfortkafag.ValeDasAraucarias.Culinaria_EnviarCarta_CuecaVirada",
+          "Trigger": "DayStarted",
+          "Condition": "PLAYER_HEARTS Current Jodi 5, !PLAYER_HAS_COOKING_RECIPE Current belfortkafag.ValeDasAraucarias.Culinaria_CuecaVirada",
+          "Action": "AddMail Current belfortkafag.ValeDasAraucarias.Culinaria_Carta_CuecaVirada now",
+          "HostOnly": false
+        },
+        "belfortkafag.ValeDasAraucarias.Culinaria_EnviarCarta_QuentaoDeVinho": {
+          "Id": "belfortkafag.ValeDasAraucarias.Culinaria_EnviarCarta_QuentaoDeVinho",
+          "Trigger": "DayStarted",
+          "Condition": "PLAYER_HEARTS Current Pam 4, !PLAYER_HAS_COOKING_RECIPE Current belfortkafag.ValeDasAraucarias.Culinaria_QuentaoDeVinho",
+          "Action": "AddMail Current belfortkafag.ValeDasAraucarias.Culinaria_Carta_QuentaoDeVinho now",
+          "HostOnly": false
+        },
+        "belfortkafag.ValeDasAraucarias.Culinaria_EnviarCarta_BolinhoDePeixe": {
+          "Id": "belfortkafag.ValeDasAraucarias.Culinaria_EnviarCarta_BolinhoDePeixe",
+          "Trigger": "DayStarted",
+          "Condition": "PLAYER_HEARTS Current Willy 3, !PLAYER_HAS_COOKING_RECIPE Current belfortkafag.ValeDasAraucarias.Culinaria_BolinhoDePeixe",
+          "Action": "AddMail Current belfortkafag.ValeDasAraucarias.Culinaria_Carta_BolinhoDePeixe now",
+          "HostOnly": false
+        },
+        "belfortkafag.ValeDasAraucarias.Culinaria_EnviarCarta_TainhaAssada": {
+          "Id": "belfortkafag.ValeDasAraucarias.Culinaria_EnviarCarta_TainhaAssada",
+          "Trigger": "DayStarted",
+          "Condition": "PLAYER_HEARTS Current Willy 6, !PLAYER_HAS_COOKING_RECIPE Current belfortkafag.ValeDasAraucarias.Culinaria_TainhaAssada",
+          "Action": "AddMail Current belfortkafag.ValeDasAraucarias.Culinaria_Carta_TainhaAssada now",
+          "HostOnly": false
+        }
+      }
+    }
+  ]
+}

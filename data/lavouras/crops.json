@@ -1,0 +1,328 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Crops",
+      "LogName": "Lavouras do Sul - plantações (12)",
+      "Entries": {
+        "ValeDasAraucarias.Cultivos_SementesFeijaoPreto": {
+          "Seasons": [
+            "Spring",
+            "Summer"
+          ],
+          "DaysInPhase": [
+            1,
+            2,
+            2,
+            2,
+            2
+          ],
+          "RegrowDays": -1,
+          "IsRaised": false,
+          "IsPaddyCrop": false,
+          "NeedsWatering": true,
+          "HarvestItemId": "(O)ValeDasAraucarias.Cultivos_FeijaoPreto",
+          "HarvestMethod": "Grab",
+          "HarvestMinStack": 2,
+          "HarvestMaxStack": 2,
+          "HarvestMaxIncreasePerFarmingLevel": 0,
+          "ExtraHarvestChance": 0,
+          "Texture": "Mods/{{ModId}}/lavouras/feijao_preto/cultivo",
+          "SpriteIndex": 0,
+          "CountForMonoculture": false,
+          "CountForPolyculture": false
+        },
+        "ValeDasAraucarias.Cultivos_SementesMandioca": {
+          "Seasons": [
+            "Spring",
+            "Summer",
+            "Fall"
+          ],
+          "DaysInPhase": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "RegrowDays": -1,
+          "IsRaised": false,
+          "IsPaddyCrop": false,
+          "NeedsWatering": true,
+          "HarvestItemId": "(O)ValeDasAraucarias.Cultivos_Mandioca",
+          "HarvestMethod": "Grab",
+          "HarvestMinStack": 2,
+          "HarvestMaxStack": 2,
+          "HarvestMaxIncreasePerFarmingLevel": 0,
+          "ExtraHarvestChance": 0,
+          "Texture": "Mods/{{ModId}}/lavouras/mandioca/cultivo",
+          "SpriteIndex": 0,
+          "CountForMonoculture": false,
+          "CountForPolyculture": false
+        },
+        "ValeDasAraucarias.Cultivos_SementesBatataDoce": {
+          "Seasons": [
+            "Spring",
+            "Summer"
+          ],
+          "DaysInPhase": [
+            1,
+            2,
+            3,
+            3
+          ],
+          "RegrowDays": -1,
+          "IsRaised": false,
+          "IsPaddyCrop": false,
+          "NeedsWatering": true,
+          "HarvestItemId": "(O)ValeDasAraucarias.Cultivos_BatataDoce",
+          "HarvestMethod": "Grab",
+          "HarvestMinStack": 1,
+          "HarvestMaxStack": 1,
+          "HarvestMaxIncreasePerFarmingLevel": 0,
+          "ExtraHarvestChance": 0.2,
+          "Texture": "Mods/{{ModId}}/lavouras/batata_doce/cultivo",
+          "SpriteIndex": 0,
+          "CountForMonoculture": false,
+          "CountForPolyculture": false
+        },
+        "ValeDasAraucarias.Cultivos_SementesCebola": {
+          "Seasons": [
+            "Winter",
+            "Spring"
+          ],
+          "DaysInPhase": [
+            2,
+            2,
+            3,
+            3
+          ],
+          "RegrowDays": -1,
+          "IsRaised": false,
+          "IsPaddyCrop": false,
+          "NeedsWatering": true,
+          "HarvestItemId": "(O)ValeDasAraucarias.Cultivos_Cebola",
+          "HarvestMethod": "Grab",
+          "HarvestMinStack": 1,
+          "HarvestMaxStack": 1,
+          "HarvestMaxIncreasePerFarmingLevel": 0,
+          "ExtraHarvestChance": 0,
+          "Texture": "Mods/{{ModId}}/lavouras/cebola/cultivo",
+          "SpriteIndex": 0,
+          "CountForMonoculture": false,
+          "CountForPolyculture": false
+        },
+        "ValeDasAraucarias.Cultivos_SementesMaracuja": {
+          "Seasons": [
+            "Summer",
+            "Fall"
+          ],
+          "DaysInPhase": [
+            1,
+            2,
+            2,
+            3,
+            3
+          ],
+          "RegrowDays": 4,
+          "IsRaised": true,
+          "IsPaddyCrop": false,
+          "NeedsWatering": true,
+          "HarvestItemId": "(O)ValeDasAraucarias.Cultivos_Maracuja",
+          "HarvestMethod": "Grab",
+          "HarvestMinStack": 1,
+          "HarvestMaxStack": 1,
+          "HarvestMaxIncreasePerFarmingLevel": 0,
+          "ExtraHarvestChance": 0,
+          "Texture": "Mods/{{ModId}}/lavouras/maracuja/cultivo",
+          "SpriteIndex": 0,
+          "CountForMonoculture": false,
+          "CountForPolyculture": false
+        },
+        "ValeDasAraucarias.Cultivos_SementesPimentao": {
+          "Seasons": [
+            "Summer",
+            "Fall"
+          ],
+          "DaysInPhase": [
+            1,
+            2,
+            2,
+            2,
+            2
+          ],
+          "RegrowDays": 4,
+          "IsRaised": false,
+          "IsPaddyCrop": false,
+          "NeedsWatering": true,
+          "HarvestItemId": "(O)ValeDasAraucarias.Cultivos_Pimentao",
+          "HarvestMethod": "Grab",
+          "HarvestMinStack": 1,
+          "HarvestMaxStack": 1,
+          "HarvestMaxIncreasePerFarmingLevel": 0,
+          "ExtraHarvestChance": 0.03,
+          "Texture": "Mods/{{ModId}}/lavouras/pimentao/cultivo",
+          "SpriteIndex": 0,
+          "CountForMonoculture": false,
+          "CountForPolyculture": false
+        },
+        "ValeDasAraucarias.Cultivos_SementesAveiaBranca": {
+          "Seasons": [
+            "Fall",
+            "Winter"
+          ],
+          "DaysInPhase": [
+            1,
+            2,
+            2,
+            2
+          ],
+          "RegrowDays": -1,
+          "IsRaised": false,
+          "IsPaddyCrop": false,
+          "NeedsWatering": true,
+          "HarvestItemId": "(O)ValeDasAraucarias.Cultivos_AveiaBranca",
+          "HarvestMethod": "Scythe",
+          "HarvestMinStack": 1,
+          "HarvestMaxStack": 1,
+          "HarvestMaxIncreasePerFarmingLevel": 0,
+          "ExtraHarvestChance": 0,
+          "Texture": "Mods/{{ModId}}/lavouras/aveia_branca/cultivo",
+          "SpriteIndex": 0,
+          "CountForMonoculture": false,
+          "CountForPolyculture": false
+        },
+        "ValeDasAraucarias.Cultivos_SementesCevada": {
+          "Seasons": [
+            "Fall",
+            "Winter"
+          ],
+          "DaysInPhase": [
+            1,
+            2,
+            2,
+            2
+          ],
+          "RegrowDays": -1,
+          "IsRaised": false,
+          "IsPaddyCrop": false,
+          "NeedsWatering": true,
+          "HarvestItemId": "(O)ValeDasAraucarias.Cultivos_Cevada",
+          "HarvestMethod": "Scythe",
+          "HarvestMinStack": 1,
+          "HarvestMaxStack": 1,
+          "HarvestMaxIncreasePerFarmingLevel": 0,
+          "ExtraHarvestChance": 0,
+          "Texture": "Mods/{{ModId}}/lavouras/cevada/cultivo",
+          "SpriteIndex": 0,
+          "CountForMonoculture": false,
+          "CountForPolyculture": false
+        },
+        "ValeDasAraucarias.Cultivos_SementesCenteio": {
+          "Seasons": [
+            "Fall",
+            "Winter"
+          ],
+          "DaysInPhase": [
+            1,
+            2,
+            2,
+            3
+          ],
+          "RegrowDays": -1,
+          "IsRaised": false,
+          "IsPaddyCrop": false,
+          "NeedsWatering": true,
+          "HarvestItemId": "(O)ValeDasAraucarias.Cultivos_Centeio",
+          "HarvestMethod": "Scythe",
+          "HarvestMinStack": 1,
+          "HarvestMaxStack": 1,
+          "HarvestMaxIncreasePerFarmingLevel": 0,
+          "ExtraHarvestChance": 0,
+          "Texture": "Mods/{{ModId}}/lavouras/centeio/cultivo",
+          "SpriteIndex": 0,
+          "CountForMonoculture": false,
+          "CountForPolyculture": false
+        },
+        "ValeDasAraucarias.Cultivos_SementesSoja": {
+          "Seasons": [
+            "Summer",
+            "Fall"
+          ],
+          "DaysInPhase": [
+            1,
+            2,
+            2,
+            2,
+            3
+          ],
+          "RegrowDays": -1,
+          "IsRaised": false,
+          "IsPaddyCrop": false,
+          "NeedsWatering": true,
+          "HarvestItemId": "(O)ValeDasAraucarias.Cultivos_Soja",
+          "HarvestMethod": "Grab",
+          "HarvestMinStack": 1,
+          "HarvestMaxStack": 2,
+          "HarvestMaxIncreasePerFarmingLevel": 0,
+          "ExtraHarvestChance": 0,
+          "Texture": "Mods/{{ModId}}/lavouras/soja/cultivo",
+          "SpriteIndex": 0,
+          "CountForMonoculture": false,
+          "CountForPolyculture": false
+        },
+        "ValeDasAraucarias.Cultivos_SementesAzevem": {
+          "Seasons": [
+            "Fall",
+            "Winter"
+          ],
+          "DaysInPhase": [
+            1,
+            2,
+            2,
+            2
+          ],
+          "RegrowDays": -1,
+          "IsRaised": false,
+          "IsPaddyCrop": false,
+          "NeedsWatering": true,
+          "HarvestItemId": "(O)ValeDasAraucarias.Cultivos_Azevem",
+          "HarvestMethod": "Scythe",
+          "HarvestMinStack": 1,
+          "HarvestMaxStack": 1,
+          "HarvestMaxIncreasePerFarmingLevel": 0,
+          "ExtraHarvestChance": 0,
+          "Texture": "Mods/{{ModId}}/lavouras/azevem/cultivo",
+          "SpriteIndex": 0,
+          "CountForMonoculture": false,
+          "CountForPolyculture": false
+        },
+        "ValeDasAraucarias.Cultivos_SementesArrozIrrigado": {
+          "Seasons": [
+            "Spring",
+            "Summer"
+          ],
+          "DaysInPhase": [
+            1,
+            2,
+            3,
+            3
+          ],
+          "RegrowDays": -1,
+          "IsRaised": false,
+          "IsPaddyCrop": true,
+          "NeedsWatering": true,
+          "HarvestItemId": "(O)ValeDasAraucarias.Cultivos_ArrozIrrigado",
+          "HarvestMethod": "Scythe",
+          "HarvestMinStack": 1,
+          "HarvestMaxStack": 2,
+          "HarvestMaxIncreasePerFarmingLevel": 0.1,
+          "ExtraHarvestChance": 0.1,
+          "Texture": "Mods/{{ModId}}/lavouras/arroz_irrigado/cultivo",
+          "SpriteIndex": 0,
+          "CountForMonoculture": false,
+          "CountForPolyculture": false
+        }
+      }
+    }
+  ]
+}

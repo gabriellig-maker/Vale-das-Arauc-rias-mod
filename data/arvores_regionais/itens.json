@@ -1,0 +1,180 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "LogName": "Itens novos (11)",
+      "Entries": {
+        "ValeAraucarias_ErvaMateSeed": {
+          "Name": "ValeAraucarias_ErvaMateSeed",
+          "DisplayName": "{{i18n:item.ErvaMateSeed.nome}}",
+          "Description": "{{i18n:item.ErvaMateSeed.desc}}",
+          "Type": "Crafting",
+          "Category": -74,
+          "Price": 10,
+          "Texture": "Mods/{{ModId}}/arvores/erva_mate/semente",
+          "SpriteIndex": 0,
+          "Edibility": -300,
+          "IsDrink": false,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true,
+          "ContextTags": [
+            "tree_seed_item"
+          ]
+        },
+        "ValeAraucarias_BracatingaSeed": {
+          "Name": "ValeAraucarias_BracatingaSeed",
+          "DisplayName": "{{i18n:item.BracatingaSeed.nome}}",
+          "Description": "{{i18n:item.BracatingaSeed.desc}}",
+          "Type": "Crafting",
+          "Category": -74,
+          "Price": 5,
+          "Texture": "Mods/{{ModId}}/arvores/bracatinga/semente",
+          "SpriteIndex": 0,
+          "Edibility": -300,
+          "IsDrink": false,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true,
+          "ContextTags": [
+            "tree_seed_item"
+          ]
+        },
+        "ValeAraucarias_JabuticabaSeed": {
+          "Name": "ValeAraucarias_JabuticabaSeed",
+          "DisplayName": "{{i18n:item.JabuticabaSeed.nome}}",
+          "Description": "{{i18n:item.JabuticabaSeed.desc}}",
+          "Type": "Crafting",
+          "Category": -74,
+          "Price": 40,
+          "Texture": "Mods/{{ModId}}/arvores/jabuticabeira/semente",
+          "SpriteIndex": 0,
+          "Edibility": -300,
+          "IsDrink": false,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true,
+          "ContextTags": [
+            "tree_seed_item"
+          ]
+        },
+        "ValeAraucarias_CanelaPretaSeed": {
+          "Name": "ValeAraucarias_CanelaPretaSeed",
+          "DisplayName": "{{i18n:item.CanelaPretaSeed.nome}}",
+          "Description": "{{i18n:item.CanelaPretaSeed.desc}}",
+          "Type": "Crafting",
+          "Category": -74,
+          "Price": 50,
+          "Texture": "Mods/{{ModId}}/arvores/canela_preta/semente",
+          "SpriteIndex": 0,
+          "Edibility": -300,
+          "IsDrink": false,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true,
+          "ContextTags": [
+            "tree_seed_item"
+          ]
+        },
+        "ValeAraucarias_ButiaSeed": {
+          "Name": "ValeAraucarias_ButiaSeed",
+          "DisplayName": "{{i18n:item.ButiaSeed.nome}}",
+          "Description": "{{i18n:item.ButiaSeed.desc}}",
+          "Type": "Crafting",
+          "Category": -74,
+          "Price": 15,
+          "Texture": "Mods/{{ModId}}/arvores/butiazeiro/semente",
+          "SpriteIndex": 0,
+          "Edibility": -300,
+          "IsDrink": false,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true,
+          "ContextTags": [
+            "tree_seed_item"
+          ]
+        },
+        "ValeAraucarias_AraucariaPitch": {
+          "Name": "ValeAraucarias_AraucariaPitch",
+          "DisplayName": "{{i18n:item.AraucariaPitch.nome}}",
+          "Description": "{{i18n:item.AraucariaPitch.desc}}",
+          "Type": "Basic",
+          "Category": -27,
+          "Price": 100,
+          "Texture": "Mods/{{ModId}}/arvores/araucaria/produto_torneirinha",
+          "SpriteIndex": 0,
+          "Edibility": -300,
+          "IsDrink": false,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true
+        },
+        "ValeAraucarias_ErvaMateExtract": {
+          "Name": "ValeAraucarias_ErvaMateExtract",
+          "DisplayName": "{{i18n:item.ErvaMateExtract.nome}}",
+          "Description": "{{i18n:item.ErvaMateExtract.desc}}",
+          "Type": "Basic",
+          "Category": -27,
+          "Price": 150,
+          "Texture": "Mods/{{ModId}}/arvores/erva_mate/produto_torneirinha",
+          "SpriteIndex": 0,
+          "Edibility": -300,
+          "IsDrink": false,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true
+        },
+        "ValeAraucarias_BracatingaResin": {
+          "Name": "ValeAraucarias_BracatingaResin",
+          "DisplayName": "{{i18n:item.BracatingaResin.nome}}",
+          "Description": "{{i18n:item.BracatingaResin.desc}}",
+          "Type": "Basic",
+          "Category": -27,
+          "Price": 125,
+          "Texture": "Mods/{{ModId}}/arvores/bracatinga/produto_torneirinha",
+          "SpriteIndex": 0,
+          "Edibility": -300,
+          "IsDrink": false,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true
+        },
+        "ValeAraucarias_AromaticSap": {
+          "Name": "ValeAraucarias_AromaticSap",
+          "DisplayName": "{{i18n:item.AromaticSap.nome}}",
+          "Description": "{{i18n:item.AromaticSap.desc}}",
+          "Type": "Basic",
+          "Category": -27,
+          "Price": 200,
+          "Texture": "Mods/{{ModId}}/arvores/jabuticabeira/produto_torneirinha",
+          "SpriteIndex": 0,
+          "Edibility": -300,
+          "IsDrink": false,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true
+        },
+        "ValeAraucarias_CanelaPretaResin": {
+          "Name": "ValeAraucarias_CanelaPretaResin",
+          "DisplayName": "{{i18n:item.CanelaPretaResin.nome}}",
+          "Description": "{{i18n:item.CanelaPretaResin.desc}}",
+          "Type": "Basic",
+          "Category": -27,
+          "Price": 180,
+          "Texture": "Mods/{{ModId}}/arvores/canela_preta/produto_torneirinha",
+          "SpriteIndex": 0,
+          "Edibility": -300,
+          "IsDrink": false,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true
+        },
+        "ValeAraucarias_Butia": {
+          "Name": "ValeAraucarias_Butia",
+          "DisplayName": "{{i18n:item.Butia.nome}}",
+          "Description": "{{i18n:item.Butia.desc}}",
+          "Type": "Basic",
+          "Category": -79,
+          "Price": 45,
+          "Texture": "Mods/{{ModId}}/arvores/butiazeiro/butia",
+          "SpriteIndex": 0,
+          "Edibility": 12,
+          "IsDrink": false,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "LogName": "Saves antigos: converte a semente da jabuticabeira para o ID novo",
+      "Entries": {
+        "ValeAraucarias_MigrarSementeJabuticaba": {
+          "Id": "ValeAraucarias_MigrarSementeJabuticaba",
+          "Trigger": "DayStarted",
+          "Actions": [
+            "Pathoschild.ContentPatcher_MigrateIds Items (O)ValeAraucarias_ImbuiaSeed (O)ValeAraucarias_JabuticabaSeed"
+          ],
+          "HostOnly": true
+        }
+      }
+    }
+  ]
+}

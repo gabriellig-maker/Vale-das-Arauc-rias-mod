@@ -1,0 +1,216 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "LogName": "Jabuticaba (fruta)",
+      "When": {
+        "FrutosDaJabuticabeira": "true"
+      },
+      "Entries": {
+        "belfortkafag.ValeDasAraucarias.Culinaria_Jabuticaba": {
+          "Name": "belfortkafag.ValeDasAraucarias.Culinaria_Jabuticaba",
+          "DisplayName": "{{i18n:item.Jabuticaba.nome}}",
+          "Description": "{{i18n:item.Jabuticaba.desc}}",
+          "Type": "Basic",
+          "Category": -79,
+          "Price": 60,
+          "SpriteIndex": 410,
+          "Edibility": 15,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true,
+          "ContextTags": [
+            "color_purple"
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/WildTrees",
+      "TargetField": [
+        "ValeAraucarias_JabuticabeiraTree",
+        "ShakeItems"
+      ],
+      "LogName": "Jabuticabeira dá jabuticaba ao sacudir",
+      "When": {
+        "FrutosDaJabuticabeira": "true"
+      },
+      "Entries": {
+        "belfortkafag.ValeDasAraucarias.Culinaria_Jabuticaba_Primavera": {
+          "Id": "belfortkafag.ValeDasAraucarias.Culinaria_Jabuticaba_Primavera",
+          "ItemId": "(O)belfortkafag.ValeDasAraucarias.Culinaria_Jabuticaba",
+          "MinStack": 1,
+          "MaxStack": 3,
+          "Chance": 0.5,
+          "Season": "Spring"
+        },
+        "belfortkafag.ValeDasAraucarias.Culinaria_Jabuticaba_Verao": {
+          "Id": "belfortkafag.ValeDasAraucarias.Culinaria_Jabuticaba_Verao",
+          "ItemId": "(O)belfortkafag.ValeDasAraucarias.Culinaria_Jabuticaba",
+          "MinStack": 1,
+          "MaxStack": 2,
+          "Chance": 0.4,
+          "Season": "Summer"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/WildTrees",
+      "TargetField": [
+        "ValeAraucarias_ImbuiaTree",
+        "ShakeItems"
+      ],
+      "LogName": "Jabuticabeira dá jabuticaba ao sacudir (árvores plantadas antes da 1.9.1)",
+      "When": {
+        "FrutosDaJabuticabeira": "true"
+      },
+      "Entries": {
+        "belfortkafag.ValeDasAraucarias.Culinaria_Jabuticaba_Primavera": {
+          "Id": "belfortkafag.ValeDasAraucarias.Culinaria_Jabuticaba_Primavera",
+          "ItemId": "(O)belfortkafag.ValeDasAraucarias.Culinaria_Jabuticaba",
+          "MinStack": 1,
+          "MaxStack": 3,
+          "Chance": 0.5,
+          "Season": "Spring"
+        },
+        "belfortkafag.ValeDasAraucarias.Culinaria_Jabuticaba_Verao": {
+          "Id": "belfortkafag.ValeDasAraucarias.Culinaria_Jabuticaba_Verao",
+          "ItemId": "(O)belfortkafag.ValeDasAraucarias.Culinaria_Jabuticaba",
+          "MinStack": 1,
+          "MaxStack": 2,
+          "Chance": 0.4,
+          "Season": "Summer"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "LogName": "Pratos (jabuticaba)",
+      "Entries": {
+        "belfortkafag.ValeDasAraucarias.Culinaria_DoceDeJabuticaba": {
+          "Name": "belfortkafag.ValeDasAraucarias.Culinaria_DoceDeJabuticaba",
+          "DisplayName": "{{i18n:prato.DoceDeJabuticaba.nome}}",
+          "Description": "{{i18n:prato.DoceDeJabuticaba.desc}}",
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 260,
+          "SpriteIndex": 604,
+          "Edibility": 45,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true
+        },
+        "belfortkafag.ValeDasAraucarias.Culinaria_CucaDeJabuticaba": {
+          "Name": "belfortkafag.ValeDasAraucarias.Culinaria_CucaDeJabuticaba",
+          "DisplayName": "{{i18n:prato.CucaDeJabuticaba.nome}}",
+          "Description": "{{i18n:prato.CucaDeJabuticaba.desc}}",
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 300,
+          "SpriteIndex": 220,
+          "Edibility": 64,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true
+        },
+        "belfortkafag.ValeDasAraucarias.Culinaria_CompotaDeJabuticaba": {
+          "Name": "belfortkafag.ValeDasAraucarias.Culinaria_CompotaDeJabuticaba",
+          "DisplayName": "{{i18n:prato.CompotaDeJabuticaba.nome}}",
+          "Description": "{{i18n:prato.CompotaDeJabuticaba.desc}}",
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 300,
+          "SpriteIndex": 610,
+          "Edibility": 50,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true
+        }
+      },
+      "When": {
+        "FrutosDaJabuticabeira": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/CookingRecipes",
+      "LogName": "Receitas (jabuticaba)",
+      "Entries": {
+        "belfortkafag.ValeDasAraucarias.Culinaria_DoceDeJabuticaba": "belfortkafag.ValeDasAraucarias.Culinaria_Jabuticaba 3 245 1/1 10/belfortkafag.ValeDasAraucarias.Culinaria_DoceDeJabuticaba/none/",
+        "belfortkafag.ValeDasAraucarias.Culinaria_CucaDeJabuticaba": "belfortkafag.ValeDasAraucarias.Culinaria_Jabuticaba 2 246 1 245 1 -5 1/1 10/belfortkafag.ValeDasAraucarias.Culinaria_CucaDeJabuticaba/none/",
+        "belfortkafag.ValeDasAraucarias.Culinaria_CompotaDeJabuticaba": "belfortkafag.ValeDasAraucarias.Culinaria_Jabuticaba 2 245 1 340 1/1 10/belfortkafag.ValeDasAraucarias.Culinaria_CompotaDeJabuticaba/none/"
+      },
+      "When": {
+        "FrutosDaJabuticabeira": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [
+        "SeedShop",
+        "Items"
+      ],
+      "LogName": "Receitas à venda - Armazém do Pierre (jabuticaba)",
+      "Entries": {
+        "belfortkafag.ValeDasAraucarias.Culinaria_DoceDeJabuticaba_Receita": {
+          "Id": "belfortkafag.ValeDasAraucarias.Culinaria_DoceDeJabuticaba_Receita",
+          "ItemId": "(O)belfortkafag.ValeDasAraucarias.Culinaria_DoceDeJabuticaba",
+          "IsRecipe": true,
+          "Price": 300
+        }
+      },
+      "When": {
+        "FrutosDaJabuticabeira": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [
+        "AnimalShop",
+        "Items"
+      ],
+      "LogName": "Receitas à venda - Rancho da Marnie (jabuticaba)",
+      "Entries": {
+        "belfortkafag.ValeDasAraucarias.Culinaria_CompotaDeJabuticaba_Receita": {
+          "Id": "belfortkafag.ValeDasAraucarias.Culinaria_CompotaDeJabuticaba_Receita",
+          "ItemId": "(O)belfortkafag.ValeDasAraucarias.Culinaria_CompotaDeJabuticaba",
+          "IsRecipe": true,
+          "Price": 250
+        }
+      },
+      "When": {
+        "FrutosDaJabuticabeira": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/mail",
+      "LogName": "Cartas com receitas (jabuticaba)",
+      "Entries": {
+        "belfortkafag.ValeDasAraucarias.Culinaria_Carta_CucaDeJabuticaba": "{{i18n:carta.CucaDeJabuticaba.texto}}%item cookingRecipe belfortkafag.ValeDasAraucarias.Culinaria_CucaDeJabuticaba %%[#]{{i18n:carta.CucaDeJabuticaba.titulo}}"
+      },
+      "When": {
+        "FrutosDaJabuticabeira": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "LogName": "Envio das cartas (jabuticaba)",
+      "Entries": {
+        "belfortkafag.ValeDasAraucarias.Culinaria_EnviarCarta_CucaDeJabuticaba": {
+          "Id": "belfortkafag.ValeDasAraucarias.Culinaria_EnviarCarta_CucaDeJabuticaba",
+          "Trigger": "DayStarted",
+          "Condition": "PLAYER_HEARTS Current Evelyn 8, !PLAYER_HAS_COOKING_RECIPE Current belfortkafag.ValeDasAraucarias.Culinaria_CucaDeJabuticaba",
+          "Action": "AddMail Current belfortkafag.ValeDasAraucarias.Culinaria_Carta_CucaDeJabuticaba now",
+          "HostOnly": false
+        }
+      },
+      "When": {
+        "FrutosDaJabuticabeira": "true"
+      }
+    }
+  ]
+}

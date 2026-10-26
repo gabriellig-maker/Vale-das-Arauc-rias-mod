@@ -1,0 +1,121 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [
+        "SeedShop",
+        "Items"
+      ],
+      "LogName": "Lavouras do Sul - Pierre (11 sementes)",
+      "Entries": {
+        "ValeDasAraucarias.Cultivos_SementesFeijaoPreto": {
+          "Id": "ValeDasAraucarias.Cultivos_SementesFeijaoPreto",
+          "ItemId": "(O)ValeDasAraucarias.Cultivos_SementesFeijaoPreto",
+          "Price": 40,
+          "Condition": "SEASON spring summer"
+        },
+        "ValeDasAraucarias.Cultivos_SementesMandioca": {
+          "Id": "ValeDasAraucarias.Cultivos_SementesMandioca",
+          "ItemId": "(O)ValeDasAraucarias.Cultivos_SementesMandioca",
+          "Price": 60,
+          "Condition": "SEASON spring summer fall"
+        },
+        "ValeDasAraucarias.Cultivos_SementesBatataDoce": {
+          "Id": "ValeDasAraucarias.Cultivos_SementesBatataDoce",
+          "ItemId": "(O)ValeDasAraucarias.Cultivos_SementesBatataDoce",
+          "Price": 50,
+          "Condition": "SEASON spring summer"
+        },
+        "ValeDasAraucarias.Cultivos_SementesCebola": {
+          "Id": "ValeDasAraucarias.Cultivos_SementesCebola",
+          "ItemId": "(O)ValeDasAraucarias.Cultivos_SementesCebola",
+          "Price": 30,
+          "Condition": "SEASON winter spring"
+        },
+        "ValeDasAraucarias.Cultivos_SementesMaracuja": {
+          "Id": "ValeDasAraucarias.Cultivos_SementesMaracuja",
+          "ItemId": "(O)ValeDasAraucarias.Cultivos_SementesMaracuja",
+          "Price": 70,
+          "Condition": "SEASON summer fall"
+        },
+        "ValeDasAraucarias.Cultivos_SementesPimentao": {
+          "Id": "ValeDasAraucarias.Cultivos_SementesPimentao",
+          "ItemId": "(O)ValeDasAraucarias.Cultivos_SementesPimentao",
+          "Price": 50,
+          "Condition": "SEASON summer fall"
+        },
+        "ValeDasAraucarias.Cultivos_SementesAveiaBranca": {
+          "Id": "ValeDasAraucarias.Cultivos_SementesAveiaBranca",
+          "ItemId": "(O)ValeDasAraucarias.Cultivos_SementesAveiaBranca",
+          "Price": 10,
+          "Condition": "SEASON fall winter"
+        },
+        "ValeDasAraucarias.Cultivos_SementesCevada": {
+          "Id": "ValeDasAraucarias.Cultivos_SementesCevada",
+          "ItemId": "(O)ValeDasAraucarias.Cultivos_SementesCevada",
+          "Price": 10,
+          "Condition": "SEASON fall winter"
+        },
+        "ValeDasAraucarias.Cultivos_SementesCenteio": {
+          "Id": "ValeDasAraucarias.Cultivos_SementesCenteio",
+          "ItemId": "(O)ValeDasAraucarias.Cultivos_SementesCenteio",
+          "Price": 10,
+          "Condition": "SEASON fall winter"
+        },
+        "ValeDasAraucarias.Cultivos_SementesSoja": {
+          "Id": "ValeDasAraucarias.Cultivos_SementesSoja",
+          "ItemId": "(O)ValeDasAraucarias.Cultivos_SementesSoja",
+          "Price": 30,
+          "Condition": "SEASON summer fall"
+        },
+        "ValeDasAraucarias.Cultivos_SementesArrozIrrigado": {
+          "Id": "ValeDasAraucarias.Cultivos_SementesArrozIrrigado",
+          "ItemId": "(O)ValeDasAraucarias.Cultivos_SementesArrozIrrigado",
+          "Price": 40,
+          "Condition": "SEASON spring summer"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [
+        "AnimalShop",
+        "Items"
+      ],
+      "LogName": "Lavouras do Sul - Marnie (azevém)",
+      "Entries": {
+        "ValeDasAraucarias.Cultivos_SementesAzevem": {
+          "Id": "ValeDasAraucarias.Cultivos_SementesAzevem",
+          "ItemId": "(O)ValeDasAraucarias.Cultivos_SementesAzevem",
+          "Price": 20,
+          "Condition": "SEASON fall winter"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [
+        "Saloon",
+        "Items"
+      ],
+      "LogName": "Lavouras do Sul - receitas do Gus (2)",
+      "Entries": {
+        "ValeDasAraucarias.Culinaria_BroaDeMilho_Receita": {
+          "Id": "ValeDasAraucarias.Culinaria_BroaDeMilho_Receita",
+          "ItemId": "(O)ValeDasAraucarias.Culinaria_BroaDeMilho",
+          "IsRecipe": true,
+          "Price": 150
+        },
+        "ValeDasAraucarias.Culinaria_BoloDeFuba_Receita": {
+          "Id": "ValeDasAraucarias.Culinaria_BoloDeFuba_Receita",
+          "ItemId": "(O)ValeDasAraucarias.Culinaria_BoloDeFuba",
+          "IsRecipe": true,
+          "Price": 250
+        }
+      }
+    }
+  ]
+}

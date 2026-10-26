@@ -1,0 +1,53 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Priority": "Late",
+      "LogName": "Pack único - pinhão vira semente da araucária; texto das folhas",
+      "Fields": {
+        "ValeDasAraucarias.Arvores_Pinhao": {
+          "DisplayName": "{{i18n:pack.pinhao.nome}}",
+          "Description": "{{i18n:pack.pinhao.desc}}",
+          "ContextTags": [
+            "placeable",
+            "tree_seed_item"
+          ]
+        },
+        "ValeDasAraucarias.Arvores_FolhasErvaMate": {
+          "Description": "{{i18n:pack.folhas.desc}}"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Priority": "Late",
+      "LogName": "Pack único - sprite final (pinhao), se existir",
+      "Fields": {
+        "ValeDasAraucarias.Arvores_Pinhao": {
+          "Texture": "Mods/{{ModId}}/arvores/araucaria/pinhao",
+          "SpriteIndex": 0
+        }
+      },
+      "When": {
+        "HasFile:assets/arvores/araucaria/pinhao.png": true
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Priority": "Late",
+      "LogName": "Pack único - sprite final (folhas), se existir",
+      "Fields": {
+        "ValeDasAraucarias.Arvores_FolhasErvaMate": {
+          "Texture": "Mods/{{ModId}}/arvores/erva_mate/folhas",
+          "SpriteIndex": 0
+        }
+      },
+      "When": {
+        "HasFile:assets/arvores/erva_mate/folhas.png": true
+      }
+    }
+  ]
+}
