@@ -1,0 +1,33 @@
+ROTEIRO DE TESTE - LAVOURAS DO SUL (1.8.1) - NÃO EXECUTADO NESTE AMBIENTE
+
+Use uma cópia do save. Abra pelo SMAPI.
+1. Console: patch summary  -> os patches "Lavouras do Sul" sem erro.
+2. Console: patch export Data/Crops, patch export Data/Buildings e patch export Data/Machines
+   -> conferir as 12 lavouras, as 4 conversões no Mill e as regras no topo do (BC)12 e do (BC)19.
+3. Lojas: Pierre em cada estação (inverno: cebola, aveia, cevada, centeio); Marnie no outono/inverno (azevém); Gus (2 receitas).
+4. Para cada lavoura: plante no dia 1, regue, durma e anote o dia da colheita (tabela em docs/LAVOURAS_SUL.md).
+   Confira: quadros de crescimento, colheita (mão ou foice), quantidade, rebrota (maracujá e pimentão), treliça bloqueando passagem.
+5. Plante no último dia da tabela e confira a passagem de estação (lavouras de duas estações continuam; fora da estação morrem).
+6. Arroz irrigado: um canteiro perto da água sem regar e outro longe; compare dias e rega.
+7. Moinho: coloque milho, aveia-branca, azevém e arroz irrigado em casca; no dia seguinte: fubá, flocos, 2 feno por azevém e arroz.
+8. Barril: cevada e centeio -> cerveja. Extrator de óleo: soja -> óleo. Vegetal novo no barril -> suco (regra nativa).
+9. Gerador de Sementes: teste uma colheita de cada lavoura, principalmente o azevém.
+10. Culinária: compre as receitas no Gus e cozinhe broa e bolo de fubá.
+11. Estufa, Ilha Gengibre e vaso: plante uma semente de cada tipo e confira se seguem as regras nativas.
+12. Feno: segure o feno e clique no comedouro; ele deve ir para o silo.
+
+Comandos úteis (exemplos): player_add (O)ValeDasAraucarias.Cultivos_SementesCevada 20
+world_setseason winter   |   world_setday 1
+
+Se algo falhar, guarde o log do SMAPI (https://smapi.io/log).
+
+CONFERÊNCIA DA ARTE NOVA (PENDENTE NO JOGO)
+- Os 28 itens devem ter ícones próprios no inventário, baú e lojas.
+- Plante várias sementes lado a lado: os dois quadros iniciais devem aparecer.
+- Veja cada fase em dias sucessivos, sem pedaços de outra planta ou cortes.
+- Maracujá: a treliça deve estar visível desde o plantio.
+- Maracujá e pimentão: colha e veja a planta sem frutos enquanto rebrota;
+  após quatro dias, os frutos devem reaparecer.
+- Arroz irrigado: confira o desenho com e sem o solo de arroz junto à água.
+- Verifique os ícones de fubá e flocos na saída do moinho; broa e bolo na cozinha.
+- Uma planta morta fora da estação usa a aparência nativa de lavoura morta.

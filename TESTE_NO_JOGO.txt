@@ -1,0 +1,32 @@
+ROTEIRO DE TESTE — NÃO EXECUTADO NESTE AMBIENTE
+
+Use uma cópia de um save e faça backup antes da instalação.
+1. Abra pelo SMAPI e confira se há apenas uma cópia do pack e nenhum erro
+   vermelho de JSON, asset, objeto ou tradução referente ao Vale das Araucárias.
+2. Na Robin, confira as seis sementes; os ícones devem ser nítidos e distintos.
+3. Plante as sementes em posições permitidas e acompanhe os estágios. No
+   inverno a pausa no crescimento é a do pacote recebido, não um erro de arte.
+4. Confira broto, muda, árvore jovem e árvore adulta. O tronco deve estar
+   centralizado no mesmo tile. Passe atrás das copas e cheque caminhos livres.
+5. Confira as quatro estações, inclusive em árvores já plantadas antes da
+   atualização; a textura pode atualizar no início do próximo dia.
+6. Corte uma árvore de cada espécie e confira toco, rachaduras e folhas.
+7. Confira as versões com musgo quando o sistema do jogo produzir musgo.
+8. No verão/outono, sacuda um butiazeiro: os cachos devem aparecer antes e
+   desaparecer após sacudir, seguindo a configuração de produção recebida.
+9. Confira as torneirinhas nas cinco espécies configuradas para isso e os
+   respectivos ícones de resina/extrato/seiva no fim do ciclo normal.
+10. Confira pinhão, folhas de erva-mate e butiá no inventário e na coleta.
+11. Confira também os peixes e os pratos adaptados do pack anterior.
+
+Se surgir erro, preserve o log do SMAPI. A validação deste ZIP é estática;
+somente a execução no jogo pode confirmar todos esses comportamentos.
+
+12. Lavouras do Sul (1.8.0): siga ROTEIRO_TESTE_LAVOURAS.txt.
+13. Culinária regional (1.9.0): siga docs/culinaria/TESTES_NO_JOGO.txt.
+14. Save antigo com Coleta 1 ou mais: no dia seguinte, a receita do caroço de butiá deve
+    aparecer no menu de criação.
+15. Sprites (1.9.2): os 30 pratos, a broa e o bolo de fubá aparecem com os sprites novos.
+16. Traje gaúcho (1.9.3): as 4 peças à venda no Pierre; vestidas, chapéu, camisa (com mangas),
+    bombacha e botas aparecem no personagem andando nas 4 direções; botas com +1 defesa e +1
+    imunidade. Com TrajeGauchoNoPierre false, as peças somem da loja.

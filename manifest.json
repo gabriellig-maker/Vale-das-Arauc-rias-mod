@@ -1,0 +1,13 @@
+{
+  "Name": "Vale das Araucárias — Completo",
+  "Author": "belfortkafag",
+  "Version": "1.9.3",
+  "Description": "Pack único: peixes, pratos do jogo com nomes regionais, seis árvores regionais, 12 lavouras do Sul com moinho e máquinas, 27 receitas da culinária regional e o traje gaúcho (chapéu, camisa, bombacha e botas).",
+  "UniqueID": "belfortkafag.varas_lend1_lend2_covos_mercado",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+    "MinimumVersion": "2.1.0"
+  }
+}

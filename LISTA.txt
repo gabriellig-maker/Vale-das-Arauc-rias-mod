@@ -1,0 +1,369 @@
+LISTA DOS 157 ITENS (+4 com a opção da jabuticaba) - varas_lend1_lend2_covos_mercado 1.9.3
+Formato: ID  nome original -> nome novo / descrição
+
+Peixes de vara (47)
+------------------------------------------------------------------------
+ 128  Pufferfish -> Baiacu-pintado
+      Baiacu do litoral que infla o corpo quando ameaçado. Carrega um veneno muito forte.
+ 129  Anchovy -> Manjuba
+      Pequeno peixe prateado de cardume, comum nos estuários do Sul.
+ 130  Tuna -> Bonito-listrado
+      Atum veloz de mar aberto, muito apreciado na pesca costeira.
+ 131  Sardine -> Sardinha-verdadeira
+      Sardinha-verdadeira, base dos cardumes do litoral sul.
+ 132  Bream -> Lambari-do-rabo-amarelo
+      Lambari de nadadeiras amareladas, abundante em rios e arroios.
+ 136  Largemouth Bass -> Traíra
+      Predador voraz de águas paradas; espreita entre a vegetação.
+ 137  Smallmouth Bass -> Jóquerê
+      Peixe esguio e atento, caça perto da correnteza.
+ 138  Rainbow Trout -> Lambari-prata
+      Lambari prateado de águas limpas e frescas.
+ 139  Salmon -> Grumatã
+      Peixe de piracema; sobe os rios em grandes cardumes.
+ 140  Walleye -> Joaninha
+      Ciclídeo esguio e de boca grande. Fica de tocaia entre plantas e pedras para caçar peixinhos.
+ 141  Perch -> Cará
+      Ciclídeo robusto que escava o fundo em busca de alimento.
+ 142  Carp -> Piava
+      Peixe migrador de boca saliente; resistente e comum.
+ 143  Catfish -> Jundiá
+      Bagre nativo de couro liso; caça de noite no leito dos rios.
+ 144  Pike -> Tabarana
+      Predador rápido e musculoso das corredeiras.
+ 145  Sunfish -> Lambari-guaçu
+      Lambari grande que se reúne em cardumes ao sol.
+ 146  Red Mullet -> Tainha
+      A tainha da safra de inverno, que sobe a costa em grandes cardumes vindos da Lagoa dos Patos.
+ 147  Herring -> Savelha
+      Peixe de cardume costeiro, parente da sardinha.
+ 148  Eel -> Enguia-de-lama
+      Peixe de corpo alongado que caça no escuro, entre o lodo.
+ 149  Octopus -> Polvo-comum
+      Molusco de oito braços, astuto e bom de se esconder.
+ 150  Red Snapper -> Vermelho-cioba
+      Peixe vermelho de recife, capturado em águas profundas.
+ 151  Squid -> Lula-costeira
+      Lula costeira; aparece em maior número à noite.
+ 154  Sea Cucumber -> Pepino-do-mar
+      Equinodermo mole do fundo do mar; filtra o sedimento.
+ 155  Super Cucumber -> Holotúria-roxa
+      Uma holotúria grande e rara, de cor arroxeada.
+ 156  Ghostfish -> Bagre-cego
+      Peixe cavernícola pálido e sem olhos, vive no escuro total.
+ 158  Stonefish -> Cascudo-de-pedra
+      Cascudo encouraçado que se agarra às pedras do fundo.
+ 161  Ice Pip -> Lambari-do-sul
+      Pequeno peixe de águas geladas e límpidas.
+ 162  Lava Eel -> Moréia-pintada
+      Moréia marinha sinuosa que vive entre fendas de rocha.
+ 164  Sandfish -> Linguado-areia
+      Peixe chato que se enterra no fundo de areia.
+ 165  Scorpion Carp -> Cascudo-chinelo
+      Cascudo-chinelo achatado, camuflado no leito arenoso.
+ 267  Flounder -> Linguado-branco
+      Peixe chato com os dois olhos do mesmo lado do corpo; vive deitado no fundo.
+ 269  Midnight Carp -> Traíra-pintada
+      Traíra de hábito noturno; caça sob a lua.
+ 698  Sturgeon -> Surubim-pintado
+      Bagre gigante de couro pintado e bigodes longos. Caça à noite no fundo dos grandes rios.
+ 699  Tiger Trout -> Pintado-do-iguaçu
+      Surubim endêmico de corpo manchado; raro e cobiçado.
+ 700  Bullhead -> Mandi-amarelo
+      Mandi amarelado de fundo de lago.
+ 701  Tilapia -> Corvina
+      Peixe de cardume costeiro, carne branca e saborosa.
+ 702  Chub -> Lambari-do-mato
+      Pequeno lambari dos rios de mata fechada.
+ 704  Dorado -> Dourado
+      O dourado dourado-reluzente, troféu dos pescadores de rio.
+ 705  Albacore -> Albacora-lage
+      Atum de nadadeiras amarelas, de mar aberto.
+ 706  Shad -> Sairu
+      Peixinho prateado de cardume das lagoas e rios do Sul. Vive fuçando o lodo do fundo atrás de comida.
+ 707  Lingcod -> Pintado-cachara
+      Grande surubim de boca larga; emboscada no fundo.
+ 708  Halibut -> Linguado-do-rio-grande
+      Linguado de águas frias, apreciado na mesa.
+ 734  Woodskip -> Cará-pixuna
+      Peixinho ágil das lagoas sombreadas da floresta.
+ 795  Void Salmon -> Muçum
+      Peixe escuro de banhado; some no lodo das águas paradas.
+ 796  Slimejack -> Cascudinho-viscoso
+      Cascudinho coberto por uma camada viscosa.
+ 836  Stingray -> Raia-viola
+      Meio raia, meio tubarão, com o corpo em forma de viola. Vive no fundo de areia e está ameaçada de extinção.
+ 837  Lionfish -> Niquim
+      Peixe peçonhento; cuidado com os espinhos.
+ 838  Blue Discus -> Cará-azul
+      Ciclídeo de reflexos azulados das águas do Sul.
+
+Lendários (5)
+------------------------------------------------------------------------
+ 159  Crimsonfish -> Neymarfish
+      Veio do aquário da casa de uma pessoa completamente viciada em Neymar. De tanto assistir aos melhores momentos do ídolo, aprendeu a driblar até os anzóis.
+ 682  Mutant Carp -> Nonoaiense
+      Nasceu das lágrimas de um menino chamado Murilo, que chora pela ex. O desejo de tê-la de volta foi tão forte que acabou dando vida a este peixe lendário.
+ 160  Angler -> Marcio67
+      Era um professor do SENAI que tinha tanta aura que acabou virando um peixe lendário. Mesmo debaixo d'água, continua dando aula de respeito.
+ 775  Glacierfish -> Tozzofish
+      Era uma empresa de transporte que virou peixe porque o ADM quis. Agora transporta sua própria aura pelos rios, sem aceitar questionamentos.
+ 163  Legend -> Ifsc
+      Dizem que só aparece depois que um estudante do IFSC Chapecó enfrenta 40 provas na mesma semana. Nasceu da mistura de café, desespero e esperança de que o professor arredonde a nota.
+
+Covo (10)
+------------------------------------------------------------------------
+ 715  Lobster -> Cavaco
+      Parente achatado da lagosta, com antenas curtas em forma de pá. Passa o dia escondido nas tocas de pedra.
+ 372  Clam -> Marisco-branco
+      Molusco de concha branca que vive enterrado na areia das praias gaúchas, bem onde as ondas quebram.
+ 717  Crab -> Siri-azul
+      Siri de patas azuladas. As patas de trás têm forma de remo e o fazem nadar rápido. Comum na Lagoa dos Patos.
+ 718  Cockle -> Berbigão
+      Pequeno molusco de concha riscada, catado na lama rasa das baías de Florianópolis.
+ 719  Mussel -> Mexilhão
+      Vive grudado nas pedras do costão em grandes colônias. Santa Catarina é o maior produtor do Brasil.
+ 720  Shrimp -> Camarão-rosa
+      Nasce no mar, cresce na Lagoa dos Patos e volta ao oceano quando fica adulto.
+ 723  Oyster -> Ostra-do-mangue
+      Ostra nativa que cresce presa às raízes do mangue, no litoral do Paraná e de Santa Catarina.
+ 716  Crayfish -> Lagostim
+      Lagostim nativo de água doce. Vive escondido em tocas no barro de riachos e banhados do Rio Grande do Sul.
+ 721  Snail -> Aruá
+      Caramujo grande de água doce. Põe cachos de ovos cor-de-rosa fora d'água, em plantas e pedras.
+ 722  Periwinkle -> Caramujinho
+      Caramujo pequeno de concha cônica e pontuda. Vive aos montes no fundo de rios e lagoas, raspando algas.
+
+Lendários II (5)
+------------------------------------------------------------------------
+ 898  Son of Crimsonfish -> Pargo-rosa
+      Peixe rosado com pintinhas azuis, pescado com linha nos fundos de pedra do litoral do Sul.
+ 899  Ms. Angler -> Peixe-sapo
+      Tem cabeça larga, boca enorme e corpo manchado. Fica imóvel no fundo, camuflado, esperando a presa chegar perto.
+ 900  Legend II -> Suruvi
+      Bagre grande e raro do rio Uruguai, de couro manchado. Está ameaçado de extinção.
+ 901  Radioactive Carp -> Carpa-cabeçuda
+      Carpa de cabeça enorme, trazida da Ásia para os açudes de criação. Come filtrando o plâncton da água.
+ 902  Glacierfish Jr. -> Merluza
+      Peixe prateado de boca grande e dentes afiados, das águas frias e fundas do Atlântico Sul.
+
+Mercado Noturno (3)
+------------------------------------------------------------------------
+ 798  Midnight Squid -> Calamar-argentino
+      Lula das águas frias e fundas do Atlântico Sul. À noite, sobe para perto da superfície para caçar.
+ 799  Spook Fish -> Galo-de-profundidade
+      Peixe prateado de corpo alto e fino como um prato. Vive no fundo do mar, a centenas de metros.
+ 800  Blobfish -> Peixe-rato
+      Tem cabeça grande e cauda longa e fina como a de um rato. Vive no escuro do fundo do mar.
+
+Cambeva e geleias incorporadas (4)
+------------------------------------------------------------------------
+ Goby  Goby -> Cambeva
+      Pequeno bagre de corpo alongado e bigodes que vive nos riachos do Sul do Brasil. Esconde-se entre as pedras, perto das corredeiras.
+ SeaJelly  Sea Jelly -> Geleia de Florianópolis
+      Uma substância gelatinosa rara, encontrada ao pescar no mar. Lembra as águas do litoral de Florianópolis.
+ RiverJelly  River Jelly -> Geleia do Açude
+      Uma substância gelatinosa rara de água doce, encontrada ao pescar em rios, lagoas e açudes.
+ CaveJelly  Cave Jelly -> Geleia da Grota
+      Uma geleia rara dos lagos subterrâneos. Dizem que ela treme no ritmo de 'Do Fundo da Grota', como se Baitaca estivesse cantando lá embaixo.
+
+Pratos adaptados (11) - ingredientes, IDs e desbloqueios iguais ao jogo
+------------------------------------------------------------------------
+ 202  Fried Calamari -> Lula-costeira Frita
+      Descrição do jogo mantida (ingrediente: Lula-costeira, 151).
+ 209  Carp Surprise -> Piava-surpresa
+      Descrição do jogo mantida (ingrediente: Piava, 142, x4).
+ 212  Salmon Dinner -> Jantar de Grumatã
+      Descrição do jogo mantida (ingrediente: Grumatã, 139).
+ 214  Crispy Bass -> Traíra Crocante
+      Descrição do jogo mantida (ingrediente: Traíra, 136).
+ 219  Trout Soup -> Sopa de Lambari-prata
+      Descrição do jogo mantida (ingrediente: Lambari-prata, 138).
+ 225  Fried Eel -> Enguia-de-lama Frita
+      Descrição do jogo mantida (ingrediente: Enguia-de-lama, 148).
+ 226  Spicy Eel -> Enguia-de-lama Picante
+      Descrição do jogo mantida (ingrediente: Enguia-de-lama, 148).
+ 729  Escargot -> Escargô (nome do jogo mantido)
+      Aruás cobertos de manteiga e cozidos com perfeição.
+ 730  Lobster Bisque -> Bisque de Cavaco
+      Descrição do jogo mantida (ingrediente: Cavaco, 715).
+ 732  Crab Cakes -> Bolinhos de Siri-azul
+      Siri-azul, pão e ovo achatados e fritos até ficarem dourados.
+ 733  Shrimp Cocktail -> Coquetel de Camarão-rosa
+      Um aperitivo suntuoso feito com camarão-rosa fresco.
+
+Produtos das árvores (2) - pinhão e erva-mate
+------------------------------------------------------------------------
+ ValeDasAraucarias.Arvores_Pinhao  Pinhão
+      Semente da araucária, árvore nativa do Sul. Precisa ser cozido antes de comer.
+ ValeDasAraucarias.Arvores_FolhasErvaMate  Folhas de erva-mate
+      Folhas da erva-mate, árvore nativa que ocorre no Sul. São a base do chimarrão.
+
+Sementes e mudas (12) - lavouras do Sul
+------------------------------------------------------------------------
+ ValeDasAraucarias.Cultivos_SementesFeijaoPreto  Sementes de feijão-preto
+      Plante na primavera ou no verão. Leva 9 dias para amadurecer.
+ ValeDasAraucarias.Cultivos_SementesMandioca  Manivas de mandioca
+      Plante na primavera, no verão ou no outono. Leva 14 dias para amadurecer.
+ ValeDasAraucarias.Cultivos_SementesBatataDoce  Ramas de batata-doce
+      Plante na primavera ou no verão. Leva 9 dias para amadurecer.
+ ValeDasAraucarias.Cultivos_SementesCebola  Sementes de cebola
+      Plante no inverno ou na primavera. Leva 10 dias para amadurecer.
+ ValeDasAraucarias.Cultivos_SementesMaracuja  Sementes de maracujá
+      Plante no verão ou no outono. Leva 11 dias para amadurecer e continua produzindo a cada 4 dias. Cresce em treliça.
+ ValeDasAraucarias.Cultivos_SementesPimentao  Sementes de pimentão
+      Plante no verão ou no outono. Leva 9 dias para amadurecer e continua produzindo a cada 4 dias.
+ ValeDasAraucarias.Cultivos_SementesAveiaBranca  Sementes de aveia-branca
+      Plante no outono ou no inverno. Leva 7 dias para amadurecer. Colha com a foice.
+ ValeDasAraucarias.Cultivos_SementesCevada  Sementes de cevada
+      Plante no outono ou no inverno. Leva 7 dias para amadurecer. Colha com a foice.
+ ValeDasAraucarias.Cultivos_SementesCenteio  Sementes de centeio
+      Plante no outono ou no inverno. Leva 8 dias para amadurecer. Colha com a foice.
+ ValeDasAraucarias.Cultivos_SementesSoja  Sementes de soja
+      Plante no verão ou no outono. Leva 10 dias para amadurecer.
+ ValeDasAraucarias.Cultivos_SementesAzevem  Sementes de azevém
+      Plante no outono ou no inverno. Leva 7 dias para amadurecer. Colha com a foice.
+ ValeDasAraucarias.Cultivos_SementesArrozIrrigado  Sementes de arroz irrigado
+      Plante na primavera ou no verão. Leva 9 dias para amadurecer. Perto da água, cresce mais rápido e não precisa de rega. Colha com a foice.
+
+Colheitas (12) - lavouras do Sul
+------------------------------------------------------------------------
+ ValeDasAraucarias.Cultivos_FeijaoPreto  Feijão-preto
+      Grãos secos de feijão-preto. Precisam ser cozidos. O Paraná é o maior produtor de feijão do Brasil.
+ ValeDasAraucarias.Cultivos_Mandioca  Mandioca
+      Raiz rica em amido, também chamada de aipim. Coma só cozida ou frita.
+ ValeDasAraucarias.Cultivos_BatataDoce  Batata-doce
+      Raiz doce e nutritiva. O Rio Grande do Sul é o maior produtor de batata-doce do Brasil.
+ ValeDasAraucarias.Cultivos_Cebola  Cebola
+      Bulbo de sabor forte. Em Santa Catarina, as mudas vão para a lavoura no inverno.
+ ValeDasAraucarias.Cultivos_Maracuja  Maracujá
+      Fruto azedinho e perfumado. O Sul Catarinense concentra quase toda a produção de Santa Catarina.
+ ValeDasAraucarias.Cultivos_Pimentao  Pimentão
+      Fruto de casca firme, verde ou colorido conforme o ponto de colheita.
+ ValeDasAraucarias.Cultivos_AveiaBranca  Aveia-branca
+      Grãos de aveia-branca, cereal de inverno muito cultivado no Rio Grande do Sul. Leve ao moinho.
+ ValeDasAraucarias.Cultivos_Cevada  Cevada
+      Grãos de cevada, cereal de inverno usado no malte da cerveja. Boa parte da cevada do Brasil vem do Paraná.
+ ValeDasAraucarias.Cultivos_Centeio  Centeio
+      Grãos de centeio, cereal de inverno resistente ao frio. No Sul, também serve de pasto.
+ ValeDasAraucarias.Cultivos_Soja  Soja
+      Grãos de soja, de onde se extrai óleo. No Sul, é semeada do meio da primavera ao começo do verão.
+ ValeDasAraucarias.Cultivos_Azevem  Azevém
+      Capim de inverno usado como pasto e forragem no Sul. Não é comida para gente. Leve ao moinho para virar feno.
+ ValeDasAraucarias.Cultivos_ArrozIrrigado  Arroz irrigado em casca
+      Arroz ainda com casca, de lavoura irrigada. O Rio Grande do Sul produz a maior parte do arroz do Brasil. Leve ao moinho.
+
+Processados e pratos (4) - lavouras do Sul
+------------------------------------------------------------------------
+ ValeDasAraucarias.Processados_FarinhaDeMilho  Farinha de milho (fubá)
+      Milho moído fino. É a base da polenta, da broa e do bolo de fubá.
+ ValeDasAraucarias.Processados_AveiaEmFlocos  Aveia em flocos
+      Grãos de aveia amassados em flocos. Dá para comer assim mesmo.
+ ValeDasAraucarias.Culinaria_BroaDeMilho  Broa de milho
+      Pão de fubá, denso e amarelinho.
+ ValeDasAraucarias.Culinaria_BoloDeFuba  Bolo de fubá
+      Bolo fofo de fubá, bom para acompanhar um café.
+
+Árvores regionais - sementes, produtos da torneira e butiá (11)
+------------------------------------------------------------------------
+ ValeAraucarias_ErvaMateSeed  Semente de Erva-mate
+      Semente dos frutinhos roxo-escuros da erva-mate. Plante para nascer uma erva-mate.
+ ValeAraucarias_BracatingaSeed  Semente de Bracatinga
+      Semente miúda da bracatinga, árvore pioneira da serra que cresce rápido. Plante para nascer uma bracatinga.
+ ValeAraucarias_JabuticabaSeed  Semente de Jabuticaba
+      Semente da jabuticabeira, árvore nativa da Mata Atlântica e comum nos quintais do Sul. Plante para nascer uma jabuticabeira; cresce devagar.
+ ValeAraucarias_CanelaPretaSeed  Semente de Canela-preta
+      Semente da canela-preta, árvore da Mata Atlântica de casca perfumada. Plante para nascer uma canela-preta; cresce bem devagar.
+ ValeAraucarias_ButiaSeed  Caroço de Butiá
+      Caroço duro do butiá. Plante para nascer um butiazeiro.
+ ValeAraucarias_AraucariaPitch  Breu de Araucária
+      Resina grossa e perfumada que escorre do tronco da araucária.
+ ValeAraucarias_ErvaMateExtract  Extrato de Erva-mate
+      Extrato verde e amargo da erva-mate, tirado com a torneirinha.
+ ValeAraucarias_BracatingaResin  Resina de Bracatinga
+      Resina clara da bracatinga. Boa para envernizar madeira.
+ ValeAraucarias_AromaticSap  Seiva Aromática
+      Seiva perfumada da jabuticabeira, parente da pitangueira e da goiabeira.
+ ValeAraucarias_CanelaPretaResin  Resina de Canela-preta
+      Resina da canela-preta, com perfume parecido com o de rosas. Muito valorizada.
+ ValeAraucarias_Butia  Butiá
+      Fruto amarelo, doce e suculento do butiazeiro. Pode ser comido ou virar geleia e vinho.
+
+Culinária regional - pratos (27)
+------------------------------------------------------------------------
+ belfortkafag.ValeDasAraucarias.Culinaria_MandiocaCozida  Mandioca Cozida
+      Aipim cozido em água e sal até ficar macio. Simples e sempre bem-vindo na mesa do Sul.
+ belfortkafag.ValeDasAraucarias.Culinaria_MandiocaFrita  Mandioca Frita
+      Aipim cozido e depois frito até dourar. Crocante por fora, macio por dentro.
+ belfortkafag.ValeDasAraucarias.Culinaria_EscondidinhoDeMandioca  Escondidinho de Mandioca
+      Purê de mandioca gratinado com queijo, escondendo um recheio de cogumelos.
+ belfortkafag.ValeDasAraucarias.Culinaria_BatataDoceAssada  Batata-doce Assada
+      Assada inteira até a casca soltar e o miolo ficar doce como mel.
+ belfortkafag.ValeDasAraucarias.Culinaria_PolentaComMolho  Polenta com Molho
+      Polenta mole servida com molho de tomate e cebola, do jeito das colônias italianas da Serra.
+ belfortkafag.ValeDasAraucarias.Culinaria_PolentaFrita  Polenta Frita
+      Palitos de polenta fritos até ficarem crocantes. Petisco obrigatório nas cantinas da Serra Gaúcha.
+ belfortkafag.ValeDasAraucarias.Culinaria_ArrozComPinhao  Arroz com Pinhão
+      Arroz refogado com pinhão cozido e cebola. Prato de inverno dos campos de altitude do Sul.
+ belfortkafag.ValeDasAraucarias.Culinaria_FeijaoPretoTemperado  Feijão-preto Temperado
+      Feijão-preto cozido devagar com cebola e alho. Não pode faltar no almoço.
+ belfortkafag.ValeDasAraucarias.Culinaria_PinhaoCozido  Pinhão Cozido
+      Pinhão cozido com sal grosso. É só descascar e comer ainda quentinho.
+ belfortkafag.ValeDasAraucarias.Culinaria_PacocaDePinhao  Paçoca de Pinhão
+      Pinhão cozido e moído, refogado com cebola e alho. Versão da roça da paçoca serrana, sem carne.
+ belfortkafag.ValeDasAraucarias.Culinaria_EntreveroDePinhao  Entrevero de Pinhão
+      Pinhão salteado com pimentão, cebola e tomate. Lembra a Festa do Pinhão de Lages, em versão de legumes.
+ belfortkafag.ValeDasAraucarias.Culinaria_Chimarrao  Chimarrão
+      Erva-mate verde e água quente na cuia, passada de mão em mão na roda. Esquenta e anima.
+ belfortkafag.ValeDasAraucarias.Culinaria_Terere  Tereré com Maracujá
+      Erva-mate com suco gelado de maracujá. Refresca nos dias quentes.
+ belfortkafag.ValeDasAraucarias.Culinaria_SucoDeButia  Suco de Butiá
+      Butiá maduro batido e coado com um pouco de açúcar. Azedinho, cheiroso e bem amarelo.
+ belfortkafag.ValeDasAraucarias.Culinaria_TortaDeButia  Torta de Butiá
+      Torta doce recheada com butiá, a fruta das palmeiras do litoral gaúcho.
+ belfortkafag.ValeDasAraucarias.Culinaria_CucaDeUva  Cuca de Uva
+      Bolo fofo de origem alemã coberto de uva e farofa doce. Não falta nas festas da Serra.
+ belfortkafag.ValeDasAraucarias.Culinaria_CucaDeBanana  Cuca de Banana
+      Cuca de massa macia com banana e farofa doce por cima. Receita de vó nas colônias catarinenses.
+ belfortkafag.ValeDasAraucarias.Culinaria_BoloDeMaracuja  Bolo de Maracujá
+      Bolo amarelinho com calda azedinha de maracujá.
+ belfortkafag.ValeDasAraucarias.Culinaria_MingauDeAveia  Mingau de Aveia
+      Aveia em flocos cozida no leite com um pouco de açúcar. Segura até a hora do almoço.
+ belfortkafag.ValeDasAraucarias.Culinaria_PaoDeCenteio  Pão de Centeio
+      Pão escuro e firme, herança das colônias alemãs. Fica ainda melhor no dia seguinte.
+ belfortkafag.ValeDasAraucarias.Culinaria_SopaDeCevadinha  Sopa de Cevadinha
+      Sopa grossa de cevada com cebola e batata, para esquentar as noites de inverno.
+ belfortkafag.ValeDasAraucarias.Culinaria_CuecaVirada  Cueca Virada
+      Massinha doce frita e passada no açúcar. O nome é engraçado; o sabor é de festa.
+ belfortkafag.ValeDasAraucarias.Culinaria_SaguDeVinho  Sagu de Vinho
+      Bolinhas de sagu, feitas de mandioca, cozidas no vinho com açúcar. Sobremesa gaúcha de domingo.
+ belfortkafag.ValeDasAraucarias.Culinaria_QuentaoDeVinho  Quentão de Vinho
+      Vinho quente com gengibre e açúcar, do jeito gaúcho das festas de inverno.
+ belfortkafag.ValeDasAraucarias.Culinaria_BolinhoDePeixe  Bolinho de Peixe
+      Peixe desfiado com ovo e farinha, frito em bolinhos. Petisco dos ranchos de pesca do litoral.
+ belfortkafag.ValeDasAraucarias.Culinaria_PeixeEnsopadoComAipim  Peixe Ensopado com Aipim
+      Peixe cozido no molho de tomate e cebola com pedaços de aipim, como se faz na Ilha de Santa Catarina.
+ belfortkafag.ValeDasAraucarias.Culinaria_TainhaAssada  Tainha Assada
+      Tainha assada inteira com cebola e alho, tradição dos pescadores na safra de inverno.
+
+Culinária regional - jabuticaba (só com a opção FrutosDaJabuticabeira) (4)
+------------------------------------------------------------------------
+ belfortkafag.ValeDasAraucarias.Culinaria_Jabuticaba  Jabuticaba
+      Fruta redonda e escura que nasce grudada no tronco da jabuticabeira. Doce por dentro.
+ belfortkafag.ValeDasAraucarias.Culinaria_DoceDeJabuticaba  Doce de Jabuticaba
+      Jabuticabas cozidas com açúcar até virar um doce escuro e brilhante.
+ belfortkafag.ValeDasAraucarias.Culinaria_CucaDeJabuticaba  Cuca de Jabuticaba
+      Cuca de massa fofa com jabuticabas e farofa doce por cima.
+ belfortkafag.ValeDasAraucarias.Culinaria_CompotaDeJabuticaba  Compota de Jabuticaba
+      Jabuticabas inteiras em calda de açúcar e mel, para guardar no pote.
+
+Traje gaúcho (4)
+------------------------------------------------------------------------
+ (H)ValeDasAraucarias.TrajeGaucho_ChapeuCampeiro  Chapéu Campeiro
+      Um chapéu tradicional de abas largas, companheiro das lidas no campo.
+ (S)ValeDasAraucarias.TrajeGaucho_CamisaGaucha  Camisa Gaúcha com Lenço Vermelho
+      Camisa tradicional acompanhada do clássico lenço vermelho no pescoço.
+ (P)ValeDasAraucarias.TrajeGaucho_Bombacha  Bombacha Tradicional
+      Calça folgada e confortável, símbolo da tradição gaúcha.
+ (B)ValeDasAraucarias.TrajeGaucho_BotasCampeiras  Botas Campeiras
+      Botas resistentes de couro, próprias para acompanhar a vida no campo. +1 defesa, +1 imunidade.

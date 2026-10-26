@@ -1,0 +1,73 @@
+VERIFICAÇÃO - VERSÃO 1.9.3 (traje gaúcho)
+- Sprites do traje copiados sem alteração: chapéu 20x80 (as 4 direções desenhadas), camisa
+  256x32 (quadro 8x32 completo), botas 32x16 (4 cores opacas para os pés + ícone).
+- Campos de Data/Hats (8) e Data/Boots (10) conferidos com a documentação do jogo; camisa e
+  calça no formato da 1.6; os 4 itens da loja apontam para peças que existem.
+- Erro do mod separado corrigido: 3 texturas apontavam para arquivos inexistentes.
+- Bombacha conferida nos dois caminhos (sem e com assets/traje/Bombacha_Cinto.png).
+- Revisão das mecânicas com as opções desligadas e ligadas: nenhum erro.
+- Não confirmado: que o quadro 8 da folha de calças do jogo é a calça bufante (Genie Pants),
+  como diz o mod do traje. Se não for, a bombacha só muda de aparência.
+- O jogo e o SMAPI não foram executados.
+
+VERIFICAÇÃO - VERSÃO 1.9.2 (sprites das comidas)
+- 30 sprites de pratos + broa e bolo de fubá: todos PNG 16x16, RGBA de 8 bits, transparência
+  sem meio-termo, nomes iguais aos esperados pelo mod. Cada um dos 30 pratos passa a usar o
+  próprio sprite; a fruta jabuticaba (opção) segue com o ícone provisório.
+- Nenhum outro arquivo de dados mudou em relação à 1.9.1.
+- Revisão das mecânicas com a opção da jabuticaba desligada e ligada: nenhum erro.
+- O jogo e o SMAPI não foram executados.
+
+VERIFICAÇÃO - VERSÃO 1.9.1 (jabuticabeira em tudo)
+- IDs, pastas, arquivos, textos e documentos trocados; só os dados de compatibilidade com
+  saves antigos guardam o ID anterior (necessário para não quebrar árvores e sementes).
+- Mecânicas revisadas de novo, com a opção da jabuticaba desligada e ligada: nenhum erro.
+- O jogo e o SMAPI não foram executados.
+
+VERIFICAÇÃO - VERSÃO 1.9.0 (Vale + culinária regional numa pasta só)
+- Dados da culinária idênticos aos da versão separada 1.0.0, com os mesmos IDs.
+- Revisão de mecânicas simulando os patches na ordem do content.json, com a opção da
+  jabuticaba desligada e ligada: todos os arquivos carregados existem; cada textura usada
+  está carregada e cada sprite cabe na folha; lavouras com quadros suficientes; árvores com
+  folhas 144x160; itens de lojas, coleta, moinho, barril, extratora, receitas, cartas e
+  envios existem; tags do moinho presentes nos itens; regras de máquina com tempo e no
+  topo da lista; textos sem chave faltando e com caracteres da fonte do jogo. Nenhum erro.
+- Os baús do moinho ("Input"/"Output") seguem o formato do jogo, mas só o teste no jogo
+  confirma o moinho funcionando.
+- O jogo e o SMAPI não foram executados.
+
+VERIFICAÇÃO - VERSÃO 1.8.3 (jabuticabeira)
+- Mudaram só textos: nome e descrição da semente e descrição da Seiva
+  Aromática (i18n/default.json), versão no manifest, README, este arquivo,
+  docs/SPRITES_ARVORES_REGIONAIS.md e o rótulo de PREVIA_ARVORES_REGIONAIS.png.
+- Todos os outros arquivos são idênticos aos da 1.8.2 (comparados byte a byte).
+- JSON válido, IDs e sprites iguais, textos só com caracteres que a fonte do
+  jogo mostra. O jogo e o SMAPI não foram executados.
+
+VERIFICAÇÃO - VERSÃO 1.8.2 (correção das árvores)
+- 24 folhas sazonais: quadros de folhas só com a folha da estação; copa sem a
+  base abaixo do topo do toco; mudanças só nessas duas áreas; 144x160 e alpha
+  binário mantidos. Conferido nos arquivos, não testado no jogo.
+- Nenhum outro arquivo de dados mudou em relação à 1.8.1.
+
+VERIFICAÇÃO — SPRITES DAS LAVOURAS — VERSÃO 1.8.1
+
+Resultado: APROVADO — checagem estática
+Erros encontrados: 0
+Verificações de arquivos e dados realizadas: 1365
+
+- 12 folhas de cultivo 128x32, com quadros de 16x32.
+- 28 ícones de 16x16: sementes, colheitas, fubá, flocos, broa e bolo.
+- 40 PNGs RGBA com transparência binária, carregados por 40 patches Load.
+- Quadros usados pelo jogo preenchidos, inclusive plantio e rebrota.
+- Caminhos Include/Load/EditImage verificados.
+- Dados não visuais das lavouras e dos itens preservados.
+- Arquivos dos peixes, árvores, receitas, lojas e máquinas preservados.
+- Prévia visual dos PNGs finais incluída.
+
+Relatório detalhado: VALIDACAO_SPRITES.json.
+Teste executando o Stardew Valley/SMAPI: NÃO.
+Teste de crescimento, rebrota, lojas e processamento no jogo: PENDENTE.
+Roteiro: ROTEIRO_TESTE_LAVOURAS.txt.
+
+O relatório da versão anterior está em docs/originais/VERIFICACAO_1_8_0_historico.txt.

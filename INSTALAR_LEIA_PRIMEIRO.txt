@@ -1,0 +1,18 @@
+VALE DAS ARAUCÁRIAS — VERSÃO 1.9.3
+
+1. Feche o jogo e faça uma cópia dos saves.
+2. Extraia o ZIP. O SMAPI não carrega o ZIP fechado.
+3. Coloque a pasta varas_lend1_lend2_covos_mercado dentro de Mods, substituindo a antiga.
+4. Apague de Mods a pasta "[CP] Vale das Araucárias - Culinária Regional", se existir:
+   a culinária já vem dentro deste mod. Se você tinha ligado a opção da jabuticaba nela,
+   ligue de novo no config.json desta pasta.
+5. Apague de Mods a pasta "[CP] Vale das Araucarias - Traje Gaucho", se existir: o traje
+   já vem dentro deste mod, com os mesmos IDs.
+6. Mantenha só uma cópia deste pack em Mods.
+7. Abra pelo SMAPI, com o Content Patcher instalado.
+
+Requisitos: Stardew Valley 1.6+, SMAPI 4+, Content Patcher 2.1+ (não vêm no ZIP).
+O complemento Árvores Naturais (C#) é separado e continua opcional.
+
+O jogo não foi executado ao montar este pacote: a verificação é estática.
+Testes no jogo: TESTE_NO_JOGO.txt, ROTEIRO_TESTE_LAVOURAS.txt e docs/culinaria/TESTES_NO_JOGO.txt.

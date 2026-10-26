@@ -1,0 +1,1822 @@
+{
+  "Format": "2.0.0",
+  "ConfigSchema": {
+    "FrutosDaJabuticabeira": {
+      "AllowValues": "true, false",
+      "Default": "false"
+    },
+    "TrajeGauchoNoPierre": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    }
+  },
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "LogName": "Nomes e descricoes (70 itens)",
+      "Fields": {
+        "128": {
+          "DisplayName": "{{i18n:fish.128.name}}",
+          "Description": "{{i18n:fish.128.desc}}"
+        },
+        "129": {
+          "DisplayName": "{{i18n:fish.129.name}}",
+          "Description": "{{i18n:fish.129.desc}}"
+        },
+        "130": {
+          "DisplayName": "{{i18n:fish.130.name}}",
+          "Description": "{{i18n:fish.130.desc}}"
+        },
+        "131": {
+          "DisplayName": "{{i18n:fish.131.name}}",
+          "Description": "{{i18n:fish.131.desc}}"
+        },
+        "132": {
+          "DisplayName": "{{i18n:fish.132.name}}",
+          "Description": "{{i18n:fish.132.desc}}"
+        },
+        "136": {
+          "DisplayName": "{{i18n:fish.136.name}}",
+          "Description": "{{i18n:fish.136.desc}}"
+        },
+        "137": {
+          "DisplayName": "{{i18n:fish.137.name}}",
+          "Description": "{{i18n:fish.137.desc}}"
+        },
+        "138": {
+          "DisplayName": "{{i18n:fish.138.name}}",
+          "Description": "{{i18n:fish.138.desc}}"
+        },
+        "139": {
+          "DisplayName": "{{i18n:fish.139.name}}",
+          "Description": "{{i18n:fish.139.desc}}"
+        },
+        "140": {
+          "DisplayName": "{{i18n:fish.140.name}}",
+          "Description": "{{i18n:fish.140.desc}}"
+        },
+        "141": {
+          "DisplayName": "{{i18n:fish.141.name}}",
+          "Description": "{{i18n:fish.141.desc}}"
+        },
+        "142": {
+          "DisplayName": "{{i18n:fish.142.name}}",
+          "Description": "{{i18n:fish.142.desc}}"
+        },
+        "143": {
+          "DisplayName": "{{i18n:fish.143.name}}",
+          "Description": "{{i18n:fish.143.desc}}"
+        },
+        "144": {
+          "DisplayName": "{{i18n:fish.144.name}}",
+          "Description": "{{i18n:fish.144.desc}}"
+        },
+        "145": {
+          "DisplayName": "{{i18n:fish.145.name}}",
+          "Description": "{{i18n:fish.145.desc}}"
+        },
+        "146": {
+          "DisplayName": "{{i18n:fish.146.name}}",
+          "Description": "{{i18n:fish.146.desc}}"
+        },
+        "147": {
+          "DisplayName": "{{i18n:fish.147.name}}",
+          "Description": "{{i18n:fish.147.desc}}"
+        },
+        "148": {
+          "DisplayName": "{{i18n:fish.148.name}}",
+          "Description": "{{i18n:fish.148.desc}}"
+        },
+        "149": {
+          "DisplayName": "{{i18n:fish.149.name}}",
+          "Description": "{{i18n:fish.149.desc}}"
+        },
+        "150": {
+          "DisplayName": "{{i18n:fish.150.name}}",
+          "Description": "{{i18n:fish.150.desc}}"
+        },
+        "151": {
+          "DisplayName": "{{i18n:fish.151.name}}",
+          "Description": "{{i18n:fish.151.desc}}"
+        },
+        "154": {
+          "DisplayName": "{{i18n:fish.154.name}}",
+          "Description": "{{i18n:fish.154.desc}}"
+        },
+        "155": {
+          "DisplayName": "{{i18n:fish.155.name}}",
+          "Description": "{{i18n:fish.155.desc}}"
+        },
+        "156": {
+          "DisplayName": "{{i18n:fish.156.name}}",
+          "Description": "{{i18n:fish.156.desc}}"
+        },
+        "158": {
+          "DisplayName": "{{i18n:fish.158.name}}",
+          "Description": "{{i18n:fish.158.desc}}"
+        },
+        "159": {
+          "DisplayName": "{{i18n:fish.159.name}}",
+          "Description": "{{i18n:fish.159.desc}}"
+        },
+        "160": {
+          "DisplayName": "{{i18n:fish.160.name}}",
+          "Description": "{{i18n:fish.160.desc}}"
+        },
+        "161": {
+          "DisplayName": "{{i18n:fish.161.name}}",
+          "Description": "{{i18n:fish.161.desc}}"
+        },
+        "162": {
+          "DisplayName": "{{i18n:fish.162.name}}",
+          "Description": "{{i18n:fish.162.desc}}"
+        },
+        "163": {
+          "DisplayName": "{{i18n:fish.163.name}}",
+          "Description": "{{i18n:fish.163.desc}}"
+        },
+        "164": {
+          "DisplayName": "{{i18n:fish.164.name}}",
+          "Description": "{{i18n:fish.164.desc}}"
+        },
+        "165": {
+          "DisplayName": "{{i18n:fish.165.name}}",
+          "Description": "{{i18n:fish.165.desc}}"
+        },
+        "267": {
+          "DisplayName": "{{i18n:fish.267.name}}",
+          "Description": "{{i18n:fish.267.desc}}"
+        },
+        "269": {
+          "DisplayName": "{{i18n:fish.269.name}}",
+          "Description": "{{i18n:fish.269.desc}}"
+        },
+        "372": {
+          "DisplayName": "{{i18n:fish.372.name}}",
+          "Description": "{{i18n:fish.372.desc}}"
+        },
+        "682": {
+          "DisplayName": "{{i18n:fish.682.name}}",
+          "Description": "{{i18n:fish.682.desc}}"
+        },
+        "698": {
+          "DisplayName": "{{i18n:fish.698.name}}",
+          "Description": "{{i18n:fish.698.desc}}"
+        },
+        "699": {
+          "DisplayName": "{{i18n:fish.699.name}}",
+          "Description": "{{i18n:fish.699.desc}}"
+        },
+        "700": {
+          "DisplayName": "{{i18n:fish.700.name}}",
+          "Description": "{{i18n:fish.700.desc}}"
+        },
+        "701": {
+          "DisplayName": "{{i18n:fish.701.name}}",
+          "Description": "{{i18n:fish.701.desc}}"
+        },
+        "702": {
+          "DisplayName": "{{i18n:fish.702.name}}",
+          "Description": "{{i18n:fish.702.desc}}"
+        },
+        "704": {
+          "DisplayName": "{{i18n:fish.704.name}}",
+          "Description": "{{i18n:fish.704.desc}}"
+        },
+        "705": {
+          "DisplayName": "{{i18n:fish.705.name}}",
+          "Description": "{{i18n:fish.705.desc}}"
+        },
+        "706": {
+          "DisplayName": "{{i18n:fish.706.name}}",
+          "Description": "{{i18n:fish.706.desc}}"
+        },
+        "707": {
+          "DisplayName": "{{i18n:fish.707.name}}",
+          "Description": "{{i18n:fish.707.desc}}"
+        },
+        "708": {
+          "DisplayName": "{{i18n:fish.708.name}}",
+          "Description": "{{i18n:fish.708.desc}}"
+        },
+        "715": {
+          "DisplayName": "{{i18n:fish.715.name}}",
+          "Description": "{{i18n:fish.715.desc}}"
+        },
+        "716": {
+          "DisplayName": "{{i18n:fish.716.name}}",
+          "Description": "{{i18n:fish.716.desc}}"
+        },
+        "717": {
+          "DisplayName": "{{i18n:fish.717.name}}",
+          "Description": "{{i18n:fish.717.desc}}"
+        },
+        "718": {
+          "DisplayName": "{{i18n:fish.718.name}}",
+          "Description": "{{i18n:fish.718.desc}}"
+        },
+        "719": {
+          "DisplayName": "{{i18n:fish.719.name}}",
+          "Description": "{{i18n:fish.719.desc}}"
+        },
+        "720": {
+          "DisplayName": "{{i18n:fish.720.name}}",
+          "Description": "{{i18n:fish.720.desc}}"
+        },
+        "721": {
+          "DisplayName": "{{i18n:fish.721.name}}",
+          "Description": "{{i18n:fish.721.desc}}"
+        },
+        "722": {
+          "DisplayName": "{{i18n:fish.722.name}}",
+          "Description": "{{i18n:fish.722.desc}}"
+        },
+        "723": {
+          "DisplayName": "{{i18n:fish.723.name}}",
+          "Description": "{{i18n:fish.723.desc}}"
+        },
+        "734": {
+          "DisplayName": "{{i18n:fish.734.name}}",
+          "Description": "{{i18n:fish.734.desc}}"
+        },
+        "775": {
+          "DisplayName": "{{i18n:fish.775.name}}",
+          "Description": "{{i18n:fish.775.desc}}"
+        },
+        "795": {
+          "DisplayName": "{{i18n:fish.795.name}}",
+          "Description": "{{i18n:fish.795.desc}}"
+        },
+        "796": {
+          "DisplayName": "{{i18n:fish.796.name}}",
+          "Description": "{{i18n:fish.796.desc}}"
+        },
+        "798": {
+          "DisplayName": "{{i18n:fish.798.name}}",
+          "Description": "{{i18n:fish.798.desc}}"
+        },
+        "799": {
+          "DisplayName": "{{i18n:fish.799.name}}",
+          "Description": "{{i18n:fish.799.desc}}"
+        },
+        "800": {
+          "DisplayName": "{{i18n:fish.800.name}}",
+          "Description": "{{i18n:fish.800.desc}}"
+        },
+        "836": {
+          "DisplayName": "{{i18n:fish.836.name}}",
+          "Description": "{{i18n:fish.836.desc}}"
+        },
+        "837": {
+          "DisplayName": "{{i18n:fish.837.name}}",
+          "Description": "{{i18n:fish.837.desc}}"
+        },
+        "838": {
+          "DisplayName": "{{i18n:fish.838.name}}",
+          "Description": "{{i18n:fish.838.desc}}"
+        },
+        "898": {
+          "DisplayName": "{{i18n:fish.898.name}}",
+          "Description": "{{i18n:fish.898.desc}}"
+        },
+        "899": {
+          "DisplayName": "{{i18n:fish.899.name}}",
+          "Description": "{{i18n:fish.899.desc}}"
+        },
+        "900": {
+          "DisplayName": "{{i18n:fish.900.name}}",
+          "Description": "{{i18n:fish.900.desc}}"
+        },
+        "901": {
+          "DisplayName": "{{i18n:fish.901.name}}",
+          "Description": "{{i18n:fish.901.desc}}"
+        },
+        "902": {
+          "DisplayName": "{{i18n:fish.902.name}}",
+          "Description": "{{i18n:fish.902.desc}}"
+        }
+      }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/128-baiacu-pintado.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 128,
+        "Y": 80,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 128 - Baiacu-pintado"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/129-manjuba.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 144,
+        "Y": 80,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 129 - Manjuba"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/130-bonito-listrado.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 160,
+        "Y": 80,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 130 - Bonito-listrado"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/131-sardinha-verdadeira.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 176,
+        "Y": 80,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 131 - Sardinha-verdadeira"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/132-lambari-do-rabo-amarelo.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 192,
+        "Y": 80,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 132 - Lambari-do-rabo-amarelo"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/136-traira.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 256,
+        "Y": 80,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 136 - Traíra"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/137-joquere.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 272,
+        "Y": 80,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 137 - Jóquerê"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/138-lambari-prata.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 288,
+        "Y": 80,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 138 - Lambari-prata"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/139-grumata.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 304,
+        "Y": 80,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 139 - Grumatã"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/140-joaninha.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 320,
+        "Y": 80,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 140 - Joaninha"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/141-cara.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 336,
+        "Y": 80,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 141 - Cará"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/142-piava.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 352,
+        "Y": 80,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 142 - Piava"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/143-jundia.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 368,
+        "Y": 80,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 143 - Jundiá"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/144-tabarana.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 0,
+        "Y": 96,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 144 - Tabarana"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/145-lambari-guacu.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 16,
+        "Y": 96,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 145 - Lambari-guaçu"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/146-tainha.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 32,
+        "Y": 96,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 146 - Tainha"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/147-savelha.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 48,
+        "Y": 96,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 147 - Savelha"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/148-enguia-de-lama.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 64,
+        "Y": 96,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 148 - Enguia-de-lama"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/149-polvo-comum.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 80,
+        "Y": 96,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 149 - Polvo-comum"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/150-vermelho-cioba.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 96,
+        "Y": 96,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 150 - Vermelho-cioba"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/151-lula-costeira.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 112,
+        "Y": 96,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 151 - Lula-costeira"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/154-pepino-do-mar.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 160,
+        "Y": 96,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 154 - Pepino-do-mar"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/155-holoturia-roxa.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 176,
+        "Y": 96,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 155 - Holotúria-roxa"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/156-bagre-cego.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 192,
+        "Y": 96,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 156 - Bagre-cego"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/158-cascudo-de-pedra.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 224,
+        "Y": 96,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 158 - Cascudo-de-pedra"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/161-lambari-do-sul.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 272,
+        "Y": 96,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 161 - Lambari-do-sul"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/162-moreia-pintada.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 288,
+        "Y": 96,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 162 - Moréia-pintada"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/164-linguado-areia.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 320,
+        "Y": 96,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 164 - Linguado-areia"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/165-cascudo-chinelo.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 336,
+        "Y": 96,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 165 - Cascudo-chinelo"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/267-linguado-branco.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 48,
+        "Y": 176,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 267 - Linguado-branco"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/269-traira-pintada.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 80,
+        "Y": 176,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 269 - Traíra-pintada"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/698-surubim-pintado.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 32,
+        "Y": 464,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 698 - Surubim-pintado"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/699-pintado-do-iguacu.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 48,
+        "Y": 464,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 699 - Pintado-do-iguaçu"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/700-mandi-amarelo.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 64,
+        "Y": 464,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 700 - Mandi-amarelo"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/701-corvina.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 80,
+        "Y": 464,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 701 - Corvina"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/702-lambari-do-mato.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 96,
+        "Y": 464,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 702 - Lambari-do-mato"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/704-dourado.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 128,
+        "Y": 464,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 704 - Dourado"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/705-albacora-lage.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 144,
+        "Y": 464,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 705 - Albacora-lage"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/706-sairu.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 160,
+        "Y": 464,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 706 - Sairu"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/707-pintado-cachara.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 176,
+        "Y": 464,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 707 - Pintado-cachara"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/708-linguado-do-rio-grande.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 192,
+        "Y": 464,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 708 - Linguado-do-rio-grande"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/734-cara-pixuna.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 224,
+        "Y": 480,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 734 - Cará-pixuna"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/795-mucum.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 48,
+        "Y": 528,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 795 - Muçum"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/796-cascudinho-viscoso.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 64,
+        "Y": 528,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 796 - Cascudinho-viscoso"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/836-raia-viola.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 320,
+        "Y": 544,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 836 - Raia-viola"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/837-niquim.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 336,
+        "Y": 544,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 837 - Niquim"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/838-cara-azul.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 352,
+        "Y": 544,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 838 - Cará-azul"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/159-neymarfish.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 240,
+        "Y": 96,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 159 - Neymarfish"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/682-nonoaiense.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 160,
+        "Y": 448,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 682 - Nonoaiense"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/160-marcio67.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 256,
+        "Y": 96,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 160 - Marcio67"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/775-tozzofish.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 112,
+        "Y": 512,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 775 - Tozzofish"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/163-ifsc.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 304,
+        "Y": 96,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 163 - Ifsc"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/715-cavaco.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 304,
+        "Y": 464,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 715 - Cavaco"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/372-marisco-branco.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 192,
+        "Y": 240,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 372 - Marisco-branco"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/717-siri-azul.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 336,
+        "Y": 464,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 717 - Siri-azul"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/718-berbigao.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 352,
+        "Y": 464,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 718 - Berbigão"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/719-mexilhao.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 368,
+        "Y": 464,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 719 - Mexilhão"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/720-camarao-rosa.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 0,
+        "Y": 480,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 720 - Camarão-rosa"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/723-ostra-do-mangue.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 48,
+        "Y": 480,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 723 - Ostra-do-mangue"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/716-lagostim.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 320,
+        "Y": 464,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 716 - Lagostim"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/721-arua.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 16,
+        "Y": 480,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 721 - Aruá"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/722-caramujinho.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 32,
+        "Y": 480,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 722 - Caramujinho"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/898-pargo-rosa.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 160,
+        "Y": 592,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 898 - Pargo-rosa"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/899-peixe-sapo.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 176,
+        "Y": 592,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 899 - Peixe-sapo"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/900-suruvi.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 192,
+        "Y": 592,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 900 - Suruvi"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/901-carpa-cabecuda.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 208,
+        "Y": 592,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 901 - Carpa-cabeçuda"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/902-merluza.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 224,
+        "Y": 592,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 902 - Merluza"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/798-calamar-argentino.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 96,
+        "Y": 528,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 798 - Calamar-argentino"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/799-galo-de-profundidade.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 112,
+        "Y": 528,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 799 - Galo-de-profundidade"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/sprites/800-peixe-rato.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 128,
+        "Y": 528,
+        "Width": 16,
+        "Height": 16
+      },
+      "PatchMode": "Replace",
+      "LogName": "Sprite 800 - Peixe-rato"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "LogName": "Goby e geleias - nomes e descricoes",
+      "Fields": {
+        "Goby": {
+          "DisplayName": "Cambeva",
+          "Description": "Pequeno bagre de corpo alongado e bigodes que vive nos riachos do Sul do Brasil. Esconde-se entre as pedras, perto das corredeiras."
+        },
+        "SeaJelly": {
+          "DisplayName": "Geleia de Florianópolis",
+          "Description": "Uma substância gelatinosa rara, encontrada ao pescar no mar. Lembra as águas do litoral de Florianópolis."
+        },
+        "RiverJelly": {
+          "DisplayName": "Geleia do Açude",
+          "Description": "Uma substância gelatinosa rara de água doce, encontrada ao pescar em rios, lagoas e açudes."
+        },
+        "CaveJelly": {
+          "DisplayName": "Geleia da Grota",
+          "Description": "Uma geleia rara dos lagos subterrâneos. Dizem que ela treme no ritmo de 'Do Fundo da Grota', como se Baitaca estivesse cantando lá embaixo."
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/Cambeva",
+      "FromFile": "assets/cambeva.png",
+      "LogName": "Cambeva - carregar sprite 16x16"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "LogName": "Cambeva - aplicar sprite somente ao Goby",
+      "Fields": {
+        "Goby": {
+          "Texture": "Mods/{{ModId}}/Cambeva",
+          "SpriteIndex": 0
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "LogName": "Pratos adaptados - nomes e descricoes (11 itens)",
+      "Fields": {
+        "202": {
+          "DisplayName": "Lula-costeira Frita"
+        },
+        "209": {
+          "DisplayName": "Piava-surpresa"
+        },
+        "212": {
+          "DisplayName": "Jantar de Grumatã"
+        },
+        "214": {
+          "DisplayName": "Traíra Crocante"
+        },
+        "219": {
+          "DisplayName": "Sopa de Lambari-prata"
+        },
+        "225": {
+          "DisplayName": "Enguia-de-lama Frita"
+        },
+        "226": {
+          "DisplayName": "Enguia-de-lama Picante"
+        },
+        "729": {
+          "Description": "Aruás cobertos de manteiga e cozidos com perfeição."
+        },
+        "730": {
+          "DisplayName": "Bisque de Cavaco"
+        },
+        "732": {
+          "DisplayName": "Bolinhos de Siri-azul",
+          "Description": "Siri-azul, pão e ovo achatados e fritos até ficarem dourados."
+        },
+        "733": {
+          "DisplayName": "Coquetel de Camarão-rosa",
+          "Description": "Um aperitivo suntuoso feito com camarão-rosa fresco."
+        }
+      }
+    },
+    {
+      "Action": "Include",
+      "LogName": "Pinhão e folhas de erva-mate",
+      "FromFile": "data/arvores.json"
+    },
+    {
+      "Action": "Load",
+      "LogName": "Texturas - arvores/araucaria",
+      "Target": "Mods/{{ModId}}/arvores/araucaria/primavera, Mods/{{ModId}}/arvores/araucaria/verao, Mods/{{ModId}}/arvores/araucaria/outono, Mods/{{ModId}}/arvores/araucaria/inverno, Mods/{{ModId}}/arvores/araucaria/produto_torneirinha",
+      "FromFile": "assets/arvores/araucaria/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "LogName": "Texturas - arvores/erva_mate",
+      "Target": "Mods/{{ModId}}/arvores/erva_mate/primavera, Mods/{{ModId}}/arvores/erva_mate/verao, Mods/{{ModId}}/arvores/erva_mate/outono, Mods/{{ModId}}/arvores/erva_mate/inverno, Mods/{{ModId}}/arvores/erva_mate/semente, Mods/{{ModId}}/arvores/erva_mate/produto_torneirinha",
+      "FromFile": "assets/arvores/erva_mate/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "LogName": "Texturas - arvores/bracatinga",
+      "Target": "Mods/{{ModId}}/arvores/bracatinga/primavera, Mods/{{ModId}}/arvores/bracatinga/verao, Mods/{{ModId}}/arvores/bracatinga/outono, Mods/{{ModId}}/arvores/bracatinga/inverno, Mods/{{ModId}}/arvores/bracatinga/semente, Mods/{{ModId}}/arvores/bracatinga/produto_torneirinha",
+      "FromFile": "assets/arvores/bracatinga/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "LogName": "Texturas - arvores/jabuticabeira",
+      "Target": "Mods/{{ModId}}/arvores/jabuticabeira/primavera, Mods/{{ModId}}/arvores/jabuticabeira/verao, Mods/{{ModId}}/arvores/jabuticabeira/outono, Mods/{{ModId}}/arvores/jabuticabeira/inverno, Mods/{{ModId}}/arvores/jabuticabeira/semente, Mods/{{ModId}}/arvores/jabuticabeira/produto_torneirinha",
+      "FromFile": "assets/arvores/jabuticabeira/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "LogName": "Texturas - arvores/canela_preta",
+      "Target": "Mods/{{ModId}}/arvores/canela_preta/primavera, Mods/{{ModId}}/arvores/canela_preta/verao, Mods/{{ModId}}/arvores/canela_preta/outono, Mods/{{ModId}}/arvores/canela_preta/inverno, Mods/{{ModId}}/arvores/canela_preta/semente, Mods/{{ModId}}/arvores/canela_preta/produto_torneirinha",
+      "FromFile": "assets/arvores/canela_preta/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "LogName": "Texturas - arvores/butiazeiro",
+      "Target": "Mods/{{ModId}}/arvores/butiazeiro/primavera, Mods/{{ModId}}/arvores/butiazeiro/verao, Mods/{{ModId}}/arvores/butiazeiro/outono, Mods/{{ModId}}/arvores/butiazeiro/inverno, Mods/{{ModId}}/arvores/butiazeiro/semente, Mods/{{ModId}}/arvores/butiazeiro/butia",
+      "FromFile": "assets/arvores/butiazeiro/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Load",
+      "LogName": "Sprite final opcional (pinhao)",
+      "Target": "Mods/{{ModId}}/arvores/araucaria/pinhao",
+      "FromFile": "assets/arvores/araucaria/pinhao.png",
+      "When": {
+        "HasFile:assets/arvores/araucaria/pinhao.png": true
+      }
+    },
+    {
+      "Action": "Load",
+      "LogName": "Sprite final opcional (folhas)",
+      "Target": "Mods/{{ModId}}/arvores/erva_mate/folhas",
+      "FromFile": "assets/arvores/erva_mate/folhas.png",
+      "When": {
+        "HasFile:assets/arvores/erva_mate/folhas.png": true
+      }
+    },
+    {
+      "Action": "Include",
+      "FromFile": "data/arvores_regionais/itens.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "data/arvores_regionais/arvores.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "data/arvores_regionais/receitas.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "data/arvores_regionais/lojas.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "data/arvores_regionais/coleta.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "data/arvores_regionais/integracao.json"
+    },
+    {
+      "Action": "Include",
+      "LogName": "Sprites próprios das lavouras (1.8.1)",
+      "FromFile": "data/lavouras/sprites.json"
+    },
+    {
+      "Action": "Include",
+      "LogName": "Lavouras do Sul (1.8.0)",
+      "FromFile": "data/lavouras/itens.json, data/lavouras/crops.json, data/lavouras/lojas.json, data/lavouras/processamento.json, data/lavouras/receitas.json"
+    },
+    {
+      "Action": "Include",
+      "LogName": "Culinária regional",
+      "FromFile": "data/culinaria/pratos_e_receitas.json, data/culinaria/jabuticaba.json, data/culinaria/sprites_futuros.json"
+    },
+    {
+      "Action": "Include",
+      "LogName": "Saves antigos (jabuticabeira)",
+      "FromFile": "data/arvores_regionais/migracao.json"
+    },
+    {
+      "Action": "Include",
+      "LogName": "Traje gaúcho (1.9.3)",
+      "FromFile": "data/traje/traje_gaucho.json"
+    }
+  ]
+}

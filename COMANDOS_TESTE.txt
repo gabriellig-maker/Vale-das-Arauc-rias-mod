@@ -1,0 +1,150 @@
+COMANDOS DE TESTE - Vale das Araucárias: pinhão e erva-mate
+Digite no console do SMAPI com um save carregado.
+Formato: player_add <ID qualificado> [quantidade] [qualidade: 0 normal, 1 prata, 2 ouro, 4 irídio]
+Exemplo com qualidade ouro: player_add (O)ValeDasAraucarias.Arvores_Pinhao 5 2
+
+== PRODUTOS DAS ÁRVORES ==
+Pinhão
+player_add (O)ValeDasAraucarias.Arvores_Pinhao 10
+Folhas de erva-mate
+player_add (O)ValeDasAraucarias.Arvores_FolhasErvaMate 10
+
+== CONFERÊNCIA ==
+patch summary "belfortkafag.varas_lend1_lend2_covos_mercado"
+list_items ValeDasAraucarias
+
+== LAVOURAS DO SUL (1.8.0) ==
+Sementes de feijão-preto
+player_add (O)ValeDasAraucarias.Cultivos_SementesFeijaoPreto 20
+Feijão-preto
+player_add (O)ValeDasAraucarias.Cultivos_FeijaoPreto 10
+Manivas de mandioca
+player_add (O)ValeDasAraucarias.Cultivos_SementesMandioca 20
+Mandioca
+player_add (O)ValeDasAraucarias.Cultivos_Mandioca 10
+Ramas de batata-doce
+player_add (O)ValeDasAraucarias.Cultivos_SementesBatataDoce 20
+Batata-doce
+player_add (O)ValeDasAraucarias.Cultivos_BatataDoce 10
+Sementes de cebola
+player_add (O)ValeDasAraucarias.Cultivos_SementesCebola 20
+Cebola
+player_add (O)ValeDasAraucarias.Cultivos_Cebola 10
+Sementes de maracujá
+player_add (O)ValeDasAraucarias.Cultivos_SementesMaracuja 20
+Maracujá
+player_add (O)ValeDasAraucarias.Cultivos_Maracuja 10
+Sementes de pimentão
+player_add (O)ValeDasAraucarias.Cultivos_SementesPimentao 20
+Pimentão
+player_add (O)ValeDasAraucarias.Cultivos_Pimentao 10
+Sementes de aveia-branca
+player_add (O)ValeDasAraucarias.Cultivos_SementesAveiaBranca 20
+Aveia-branca
+player_add (O)ValeDasAraucarias.Cultivos_AveiaBranca 10
+Sementes de cevada
+player_add (O)ValeDasAraucarias.Cultivos_SementesCevada 20
+Cevada
+player_add (O)ValeDasAraucarias.Cultivos_Cevada 10
+Sementes de centeio
+player_add (O)ValeDasAraucarias.Cultivos_SementesCenteio 20
+Centeio
+player_add (O)ValeDasAraucarias.Cultivos_Centeio 10
+Sementes de soja
+player_add (O)ValeDasAraucarias.Cultivos_SementesSoja 20
+Soja
+player_add (O)ValeDasAraucarias.Cultivos_Soja 10
+Sementes de azevém
+player_add (O)ValeDasAraucarias.Cultivos_SementesAzevem 20
+Azevém
+player_add (O)ValeDasAraucarias.Cultivos_Azevem 10
+Sementes de arroz irrigado
+player_add (O)ValeDasAraucarias.Cultivos_SementesArrozIrrigado 20
+Arroz irrigado em casca
+player_add (O)ValeDasAraucarias.Cultivos_ArrozIrrigado 10
+player_add (O)ValeDasAraucarias.Processados_FarinhaDeMilho 5
+player_add (O)ValeDasAraucarias.Processados_AveiaEmFlocos 5
+player_add (O)ValeDasAraucarias.Culinaria_BroaDeMilho 5
+player_add (O)ValeDasAraucarias.Culinaria_BoloDeFuba 5
+Receitas (só para teste; muda o save):
+debug action "MarkCookingRecipeKnown Current ValeDasAraucarias.Culinaria_BroaDeMilho"
+debug action "MarkCookingRecipeKnown Current ValeDasAraucarias.Culinaria_BoloDeFuba"
+Estação: world_setseason winter  (ou spring, summer, fall)
+patch export Data/Crops
+patch export Data/Buildings
+patch export Data/Machines
+
+== CULINÁRIA REGIONAL (1.9.0) - pratos prontos para testar comer, beber e vender ==
+Mandioca Cozida
+player_add (O)belfortkafag.ValeDasAraucarias.Culinaria_MandiocaCozida 1
+Mandioca Frita
+player_add (O)belfortkafag.ValeDasAraucarias.Culinaria_MandiocaFrita 1
+Escondidinho de Mandioca
+player_add (O)belfortkafag.ValeDasAraucarias.Culinaria_EscondidinhoDeMandioca 1
+Batata-doce Assada
+player_add (O)belfortkafag.ValeDasAraucarias.Culinaria_BatataDoceAssada 1
+Polenta com Molho
+player_add (O)belfortkafag.ValeDasAraucarias.Culinaria_PolentaComMolho 1
+Polenta Frita
+player_add (O)belfortkafag.ValeDasAraucarias.Culinaria_PolentaFrita 1
+Arroz com Pinhão
+player_add (O)belfortkafag.ValeDasAraucarias.Culinaria_ArrozComPinhao 1
+Feijão-preto Temperado
+player_add (O)belfortkafag.ValeDasAraucarias.Culinaria_FeijaoPretoTemperado 1
+Pinhão Cozido
+player_add (O)belfortkafag.ValeDasAraucarias.Culinaria_PinhaoCozido 1
+Paçoca de Pinhão
+player_add (O)belfortkafag.ValeDasAraucarias.Culinaria_PacocaDePinhao 1
+Entrevero de Pinhão
+player_add (O)belfortkafag.ValeDasAraucarias.Culinaria_EntreveroDePinhao 1
+Chimarrão
+player_add (O)belfortkafag.ValeDasAraucarias.Culinaria_Chimarrao 1
+Tereré com Maracujá
+player_add (O)belfortkafag.ValeDasAraucarias.Culinaria_Terere 1
+Suco de Butiá
+player_add (O)belfortkafag.ValeDasAraucarias.Culinaria_SucoDeButia 1
+Torta de Butiá
+player_add (O)belfortkafag.ValeDasAraucarias.Culinaria_TortaDeButia 1
+Cuca de Uva
+player_add (O)belfortkafag.ValeDasAraucarias.Culinaria_CucaDeUva 1
+Cuca de Banana
+player_add (O)belfortkafag.ValeDasAraucarias.Culinaria_CucaDeBanana 1
+Bolo de Maracujá
+player_add (O)belfortkafag.ValeDasAraucarias.Culinaria_BoloDeMaracuja 1
+Mingau de Aveia
+player_add (O)belfortkafag.ValeDasAraucarias.Culinaria_MingauDeAveia 1
+Pão de Centeio
+player_add (O)belfortkafag.ValeDasAraucarias.Culinaria_PaoDeCenteio 1
+Sopa de Cevadinha
+player_add (O)belfortkafag.ValeDasAraucarias.Culinaria_SopaDeCevadinha 1
+Cueca Virada
+player_add (O)belfortkafag.ValeDasAraucarias.Culinaria_CuecaVirada 1
+Sagu de Vinho
+player_add (O)belfortkafag.ValeDasAraucarias.Culinaria_SaguDeVinho 1
+Quentão de Vinho
+player_add (O)belfortkafag.ValeDasAraucarias.Culinaria_QuentaoDeVinho 1
+Bolinho de Peixe
+player_add (O)belfortkafag.ValeDasAraucarias.Culinaria_BolinhoDePeixe 1
+Peixe Ensopado com Aipim
+player_add (O)belfortkafag.ValeDasAraucarias.Culinaria_PeixeEnsopadoComAipim 1
+Tainha Assada
+player_add (O)belfortkafag.ValeDasAraucarias.Culinaria_TainhaAssada 1
+Jabuticaba (só com a opção da jabuticaba)
+player_add (O)belfortkafag.ValeDasAraucarias.Culinaria_Jabuticaba 1
+Doce de Jabuticaba (só com a opção da jabuticaba)
+player_add (O)belfortkafag.ValeDasAraucarias.Culinaria_DoceDeJabuticaba 1
+Cuca de Jabuticaba (só com a opção da jabuticaba)
+player_add (O)belfortkafag.ValeDasAraucarias.Culinaria_CucaDeJabuticaba 1
+Compota de Jabuticaba (só com a opção da jabuticaba)
+player_add (O)belfortkafag.ValeDasAraucarias.Culinaria_CompotaDeJabuticaba 1
+Para aprender as receitas, use as cartas e as lojas (veja docs/culinaria/LEIA-ME_CULINARIA.txt).
+
+== TRAJE GAÚCHO (1.9.3) ==
+Chapéu Campeiro
+player_add (H)ValeDasAraucarias.TrajeGaucho_ChapeuCampeiro
+Camisa Gaúcha com Lenço Vermelho
+player_add (S)ValeDasAraucarias.TrajeGaucho_CamisaGaucha
+Bombacha Tradicional
+player_add (P)ValeDasAraucarias.TrajeGaucho_Bombacha
+Botas Campeiras
+player_add (B)ValeDasAraucarias.TrajeGaucho_BotasCampeiras

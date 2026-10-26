@@ -1,0 +1,358 @@
+{
+  "resultado": "APROVADO — checagem estática",
+  "versao": "1.8.1",
+  "data": "2026-10-19",
+  "atualizacao_1_9_2": "sha256 de broa_de_milho.png e bolo_de_fuba.png trocados pelos dos sprites novos; demais entradas iguais à 1.8.1.",
+  "erros": [],
+  "verificacoes": 1365,
+  "teste_no_jogo": false,
+  "limite": "Não executa Stardew Valley ou SMAPI. Crescimento, rebrota, lojas e processamento precisam de teste no jogo.",
+  "pngs_novos": 40,
+  "folhas_cultivo": 12,
+  "icones_novos": 28,
+  "quadros_por_folha": 8,
+  "quadros_preenchidos": 96,
+  "includes_resolvidos": 14,
+  "patches_ativos": 153,
+  "novas_texturas_carregadas": 40,
+  "total_texturas_carregadas": 78,
+  "cultivos": 12,
+  "objetos_customizados": 41,
+  "preservacao": {
+    "arquivos_originais_identicos": 183,
+    "arquivos_originais_modificados": [
+      "content.json",
+      "manifest.json",
+      "README.txt",
+      "INSTALAR_LEIA_PRIMEIRO.txt",
+      "data/lavouras/itens.json",
+      "data/lavouras/crops.json",
+      "ROTEIRO_TESTE_LAVOURAS.txt",
+      "docs/LAVOURAS_SUL.md",
+      "VERIFICACAO.txt"
+    ],
+    "campos_nao_visuais_preservados": true
+  },
+  "pngs": [
+    {
+      "arquivo": "assets/lavouras/arroz_irrigado/colheita.png",
+      "dimensoes": [
+        16,
+        16
+      ],
+      "sha256": "fe4648f6a91c94d116e7f2da8261c7fec6ce7596664dea18a69bb603766c3358"
+    },
+    {
+      "arquivo": "assets/lavouras/arroz_irrigado/cultivo.png",
+      "dimensoes": [
+        128,
+        32
+      ],
+      "sha256": "694e78cd3db75474dfff5b9ac952fcf67b9e86373a200a195667ba0990eac4d2"
+    },
+    {
+      "arquivo": "assets/lavouras/arroz_irrigado/sementes.png",
+      "dimensoes": [
+        16,
+        16
+      ],
+      "sha256": "957f2dd46ec914c43f5569defa97568b5873d903ea7d02201a712eef7e8daab3"
+    },
+    {
+      "arquivo": "assets/lavouras/aveia_branca/colheita.png",
+      "dimensoes": [
+        16,
+        16
+      ],
+      "sha256": "0e80cf16ef1fb568d0b01573755b3afb14b8d3dd0b6a7eec563c495b6e6320a5"
+    },
+    {
+      "arquivo": "assets/lavouras/aveia_branca/cultivo.png",
+      "dimensoes": [
+        128,
+        32
+      ],
+      "sha256": "67bb23555f9735369596b31b547864fc9093051c76cc76744f0f4efc9eaa010c"
+    },
+    {
+      "arquivo": "assets/lavouras/aveia_branca/sementes.png",
+      "dimensoes": [
+        16,
+        16
+      ],
+      "sha256": "74c4c4492ef4c40f725b62086595d8e4b5394436d9a87fc535fd0dca6a82771c"
+    },
+    {
+      "arquivo": "assets/lavouras/azevem/colheita.png",
+      "dimensoes": [
+        16,
+        16
+      ],
+      "sha256": "c678fc4999c945da1fd4e197a605bf7b124ae3eaa128b75a80d14f06b119676f"
+    },
+    {
+      "arquivo": "assets/lavouras/azevem/cultivo.png",
+      "dimensoes": [
+        128,
+        32
+      ],
+      "sha256": "ebee2f656d72a1a031c95a7df3ed2937947ed212f251175b5b07c68538dceb5b"
+    },
+    {
+      "arquivo": "assets/lavouras/azevem/sementes.png",
+      "dimensoes": [
+        16,
+        16
+      ],
+      "sha256": "110247e0f1cfe00e8f90073251a301fffa41e7cfd6c15c6d1724fed2df863d23"
+    },
+    {
+      "arquivo": "assets/lavouras/batata_doce/colheita.png",
+      "dimensoes": [
+        16,
+        16
+      ],
+      "sha256": "67725315ae2564b71060ed7ee982c7c0629991bfc157fab5f3356fff6293722a"
+    },
+    {
+      "arquivo": "assets/lavouras/batata_doce/cultivo.png",
+      "dimensoes": [
+        128,
+        32
+      ],
+      "sha256": "834f4c4e971fad728db4babb7ee3ab0cf0961ac4341abb6efc455b53f83ef742"
+    },
+    {
+      "arquivo": "assets/lavouras/batata_doce/sementes.png",
+      "dimensoes": [
+        16,
+        16
+      ],
+      "sha256": "238fc7140a42d0297fc3fd1799c4bb3dfa6990bcd0147c3c3c8fdee08a9f4c7e"
+    },
+    {
+      "arquivo": "assets/lavouras/cebola/colheita.png",
+      "dimensoes": [
+        16,
+        16
+      ],
+      "sha256": "3bf3d0740e4644d44ed3e71062a4c256b371330f281af493ae76332ab0f8ca7e"
+    },
+    {
+      "arquivo": "assets/lavouras/cebola/cultivo.png",
+      "dimensoes": [
+        128,
+        32
+      ],
+      "sha256": "10a85188bd6eea6a628aefd526469de83618005381f6e092c0f69413fc810052"
+    },
+    {
+      "arquivo": "assets/lavouras/cebola/sementes.png",
+      "dimensoes": [
+        16,
+        16
+      ],
+      "sha256": "8142e4d51635098ac58b6405a45cfef3bd090d076459fb4ee985b72de1a3c73f"
+    },
+    {
+      "arquivo": "assets/lavouras/centeio/colheita.png",
+      "dimensoes": [
+        16,
+        16
+      ],
+      "sha256": "2363589e966e457ea296e9e7836482c26ef26bc30a938fa78b52424b4093ed0d"
+    },
+    {
+      "arquivo": "assets/lavouras/centeio/cultivo.png",
+      "dimensoes": [
+        128,
+        32
+      ],
+      "sha256": "c3d53be2c90100c4980c95b803af649b096535044e710ef17d69133e83bd7721"
+    },
+    {
+      "arquivo": "assets/lavouras/centeio/sementes.png",
+      "dimensoes": [
+        16,
+        16
+      ],
+      "sha256": "f1e877951a5614b4afc84e9892e74884f895f9c61af0134558bd97fb575fb8d4"
+    },
+    {
+      "arquivo": "assets/lavouras/cevada/colheita.png",
+      "dimensoes": [
+        16,
+        16
+      ],
+      "sha256": "b0ea82dd98c0515739d14ede4be2273c16679d98cca42cb9b9f8f5edde04f323"
+    },
+    {
+      "arquivo": "assets/lavouras/cevada/cultivo.png",
+      "dimensoes": [
+        128,
+        32
+      ],
+      "sha256": "847266ad8fc93cd13609f90f372d3b1064ca65e224bba0024d7f6460e747c74e"
+    },
+    {
+      "arquivo": "assets/lavouras/cevada/sementes.png",
+      "dimensoes": [
+        16,
+        16
+      ],
+      "sha256": "9a3512f620643b9303f6f9ed0a43bead93f3d8a6f53fe25ca789cb662194113b"
+    },
+    {
+      "arquivo": "assets/lavouras/feijao_preto/colheita.png",
+      "dimensoes": [
+        16,
+        16
+      ],
+      "sha256": "fbea18f87004e3e343772cc54b949e65137a83761959a02a65f9e832521c87a5"
+    },
+    {
+      "arquivo": "assets/lavouras/feijao_preto/cultivo.png",
+      "dimensoes": [
+        128,
+        32
+      ],
+      "sha256": "bc3e683d947e95d6c71ff42b654377710929ba40a67f976c99173f3cc127b485"
+    },
+    {
+      "arquivo": "assets/lavouras/feijao_preto/sementes.png",
+      "dimensoes": [
+        16,
+        16
+      ],
+      "sha256": "28dc43615789a9dbcb76813ccaf957d363b21c81f37972718ea63543549dda0a"
+    },
+    {
+      "arquivo": "assets/lavouras/mandioca/colheita.png",
+      "dimensoes": [
+        16,
+        16
+      ],
+      "sha256": "0645e9d9e32ad88a978733405ef30389e0663c74e0fb9c36f842c66fddaf0d14"
+    },
+    {
+      "arquivo": "assets/lavouras/mandioca/cultivo.png",
+      "dimensoes": [
+        128,
+        32
+      ],
+      "sha256": "6f397132d3286aab178abe7bde754e85d2ad31a8a78012533b3fefcbbc027b3b"
+    },
+    {
+      "arquivo": "assets/lavouras/mandioca/sementes.png",
+      "dimensoes": [
+        16,
+        16
+      ],
+      "sha256": "1d936b12c68cfa7b8b0f2b76e314941009d6449f2d0ab7ba2b94429670b98f32"
+    },
+    {
+      "arquivo": "assets/lavouras/maracuja/colheita.png",
+      "dimensoes": [
+        16,
+        16
+      ],
+      "sha256": "7b40be33e5806312d03bfb004b0dad3964fd0bb54db6629587ac8c83e501d72e"
+    },
+    {
+      "arquivo": "assets/lavouras/maracuja/cultivo.png",
+      "dimensoes": [
+        128,
+        32
+      ],
+      "sha256": "0eab888c95a30b44557784e27ddd60023091daaba7a14f3f2a151240bcd3b046"
+    },
+    {
+      "arquivo": "assets/lavouras/maracuja/sementes.png",
+      "dimensoes": [
+        16,
+        16
+      ],
+      "sha256": "4318c1588b293316c29a4dfcbfecb48e8089f3bb30e82323449c3de762184b42"
+    },
+    {
+      "arquivo": "assets/lavouras/pimentao/colheita.png",
+      "dimensoes": [
+        16,
+        16
+      ],
+      "sha256": "8b12a5acf8702192ccf8561e7bdae41f8ddb23a27b7467a06ac628c6161a39ef"
+    },
+    {
+      "arquivo": "assets/lavouras/pimentao/cultivo.png",
+      "dimensoes": [
+        128,
+        32
+      ],
+      "sha256": "bca9c8ec1552ab59940ddfee19f22852baab041b9a0007adf565bbfc232f5d3a"
+    },
+    {
+      "arquivo": "assets/lavouras/pimentao/sementes.png",
+      "dimensoes": [
+        16,
+        16
+      ],
+      "sha256": "db12b951bf822bcca77fe9d449f3732bd5c0987f721604e2e6172ff8d05dbee5"
+    },
+    {
+      "arquivo": "assets/lavouras/processados/aveia_em_flocos.png",
+      "dimensoes": [
+        16,
+        16
+      ],
+      "sha256": "9be315f67e15f21bf94f8ba130472afdd1b9eaf30374981f320e419dc348c6f3"
+    },
+    {
+      "arquivo": "assets/lavouras/processados/bolo_de_fuba.png",
+      "dimensoes": [
+        16,
+        16
+      ],
+      "sha256": "e23716340cdd29792e76b801b96a9c68b39d3d556235636d727367604183f02c"
+    },
+    {
+      "arquivo": "assets/lavouras/processados/broa_de_milho.png",
+      "dimensoes": [
+        16,
+        16
+      ],
+      "sha256": "ed06c9c4cfb1766ba75edbf686358cd9bdcd3166b031a5b9d4f561710043a438"
+    },
+    {
+      "arquivo": "assets/lavouras/processados/farinha_de_milho.png",
+      "dimensoes": [
+        16,
+        16
+      ],
+      "sha256": "6ce680f68ee57112c220eaa45d61482ddec8021a794e4cfc6514f5cda81f323e"
+    },
+    {
+      "arquivo": "assets/lavouras/soja/colheita.png",
+      "dimensoes": [
+        16,
+        16
+      ],
+      "sha256": "9dc08acbf5f37bb16826b72efb5381c17b7e3e09966c574cb3f4aecffb3bfe85"
+    },
+    {
+      "arquivo": "assets/lavouras/soja/cultivo.png",
+      "dimensoes": [
+        128,
+        32
+      ],
+      "sha256": "75cfce8344897bce2d692b0ebe630ad1088097032b223b47d063e9253466c6e6"
+    },
+    {
+      "arquivo": "assets/lavouras/soja/sementes.png",
+      "dimensoes": [
+        16,
+        16
+      ],
+      "sha256": "c031659e828b5f965028f874d65c40e01061da6abd3f01ab827cec326e65a11d"
+    }
+  ]
+}
