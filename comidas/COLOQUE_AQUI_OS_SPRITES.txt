@@ -1,0 +1,4 @@
+Os sprites dos 30 pratos já estão nesta pasta.
+Falta só jabuticaba.png (a fruta, usada quando a opção FrutosDaJabuticabeira está ligada):
+PNG de 16 x 16 pixels, fundo transparente. Para trocar qualquer sprite, substitua o PNG com o
+mesmo nome e reinicie o jogo. Lista completa: docs/culinaria/SPRITES_PENDENTES.txt
