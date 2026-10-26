@@ -1,0 +1,36 @@
+TRAJE GAÚCHO — Vale das Araucárias 1.9.3
+=========================================
+
+PEÇAS (itens normais do jogo: chapéu, camisa, calça e calçado; não precisa de Fashion Sense)
+  Chapéu Campeiro                     1500g no Pierre   (H)ValeDasAraucarias.TrajeGaucho_ChapeuCampeiro
+  Camisa Gaúcha com Lenço Vermelho    1200g no Pierre   (S)ValeDasAraucarias.TrajeGaucho_CamisaGaucha
+  Bombacha Tradicional                1200g no Pierre   (P)ValeDasAraucarias.TrajeGaucho_Bombacha
+  Botas Campeiras                     2000g no Pierre   (B)ValeDasAraucarias.TrajeGaucho_BotasCampeiras
+  As botas dão +1 defesa e +1 imunidade.
+
+COMO CONSEGUIR
+  Armazém do Pierre, o ano todo. Para tirar da loja, mude "TrajeGauchoNoPierre" para "false"
+  no config.json da pasta varas_lend1_lend2_covos_mercado (ou use o Generic Mod Config Menu).
+  Pelo console do SMAPI: os comandos estão em COMANDOS_TESTE.txt.
+
+BOMBACHA COM CINTO (opcional)
+  Sem o arquivo assets/traje/Bombacha_Cinto.png, a bombacha usa uma calça bufante do próprio
+  jogo (quadro 8 da folha de calças) tingida de cinza-azulado, sem cinto. Para a versão com
+  cinto preto e fivela dourada:
+  1. Desempacote o jogo com o StardewXnbHack.
+  2. Instale o Python e rode: pip install pillow
+  3. Na pasta varas_lend1_lend2_covos_mercado, rode:
+     python ferramentas/gerar_bombacha.py "<Content (unpacked)>/Characters/Farmer/pants.png"
+  Isso cria assets/traje/Bombacha_Cinto.png a partir do SEU jogo; o mod passa a usá-lo sozinho
+  no próximo início do jogo.
+
+ARQUIVOS
+  data/traje/traje_gaucho.json   dados (chapéu, camisa, bombacha, botas e loja)
+  assets/traje/                  Chapeu_Gaucho.png, Camisa_Lenco_Vermelho.png, Botas_Gauchas.png
+  ferramentas/gerar_bombacha.py  gerador opcional da bombacha com cinto
+
+VEIO DO MOD SEPARADO "[CP] Vale das Araucarias - Traje Gaucho" 1.0.0
+  Mesmos IDs (ValeDasAraucarias.TrajeGaucho_...), textos, preços e sprites. Mudou: as texturas
+  agora apontam para os arquivos que existem (antes procuravam Chapeu.png, Camisa.png e
+  Botas.png e ficavam sem imagem), os arquivos foram para assets/traje e a opção
+  VenderNoPierre passou a se chamar TrajeGauchoNoPierre. Apague a pasta separada de Mods.

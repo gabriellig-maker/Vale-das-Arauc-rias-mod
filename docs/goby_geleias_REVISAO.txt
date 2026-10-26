@@ -1,0 +1,56 @@
+REVISÃO DOS ITENS - GOBY_GELEIAS 1.1.1
+
+CAMBEVA
+O nome está adequado para um pequeno bagre de riacho do Sul do Brasil.
+Cambeva é também um gênero com várias espécies; o arquivo original não
+indica uma espécie científica. O sprite é uma representação estilizada,
+com corpo alongado, bigodes e manchas castanhas, inspirada nesses bagres.
+A descrição foi ajustada para mencionar o corpo, os bigodes e os riachos,
+sem atribuir uma espécie científica que não consta no mod.
+
+GELEIA DE FLORIANÓPOLIS
+O nome regional foi mantido. Foi retirada a indicação de que aparece
+nos verões de muita água-viva: Sea Jelly pode ser obtida em todas as
+estações, e o item não identifica uma espécie de água-viva.
+A descrição agora indica pesca no mar e usa Florianópolis como tema.
+
+GELEIA DO AÇUDE
+O nome e o ambiente de água doce estão coerentes. A descrição foi
+uniformizada para falar em substância gelatinosa, com rios, lagoas
+e açudes como ambientes de referência.
+
+GELEIA DA GROTA
+O nome foi mantido como tema regional. A descrição agora destaca os
+lagos subterrâneos das minas, onde Cave Jelly é pescada no jogo, sem
+prometer que toda grota ou caverna seja um local de obtenção.
+
+PRESERVAÇÃO
+Nenhum arquivo de imagem das geleias foi substituído. O ZIP original
+não continha sprites próprios para elas. O novo pack carrega apenas
+assets/cambeva.png e associa essa textura somente ao objeto Goby.
+Os quatro DisplayName permanecem exatamente iguais aos do arquivo
+original; nomes internos e IDs também não são alterados.
+
+FONTES CONSULTADAS
+Cambeva: estudos originais de taxonomia e habitats no Sul do Brasil:
+https://doi.org/10.5852/ejt.2022.794.1661
+https://doi.org/10.1590/1982-0224-2022-0019
+Itens do jogo:
+https://stardewvalleywiki.com/Sea_Jelly
+https://stardewvalleywiki.com/River_Jelly
+https://stardewvalleywiki.com/Cave_Jelly
+Documentação do Content Patcher:
+https://github.com/Pathoschild/StardewMods/blob/develop/ContentPatcher/docs/author-guide/action-editdata.md
+https://github.com/Pathoschild/StardewMods/blob/develop/ContentPatcher/docs/author-guide/action-load.md
+
+Arte-base criada com a ferramenta de geração de imagens integrada.
+O sprite foi exportado para 16 x 16 pixels, com alpha 0/255 e paleta
+reduzida. A prévia mostra exatamente o arquivo que o mod carrega.
+O jogo não foi executado durante a montagem.
+
+ATUALIZAÇÃO DA GELEIA DA GROTA
+Nova descrição:
+Uma geleia rara dos lagos subterrâneos. Dizem que ela treme no ritmo de 'Do Fundo da Grota', como se Baitaca estivesse cantando lá embaixo.
+A referência musical é apenas uma brincadeira no texto.
+Música de referência, no canal oficial do Baitaca:
+https://www.youtube.com/watch?v=EtTbS-KdcrE

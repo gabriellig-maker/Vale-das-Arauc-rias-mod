@@ -1,0 +1,13 @@
+{
+  "resultado": "APROVADO — checagem estática",
+  "erros": [],
+  "verificacoes": 1893,
+  "arvores": 6,
+  "folhas_sazonais": 24,
+  "icones": 13,
+  "teste_no_jogo": false,
+  "limite": "Verificação estática; não executa o Stardew Valley ou SMAPI.",
+  "patches": 128,
+  "assets_carregados": 41,
+  "objetos_customizados": 50
+}

@@ -1,0 +1,46 @@
+SPRITES DA CULINÁRIA REGIONAL — situação na versão 1.9.2
+========================================================
+
+Todos: PNG de 16 x 16 pixels, fundo transparente, em assets/comidas/ (dentro da pasta
+varas_lend1_lend2_covos_mercado). O mod usa o PNG sozinho quando o arquivo existe; sem ele,
+o item mostra um ícone provisório do jogo. Para trocar um sprite, substitua o PNG com o mesmo
+nome e reinicie o jogo.
+
+Arquivo                                         Item                          Situação
+assets/comidas/mandioca_cozida.png              Mandioca Cozida               pronto
+assets/comidas/mandioca_frita.png               Mandioca Frita                pronto
+assets/comidas/escondidinho_de_mandioca.png     Escondidinho de Mandioca      pronto
+assets/comidas/batata_doce_assada.png           Batata-doce Assada            pronto
+assets/comidas/polenta_com_molho.png            Polenta com Molho             pronto
+assets/comidas/polenta_frita.png                Polenta Frita                 pronto
+assets/comidas/arroz_com_pinhao.png             Arroz com Pinhão              pronto
+assets/comidas/feijao_preto_temperado.png       Feijão-preto Temperado        pronto
+assets/comidas/pinhao_cozido.png                Pinhão Cozido                 pronto
+assets/comidas/pacoca_de_pinhao.png             Paçoca de Pinhão              pronto
+assets/comidas/entrevero_de_pinhao.png          Entrevero de Pinhão           pronto
+assets/comidas/chimarrao.png                    Chimarrão                     pronto
+assets/comidas/terere_com_maracuja.png          Tereré com Maracujá           pronto
+assets/comidas/suco_de_butia.png                Suco de Butiá                 pronto
+assets/comidas/torta_de_butia.png               Torta de Butiá                pronto
+assets/comidas/cuca_de_uva.png                  Cuca de Uva                   pronto
+assets/comidas/cuca_de_banana.png               Cuca de Banana                pronto
+assets/comidas/bolo_de_maracuja.png             Bolo de Maracujá              pronto
+assets/comidas/mingau_de_aveia.png              Mingau de Aveia               pronto
+assets/comidas/pao_de_centeio.png               Pão de Centeio                pronto
+assets/comidas/sopa_de_cevadinha.png            Sopa de Cevadinha             pronto
+assets/comidas/cueca_virada.png                 Cueca Virada                  pronto
+assets/comidas/sagu_de_vinho.png                Sagu de Vinho                 pronto
+assets/comidas/quentao_de_vinho.png             Quentão de Vinho              pronto
+assets/comidas/bolinho_de_peixe.png             Bolinho de Peixe              pronto
+assets/comidas/peixe_ensopado_com_aipim.png     Peixe Ensopado com Aipim      pronto
+assets/comidas/tainha_assada.png                Tainha Assada                 pronto
+assets/comidas/doce_de_jabuticaba.png           Doce de Jabuticaba *          pronto
+assets/comidas/cuca_de_jabuticaba.png           Cuca de Jabuticaba *          pronto
+assets/comidas/compota_de_jabuticaba.png        Compota de Jabuticaba *       pronto
+assets/comidas/jabuticaba.png                   Jabuticaba (fruta) *          pendente (ícone provisório: amora do jogo)
+
+Prontos: 30 de 31. Falta só a fruta jabuticaba, usada com a opção ligada.
+* Só aparecem com a opção FrutosDaJabuticabeira ligada.
+
+Broa de milho e bolo de fubá (lavouras do Sul) também ganharam sprites novos na 1.9.2,
+em assets/lavouras/processados/.

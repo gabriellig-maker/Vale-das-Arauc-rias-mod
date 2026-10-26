@@ -1,0 +1,51 @@
+COMPATIBILIDADE — CULINÁRIA REGIONAL (Vale das Araucárias 1.9.2)
+================================================================
+
+ONDE ESTÁ
+  data/culinaria/pratos_e_receitas.json  27 pratos, 27 receitas, 11 receitas à venda, 16 cartas e envios
+  data/culinaria/jabuticaba.json         fruta, frutos na árvore e 3 receitas (só com a opção ligada)
+  data/culinaria/sprites_futuros.json    troca automática para PNG próprio quando o arquivo existir
+  i18n/default.json                      98 textos da culinária (junto com os outros textos do Vale)
+  assets/comidas/                        30 sprites 16x16 dos pratos (a fruta jabuticaba ainda não tem)
+  content.json                           opção FrutosDaJabuticabeira e o Include acima, no fim do arquivo
+
+O QUE ACRESCENTA (só entradas novas, IDs com o prefixo belfortkafag.ValeDasAraucarias.Culinaria_)
+  Data/Objects ........ 27 pratos (Tipo Cooking, categoria -7); com a opção: +3 pratos e a fruta
+  Data/CookingRecipes . 27 receitas (com a opção: +3), condição "none" (aprendidas por loja ou carta)
+  Data/Shops .......... receitas à venda no Pierre (SeedShop), Gus (Saloon) e Marnie (AnimalShop)
+  Data/mail ........... 16 cartas novas (com a opção: +1)
+  Data/TriggerActions . 16 envios de carta (com a opção: +1), uma vez por jogador
+  Data/WildTrees ...... SÓ com a opção ligada: 2 entradas novas em ShakeItems da jabuticabeira
+                        (ValeAraucarias_JabuticabeiraTree, e também nas jabuticabeiras plantadas antes
+                        da 1.9.1). Desligada, nenhuma árvore é tocada.
+
+O QUE NÃO MUDA
+  Lavouras, sementes, árvores, estações, peixes, aldeões, falas, eventos, festivais, Centro
+  Comunitário, missões, receitas originais e do Vale (broa de milho e bolo de fubá mantêm as
+  receitas), máquinas, moinho, preços e IDs existentes. Nenhuma imagem do jogo é alterada: os
+  pratos usam os próprios PNG e a fruta jabuticaba usa um quadro original de Maps/springobjects
+  que o Vale não modifica.
+
+INGREDIENTES
+  Do Vale: mandioca, batata-doce, cebola, pimentão, maracujá, feijão-preto, cevada, centeio,
+  fubá, aveia em flocos, pinhão, folhas de erva-mate, butiá. Não usados: azevém (forrageira),
+  sementes, madeira, breu, resinas, seiva e extrato da torneira.
+  Do jogo: farinha de trigo (246), açúcar (245), óleo (247), arroz (423), queijo (424), cogumelo
+  comum (404), tomate (256), alho (248), batata (192), banana (91), uva (398), vinho (348),
+  gengibre (829), mel (340), tainha (146) e as categorias qualquer peixe (-4), ovo (-5), leite (-6).
+
+LIMITAÇÕES
+  - Só a fruta jabuticaba (opção) usa ícone provisório (o da amora do jogo) até existir jabuticaba.png.
+  - Receitas novas contam para a conquista de cozinhar todas as receitas e para a perfeição.
+  - Arroz de carreteiro e feijão tropeiro ficaram pendentes (não existe carne nem farinha de
+    mandioca no jogo). Entrevero e paçoca de pinhão estão em versão sem carne.
+  - Banana e gengibre só existem na Ilha Gengibre (cuca de banana e quentão ficam para o fim).
+  - Num save adiantado, várias cartas podem chegar no mesmo dia.
+  - A opção da jabuticaba acrescenta frutos à árvore; ligue só se quiser. Depois de usar, não
+    desligue (jabuticabas e pratos guardados virariam itens com erro).
+
+FONTES CONSULTADAS
+  Wiki: Modding:Objects, Modding:Mail data, Modding:Trigger actions, Modding:Game state queries,
+  página Food; documentação do Content Patcher; tutorial de cartas com receita
+  (stardewmodding.wiki.gg); lista de IDs (BisectHosting). A página Modding:Recipe data e as
+  páginas da wiki em português deram erro ao abrir; o formato das receitas segue o que o Vale já usa.

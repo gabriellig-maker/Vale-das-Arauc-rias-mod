@@ -1,0 +1,90 @@
+CULINÁRIA REGIONAL — VALE DAS ARAUCÁRIAS 1.9.2
+==============================================
+
+27 receitas do Paraná, de Santa Catarina e do Rio Grande do Sul, feitas com as lavouras,
+as árvores e os peixes do Vale das Araucárias e com ingredientes do jogo original. Mais 3 receitas
+de jabuticaba, prontas, que só entram se você ligar a opção dos frutos da jabuticabeira.
+
+INSTALAÇÃO
+----------
+A culinária já vem dentro da pasta varas_lend1_lend2_covos_mercado (versão 1.9.0).
+Se você tinha instalado a pasta separada "[CP] Vale das Araucárias - Culinária Regional",
+apague essa pasta de Mods. As receitas e pratos que você já tinha continuam valendo:
+os IDs são os mesmos. Se você tinha ligado a opção da jabuticaba na pasta separada, ligue
+de novo no config.json da pasta varas_lend1_lend2_covos_mercado.
+
+COMO APRENDER AS RECEITAS (sem comandos)
+----------------------------------------
+Por carta (chega pela manhã na caixa de correio; ler a carta ensina a receita):
+  - Mandioca Cozida: mamãe a partir do 3º dia
+  - Arroz com Pinhão: Lewis com 3 corações
+  - Feijão-preto Temperado: Jodi com 3 corações
+  - Pinhão Cozido: Linus com 2 corações
+  - Paçoca de Pinhão: Linus com 5 corações
+  - Entrevero de Pinhão: Robin com 4 corações
+  - Chimarrão: Caroline com 2 corações
+  - Tereré com Maracujá: Caroline com 5 corações
+  - Suco de Butiá: Leah com 3 corações
+  - Torta de Butiá: Leah com 6 corações
+  - Cuca de Uva: Evelyn com 3 corações
+  - Cuca de Banana: Evelyn com 6 corações
+  - Cueca Virada: Jodi com 5 corações
+  - Quentão de Vinho: Pam com 4 corações
+  - Bolinho de Peixe: Willy com 3 corações
+  - Tainha Assada: Willy com 6 corações
+  - Cuca de Jabuticaba: Evelyn com 8 corações (só com a opção da jabuticaba)
+Comprando a receita (aparece na loja até você aprender):
+  - Mandioca Frita: Armazém do Pierre, 250g
+  - Escondidinho de Mandioca: Saloon do Gus, 300g
+  - Batata-doce Assada: Armazém do Pierre, 200g
+  - Polenta com Molho: Saloon do Gus, 250g
+  - Polenta Frita: Armazém do Pierre, 250g
+  - Bolo de Maracujá: Saloon do Gus, 300g
+  - Mingau de Aveia: Rancho da Marnie, 200g
+  - Pão de Centeio: Armazém do Pierre, 250g
+  - Sopa de Cevadinha: Armazém do Pierre, 300g
+  - Sagu de Vinho: Saloon do Gus, 350g
+  - Peixe Ensopado com Aipim: Saloon do Gus, 400g
+  - Doce de Jabuticaba: Armazém do Pierre, 300g (só com a opção da jabuticaba)
+  - Compota de Jabuticaba: Rancho da Marnie, 250g (só com a opção da jabuticaba)
+Cada receita tem uma única forma de aprender. Em saves antigos, quem já tem os corações recebe
+as cartas na manhã seguinte à instalação (podem chegar várias de uma vez).
+
+COZINHAR
+--------
+Igual ao jogo: fogão da cozinha (casa com a primeira reforma) ou Cookout Kit. O jogo usa os
+ingredientes da mochila, da geladeira e das mini-geladeiras, e consome tudo ao preparar.
+Ingredientes de categoria: "Qualquer ovo", "Qualquer leite" e "Qualquer peixe" aceitam todos os
+itens dessas categorias, como nas receitas originais.
+
+OPÇÃO: FRUTOS DA JABUTICABEIRA (desligada)
+-----------------------------------------
+No Vale das Araucárias a jabuticabeira ainda não dá fruta. Ligando a opção:
+  - entra a fruta Jabuticaba, que cai ao sacudir a jabuticabeira adulta na primavera e no verão;
+  - entram Doce, Cuca e Compota de jabuticaba.
+Isso acrescenta frutos à árvore do Vale; por isso vem desligado. Para ligar: no config.json
+da pasta varas_lend1_lend2_covos_mercado (criado na 1ª vez que o jogo abre) mude "FrutosDaJabuticabeira": "false" para "true",
+ou use o Generic Mod Config Menu. Depois de ligar e usar, não desligue: jabuticabas e pratos de
+jabuticaba guardados virariam itens com erro.
+
+SPRITES
+-------
+Os 30 pratos já têm sprite próprio em assets/comidas/. Só a fruta jabuticaba (opção) usa
+um ícone provisório do jogo. Para trocar ou acrescentar um sprite:
+1. Faça o PNG de 16 x 16 pixels, fundo transparente.
+2. Salve em assets/comidas/ com o nome da lista em docs/culinaria/SPRITES_PENDENTES.txt.
+3. Reinicie o jogo (ou digite no SMAPI: patch reload belfortkafag.varas_lend1_lend2_covos_mercado).
+O mod detecta o arquivo (condição HasFile do Content Patcher) e troca o ícone sozinho.
+Sem o PNG, o item volta ao ícone provisório.
+
+SAVES
+-----
+Pode instalar em save novo ou antigo. Receitas aprendidas ficam no save. Se remover o mod,
+os pratos guardados viram itens com erro; consuma ou venda antes.
+
+MAIS INFORMAÇÕES
+----------------
+docs/culinaria/RECEITAS.md ............ tabela completa (ingredientes, energia, saúde, bônus, preço, desbloqueio)
+docs/culinaria/SPRITES_PENDENTES.txt .. situação de cada sprite (30 prontos, 1 pendente)
+docs/culinaria/COMPATIBILIDADE.txt .... o que o mod altera, dependências, limitações e verificações
+docs/culinaria/TESTES_NO_JOGO.txt ..... roteiro para conferir tudo no jogo (ainda não executado)

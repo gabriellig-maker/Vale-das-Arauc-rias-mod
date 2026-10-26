@@ -1,0 +1,24 @@
+ROTEIRO DE TESTES — CULINÁRIA REGIONAL (Vale das Araucárias 1.9.2)
+===================================================================
+SITUAÇÃO: nenhum teste foi executado no jogo. Marque ao conferir. Faça cópia do save antes.
+
+[ ] 1. CARREGAMENTO
+    Abra pelo SMAPI. No console não pode haver erro ou aviso do Vale. Digite
+    patch summary belfortkafag.varas_lend1_lend2_covos_mercado
+    Os patches de pratos, receitas, lojas, cartas e envios devem aparecer aplicados; os de
+    jabuticaba e de sprites ficam "não aplicados" até você ligar a opção ou colocar PNG.
+[ ] 2. CARTAS: no 3º dia chega a carta da mamãe (Mandioca Cozida). Com corações (Linus 2,
+    Caroline 2, Lewis 3...) a carta chega na manhã seguinte e ensina a receita, uma vez só.
+[ ] 3. LOJAS: Pierre, Gus e Marnie vendem as receitas; comprar ensina a receita.
+[ ] 4. FOGÃO E COOKOUT KIT: as receitas aparecem no menu de cozinhar; sem ingredientes não dá;
+    com eles (mochila, geladeira, mini-geladeiras) o prato sai e os ingredientes são consumidos.
+[ ] 5. CATEGORIAS: "Qualquer ovo", "Qualquer leite" e "Qualquer peixe" aceitam os itens da
+    categoria; Sagu e Quentão aceitam qualquer vinho.
+[ ] 6. COMER E BEBER: energia, saúde e bônus como em RECEITAS.md; bebidas com animação de beber.
+[ ] 7. VENDA: preço na caixa de remessa igual ao de RECEITAS.md.
+[ ] 8. JABUTICABA: desligada, nada muda na árvore. Ligada, sacudir a jabuticabeira adulta na
+    primavera/verão às vezes derruba jabuticabas; Doce, Compota e Cuca funcionam.
+[ ] 9. SPRITES: cada prato mostra o próprio sprite no inventário, no menu de cozinhar, na
+    loja e na caixa de remessa; broa e bolo de fubá com os sprites novos.
+[ ] 10. SAVES E MULTIJOGADOR: receitas continuam aprendidas depois de salvar; cada jogador
+    recebe as próprias cartas.

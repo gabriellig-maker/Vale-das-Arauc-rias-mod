@@ -1,0 +1,56 @@
+CONFERÊNCIA DA JUNÇÃO - VERSÃO 1.4.0
+
+Resultado: nenhum erro de estrutura ou conflito entre os packs
+foi encontrado na conferência dos arquivos.
+
+Peixes, geleias e pratos adaptados (auditoria independente, 880 verificações):
+- 70 EditImage: cada sprite vai para o quadro do seu ID em Maps/springobjects,
+  em modo Replace, sem quadro repetido; PNG 16 x 16 com transparência.
+- O nome de cada arquivo de sprite corresponde ao nome do item no i18n.
+- 74 itens de pesca e 11 pratos com textos; só DisplayName, Description,
+  Texture e SpriteIndex são editados, em itens que existem no jogo.
+- A textura da Cambeva é carregada e usada pelo mesmo nome de asset.
+- Nenhum PNG solto e nenhum arquivo de sistema.
+
+Cultivos e culinária (632 verificações):
+- 39 itens novos com IDs próprios, sem colisão com o jogo 1.6.15
+  nem com os itens de pesca; só entradas novas são adicionadas.
+- Plantações, árvores, receitas e lojas apontam para itens existentes;
+  sementes à venda nas estações do cultivo; receitas com desbloqueio válido.
+- Ícones provisórios não usam os quadros trocados pelos sprites de peixes.
+- O Pirão de peixe usa a Tainha (146) pelo ID original.
+
+Junção (26 verificações):
+- Os 75 patches da versão 1.3.0 continuam idênticos e na mesma ordem;
+  1 Include foi acrescentado ao final do content.json.
+- i18n/default.json: as 140 chaves antigas foram preservadas e as
+  82 chaves novas foram acrescentadas ao final, sem colisão.
+- Arquivos de data/ idênticos aos do pack ValeDasAraucarias_CultivosCulinaria
+  1.0.1; os IDs não mudaram.
+- Sprites, prévias e docs anteriores idênticos; UniqueID e autor preservados.
+- JSONs verificados inclusive quanto a chaves duplicadas e aos schemas
+  oficiais do SMAPI/Content Patcher.
+- Integridade e conteúdo do ZIP final conferidos.
+
+O jogo e o SMAPI não foram executados neste ambiente. Esta verificação
+confirma a estrutura e o escopo dos arquivos; o teste em uma partida
+deve ser feito iniciando o jogo pelo SMAPI e consultando patch summary.
+
+
+VALIDAÇÃO REGIONAL ADICIONAL
+- manifest.json e content.json válidos.
+- JSONs em data/ válidos.
+- Novas folhas de sprites existem e usam transparência RGBA.
+- Sprites de objetos: 128x80, 39 slots usados.
+- Sprites de cultivos: 128x192, 6 linhas de 8 fases.
+- Sprites de árvores frutíferas: 432x320, 4 linhas de 9 sprites.
+- Sprites vanilla regionalizados: 9 arquivos 16x16 em assets/arvores_regionais/objetos.
+- Não foram alterados tempos, estações, receitas, quantidades, desbloqueios ou lógica de crescimento.
+
+
+RESULTADO DA VALIDAÇÃO ESTÁTICA FINAL
+- Arquivos JSON: válidos via parser JSON/jq.
+- Referências internas: 39 objetos, 6 cultivos, 4 árvores frutíferas, 15 receitas culinárias e 3 grupos de loja sem referências órfãs.
+- FromFile em content.json/data: todos os caminhos existem.
+- Zips gerados e testados com unzip -t.
+- Teste dentro do Stardew Valley/SMAPI: não executado neste ambiente.

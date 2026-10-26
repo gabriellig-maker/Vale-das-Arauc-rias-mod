@@ -1,0 +1,45 @@
+VALE DAS ARAUCÁRIAS — PACK ÚNICO COM ÁRVORES E SPRITES
+Versão 1.8.0 • Stardew Valley 1.6+ • SMAPI 4+ • Content Patcher 2+
+
+INSTALAÇÃO
+1. Faça backup do save e das versões anteriores dos seus mods.
+2. Feche o jogo.
+3. Extraia este ZIP. O SMAPI não carrega o arquivo ZIP sem extrair.
+4. Mova a pasta varas_lend1_lend2_covos_mercado para a pasta Mods do jogo.
+5. Não mantenha outra cópia do pack anterior nem o complemento separado
+   ValeDasAraucarias_ArvoresRegionais em Mods: o conteúdo já está integrado.
+   Guarde as pastas antigas FORA de Mods para poder voltar se necessário.
+6. Mantenha o Content Patcher instalado e abra o jogo pelo SMAPI.
+
+O ZIP contém um único mod de conteúdo, não instala o SMAPI nem o Content Patcher.
+O UniqueID do pack principal foi preservado para manter as referências existentes.
+Os IDs de itens e árvores do complemento também foram preservados.
+
+ARTE NOVA
+Seis espécies: araucária, erva-mate, bracatinga, jabuticabeira, canela-preta e butiazeiro.
+24 folhas sazonais de 144×160 e 13 ícones de 16×16, com transparência.
+Inclui crescimento, tocos, folhas, rachaduras, musgo e cachos do butiazeiro.
+Veja PREVIA_ARVORES_REGIONAIS.png e docs/SPRITES_ARVORES_REGIONAIS.md.
+Os PNG carregados no jogo ficam em assets/arvores/<especie>/.
+Há uma cópia organizada em sprites_criados_organizados/arvores_novas/.
+
+ESCOPO E LIMITES
+O foco desta atualização é a arte do arquivo de árvores que você enviou.
+Os dados de crescimento, drops, produção, preços, lojas e receitas foram
+mantidos conforme os dois packs de origem. Não foi feito reequilíbrio.
+As seis árvores são ADICIONAIS, como no arquivo de árvores recebido.
+O conteúdo anterior de peixes e pratos adaptados permanece no mesmo mod.
+Os cultivos novos e a culinária nova foram retirados na versão 1.6.0:
+veja SAVES no README.txt antes de atualizar um save que já os usou.
+As árvores frutíferas e os 9 itens do jogo regionalizados saíram na 1.7.0.
+Não se trata de recriação de todas as árvores originais do Stardew Valley.
+
+VALIDAÇÃO
+Consulte VALIDACAO_SPRITES.json. A checagem é estática: arquivos, referências,
+JSON, tamanhos, transparência e preservação dos dados. Não houve execução
+do Stardew Valley/SMAPI neste ambiente. O funcionamento no save precisa
+ser confirmado no jogo; não há promessa de teste de crescimento em runtime.
+
+Para um teste seguro, use um save de teste ou uma cópia do seu save principal.
+
+A versão 1.8.0 traz 12 lavouras do Sul. Veja docs/LAVOURAS_SUL.md.

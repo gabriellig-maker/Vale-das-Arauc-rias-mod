@@ -1,0 +1,21 @@
+VERIFICAÇÃO - VERSÃO 1.6.0 (sem cultivos e sem culinária nova)
+
+Retirado: data/cultivos.json, data/receitas.json, o carregamento de crops.png,
+10 itens à venda no Pierre (6 sementes e 4 ingredientes), as vendas do
+JojaMart, as 7 receitas vendidas pelo Gus, 62 textos do i18n e as imagens
+crops.png e PREVIA_CULTIVOS_CULINARIA.png.
+
+Conferido sem abrir o jogo:
+- Todos os JSON válidos, sem chave repetida.
+- 94 patches no content.json, mais os dos arquivos incluídos; todas as imagens
+  e arquivos de dados que eles usam existem.
+- Nenhuma referência sobrando a cultivos, ingredientes ou pratos retirados.
+- Toda textura usada é carregada pelo mod e todo texto do i18n existe.
+- Lojas, coleta, árvores e a receita do caroço de butiá só apontam para itens
+  que existem.
+- Peixes: 70 sprites nos 70 quadros certos; nomes e descrições iguais aos da
+  versão 1.1.0 do mod de peixes.
+- Os 11 pratos do jogo com nomes regionais continuam no mod.
+
+O jogo e o SMAPI não foram executados ao montar este pacote.
+Histórico das verificações anteriores: docs/originais/VERIFICACAO_1_5_historico.txt

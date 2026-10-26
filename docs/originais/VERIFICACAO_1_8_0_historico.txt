@@ -1,0 +1,24 @@
+VERIFICAÇÃO - VERSÃO 1.8.0 (lavouras do Sul)
+
+Verificado nos arquivos (sem abrir o jogo):
+- JSON válidos, sem chave repetida; Includes e caminhos existentes.
+- i18n: todas as chaves usadas existem e todas as chaves existentes são usadas.
+- 12 lavouras: o número de fases é igual ao da linha de TileSheets/crops
+  reaproveitada; rebrota só em linhas com quadro de rebrota; treliça só na
+  linha da uva (maracujá), que bloqueia a passagem como a uva.
+- Sementes: tipo Seeds, categoria -74; preço na loja = 2x o preço de venda;
+  condição da loja = estações da lavoura; descrição com os mesmos dias.
+- Moinho: cada tag pedida existe num item; saídas existentes; baús Input/Output.
+- Barril e extrator de óleo: itens existentes; regras novas no topo da lista.
+- Receitas: ingredientes existentes; vendidas pelo Gus como receita.
+- Calendário simulado: 1ª colheita, último plantio por estação e rebrotas
+  (tabela em docs/LAVOURAS_SUL.md).
+- Peixes, árvores, pratos adaptados e demais arquivos da 1.7.0 idênticos.
+- IDs antigos dos 6 cultivos da 1.5.0 reaproveitados.
+
+Testado no jogo: NÃO. Roteiro em ROTEIRO_TESTE_LAVOURAS.txt.
+Conferir no jogo, principalmente: baús do moinho (Input/Output), azevém no
+Gerador de Sementes, dias do arroz irrigado perto da água e XP de colheita com
+foice (regra nativa do jogo).
+
+Histórico: docs/originais/VERIFICACAO_1_5_historico.txt, _1_6_ e _1_7_.

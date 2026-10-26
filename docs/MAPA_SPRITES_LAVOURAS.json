@@ -1,0 +1,418 @@
+{
+  "gerador": "image_gen + empacotamento técnico (Sharp)",
+  "largura_quadro": 16,
+  "altura_quadro": 32,
+  "folha": [
+    128,
+    32
+  ],
+  "icones": [
+    16,
+    16
+  ],
+  "alpha": "0 ou 255",
+  "lavouras": [
+    {
+      "id": "FeijaoPreto",
+      "pasta": "feijao_preto",
+      "nome": "FeijaoPreto",
+      "source_sheet": 1,
+      "source_row": 0,
+      "source_edges": [
+        0,
+        157,
+        313,
+        470,
+        627,
+        784,
+        940,
+        1097,
+        1254
+      ],
+      "phases": 5,
+      "dias": 9,
+      "rebrote": -1,
+      "quadro_maduro": 6,
+      "quadro_rebrota": null,
+      "source_order": [
+        0,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        5
+      ]
+    },
+    {
+      "id": "Mandioca",
+      "pasta": "mandioca",
+      "nome": "Mandioca",
+      "source_sheet": 1,
+      "source_row": 1,
+      "source_edges": [
+        0,
+        157,
+        313,
+        470,
+        627,
+        773,
+        962,
+        1089,
+        1254
+      ],
+      "phases": 4,
+      "dias": 14,
+      "rebrote": -1,
+      "quadro_maduro": 5,
+      "quadro_rebrota": null,
+      "source_order": [
+        0,
+        0,
+        1,
+        2,
+        3,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "id": "BatataDoce",
+      "pasta": "batata_doce",
+      "nome": "BatataDoce",
+      "source_sheet": 1,
+      "source_row": 2,
+      "source_edges": [
+        0,
+        157,
+        313,
+        468,
+        633,
+        784,
+        959,
+        1089,
+        1254
+      ],
+      "phases": 4,
+      "dias": 9,
+      "rebrote": -1,
+      "quadro_maduro": 5,
+      "quadro_rebrota": null,
+      "source_order": [
+        0,
+        0,
+        1,
+        2,
+        3,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "id": "Cebola",
+      "pasta": "cebola",
+      "nome": "Cebola",
+      "source_sheet": 1,
+      "source_row": 3,
+      "source_edges": [
+        0,
+        157,
+        313,
+        470,
+        627,
+        784,
+        940,
+        1097,
+        1254
+      ],
+      "phases": 4,
+      "dias": 10,
+      "rebrote": -1,
+      "quadro_maduro": 5,
+      "quadro_rebrota": null,
+      "source_order": [
+        0,
+        0,
+        1,
+        2,
+        3,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "id": "Maracuja",
+      "pasta": "maracuja",
+      "nome": "Maracuja",
+      "source_sheet": 2,
+      "source_row": 0,
+      "source_edges": [
+        0,
+        157,
+        313,
+        470,
+        627,
+        784,
+        940,
+        1097,
+        1254
+      ],
+      "phases": 5,
+      "dias": 11,
+      "rebrote": 4,
+      "quadro_maduro": 6,
+      "quadro_rebrota": 7,
+      "source_order": [
+        0,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        4
+      ]
+    },
+    {
+      "id": "Pimentao",
+      "pasta": "pimentao",
+      "nome": "Pimentao",
+      "source_sheet": 2,
+      "source_row": 1,
+      "source_edges": [
+        0,
+        157,
+        313,
+        469,
+        626,
+        783,
+        940,
+        1097,
+        1254
+      ],
+      "phases": 5,
+      "dias": 9,
+      "rebrote": 4,
+      "quadro_maduro": 6,
+      "quadro_rebrota": 7,
+      "source_order": [
+        0,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        4
+      ]
+    },
+    {
+      "id": "AveiaBranca",
+      "pasta": "aveia_branca",
+      "nome": "AveiaBranca",
+      "source_sheet": 2,
+      "source_row": 2,
+      "source_edges": [
+        0,
+        157,
+        313,
+        470,
+        627,
+        784,
+        940,
+        1097,
+        1254
+      ],
+      "phases": 4,
+      "dias": 7,
+      "rebrote": -1,
+      "quadro_maduro": 5,
+      "quadro_rebrota": null,
+      "source_order": [
+        0,
+        0,
+        1,
+        2,
+        3,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "id": "Cevada",
+      "pasta": "cevada",
+      "nome": "Cevada",
+      "source_sheet": 2,
+      "source_row": 3,
+      "source_edges": [
+        0,
+        157,
+        313,
+        470,
+        626,
+        784,
+        940,
+        1097,
+        1254
+      ],
+      "phases": 4,
+      "dias": 7,
+      "rebrote": -1,
+      "quadro_maduro": 5,
+      "quadro_rebrota": null,
+      "source_order": [
+        0,
+        0,
+        1,
+        2,
+        3,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "id": "Centeio",
+      "pasta": "centeio",
+      "nome": "Centeio",
+      "source_sheet": 3,
+      "source_row": 0,
+      "source_edges": [
+        0,
+        157,
+        313,
+        470,
+        627,
+        784,
+        940,
+        1097,
+        1254
+      ],
+      "phases": 4,
+      "dias": 8,
+      "rebrote": -1,
+      "quadro_maduro": 5,
+      "quadro_rebrota": null,
+      "source_order": [
+        0,
+        0,
+        1,
+        2,
+        3,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "id": "Soja",
+      "pasta": "soja",
+      "nome": "Soja",
+      "source_sheet": 3,
+      "source_row": 1,
+      "source_edges": [
+        0,
+        157,
+        313,
+        470,
+        627,
+        784,
+        940,
+        1097,
+        1254
+      ],
+      "phases": 5,
+      "dias": 10,
+      "rebrote": -1,
+      "quadro_maduro": 6,
+      "quadro_rebrota": null,
+      "source_order": [
+        0,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        5
+      ]
+    },
+    {
+      "id": "Azevem",
+      "pasta": "azevem",
+      "nome": "Azevem",
+      "source_sheet": 3,
+      "source_row": 2,
+      "source_edges": [
+        0,
+        157,
+        313,
+        470,
+        627,
+        783,
+        940,
+        1097,
+        1254
+      ],
+      "phases": 4,
+      "dias": 7,
+      "rebrote": -1,
+      "quadro_maduro": 5,
+      "quadro_rebrota": null,
+      "source_order": [
+        0,
+        0,
+        1,
+        2,
+        3,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "id": "ArrozIrrigado",
+      "pasta": "arroz_irrigado",
+      "nome": "ArrozIrrigado",
+      "source_sheet": 3,
+      "source_row": 3,
+      "source_edges": [
+        0,
+        157,
+        313,
+        470,
+        617,
+        772,
+        940,
+        1093,
+        1254
+      ],
+      "phases": 4,
+      "dias": 9,
+      "rebrote": -1,
+      "quadro_maduro": 5,
+      "quadro_rebrota": null,
+      "source_order": [
+        0,
+        0,
+        1,
+        2,
+        3,
+        5,
+        5,
+        5
+      ]
+    }
+  ],
+  "extras": [
+    "farinha_de_milho",
+    "aveia_em_flocos",
+    "broa_de_milho",
+    "bolo_de_fuba"
+  ]
+}
